@@ -691,15 +691,8 @@ function showAnimeDetails(id) {
                 </div>
 
                 <div class="detail-sidebar-section">
-                    <span class="sidebar-label">Ma Note</span>
-                    <div class="detail-rating-display">
-                        ${starsHtml}
-                    </div>
-                </div>
-                
-                <div class="detail-sidebar-section">
                     <span class="sidebar-label">Progression</span>
-                    <span class="sidebar-value">${watched} / ${total} épisodes (${progressPct}%)</span>
+                    <span class="sidebar-value">${watched} / ${total} episodes (${progressPct}%)</span>
                 </div>
             </div>
             
@@ -719,11 +712,6 @@ function showAnimeDetails(id) {
                     <p class="detail-cast-list">${anime.cast}</p>
                 </div>
                 ` : ''}
-
-                <div class="detail-episodes-section">
-                    <h3 class="detail-section-title">Progression des Épisodes</h3>
-                    ${episodesHtml}
-                </div>
                 
                 <div class="detail-btn-row">
                     <button class="btn-primary card-btn-play" id="detail-play-btn">
@@ -774,20 +762,6 @@ function showAnimeDetails(id) {
         updateStats();
         renderGrid();
         closeModal(detailModal);
-    });
-
-    // Bind click events on the episodes progression grid
-    detailModalBody.querySelectorAll(".detail-ep-btn").forEach(btn => {
-        btn.addEventListener("click", (e) => {
-            const epNum = parseInt(e.currentTarget.getAttribute("data-global-ep"));
-            if (epNum === watched) {
-                changeEpisodeCount(anime.id, watched - 1);
-            } else {
-                changeEpisodeCount(anime.id, epNum);
-            }
-            // Re-open/update in place
-            showAnimeDetails(anime.id);
-        });
     });
     
     openModal(detailModal);
