@@ -599,9 +599,9 @@ function showAnimeDetails(id) {
                 globalIndex++;
                 const isWatched = globalIndex <= watched;
                 episodesHtml += `
-                    <button class="detail-ep-btn ${isWatched ? 'watched' : ''}" data-global-ep="${globalIndex}" title="${isWatched ? 'Marquer comme non vu' : 'Marquer comme vu'}">
+                    <div class="detail-ep-badge ${isWatched ? 'watched' : ''}">
                         ${i}
-                    </button>
+                    </div>
                 `;
             }
             episodesHtml += `
@@ -615,9 +615,9 @@ function showAnimeDetails(id) {
         for (let i = 1; i <= total; i++) {
             const isWatched = i <= watched;
             episodesHtml += `
-                <button class="detail-ep-btn ${isWatched ? 'watched' : ''}" data-global-ep="${i}" title="${isWatched ? 'Marquer comme non vu' : 'Marquer comme vu'}">
+                <div class="detail-ep-badge ${isWatched ? 'watched' : ''}">
                     ${i}
-                </button>
+                </div>
             `;
         }
         episodesHtml += `</div>`;
@@ -712,6 +712,11 @@ function showAnimeDetails(id) {
                     <p class="detail-cast-list">${anime.cast}</p>
                 </div>
                 ` : ''}
+                
+                <div class="detail-episodes-section">
+                    <h3 class="detail-section-title">Historique des Épisodes</h3>
+                    ${episodesHtml}
+                </div>
                 
                 <div class="detail-btn-row">
                     <button class="btn-primary card-btn-play" id="detail-play-btn">
