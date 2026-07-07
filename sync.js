@@ -157,10 +157,25 @@ function initDiscordSync() {
     // Flux PKCE : le retour OAuth porte un ?code= dans la query string,
     // qui survit au passage navigateur -> application Android (les fragments
     // #access_token du flux implicite y sont souvent perdus).
+    // detectSessionInUrl désactivé : on échange le code nous-mêmes pour
+    // pouvoir afficher les erreurs à l'écran (sinon échec silencieux).
     sbClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
-        auth: { flowType: "pkce" }
+        auth: { flowType: "pkce", detectSessionInUrl: false }
     });
     console.log("[Sync] Initialisé. APK:", IS_ANDROID_APP, "| Retour OAuth:", CAME_FROM_OAUTH, "| URL hash:", window.location.hash ? "présent" : "vide");
+
+    const returnedCode = new URLSearchParams(window.location.search).get("code");
+    if (returnedCode) {
+        console.log("[Sync] Code OAuth reçu, échange en cours...");
+        sbClient.auth.exchangeCodeForSession(returnedCode).then(({ error }) => {
+            if (error) {
+                console.error("[Sync] Échange du code échoué:", error);
+                alert("Échec de la connexion Discord :\n\n" + error.message);
+                history.replaceState(null, "", window.location.pathname);
+            }
+            // Succès : l'événement SIGNED_IN déclenche la suite (pull + reload)
+        });
+    }
 
     // Si Supabase renvoie une erreur OAuth dans l'URL (mauvais secret Discord,
     // redirect refusé...), l'afficher clairement au lieu d'échouer en silence.
