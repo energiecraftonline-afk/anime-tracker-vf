@@ -1462,7 +1462,50 @@ body {
     }
     
     .anime-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    /* Cartes compactes pour tenir en 2 colonnes */
+    .card-content {
+        padding: 10px;
+    }
+
+    .card-title-fr {
+        font-size: 13px;
+    }
+
+    .card-title-orig,
+    .card-cast {
+        font-size: 10px;
+    }
+
+    .progress-info-row {
+        font-size: 11px;
+    }
+
+    .card-actions {
+        margin-top: 8px;
+        padding-top: 8px;
+        flex-wrap: wrap;
+    }
+
+    .card-btn-details {
+        font-size: 11px;
+    }
+
+    .card-badge-vf,
+    .card-badge-airing {
+        top: 8px;
+        font-size: 9px;
+    }
+
+    .card-badge-vf {
+        left: 8px;
+    }
+
+    .card-badge-airing {
+        right: 8px;
     }
     
     .detail-sidebar {
