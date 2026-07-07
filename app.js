@@ -1310,8 +1310,8 @@ function getTrailerId(anime) {
         const trimmed = anime.trailerId.trim();
         if (trimmed) return trimmed;
     }
-    // Fallback à l'opening le plus connu au monde : Silhouette (Naruto Shippuden OP 16)
-    return "dlFA0Zq1k2A";
+    // Fallback à l'opening d'animé le plus célèbre au monde (version animation de l'animé) : A Cruel Angel's Thesis (Neon Genesis Evangelion OP)
+    return "t-QSmNReDyI";
 }
 
 // ==========================================================================
