@@ -1489,7 +1489,7 @@ function openPlayerModal(animeId, startEpisodeIndex = null) {
                         <iframe 
                             id="player-trailer-iframe"
                             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; pointer-events: none; opacity: 1; transform: scale(1.0);"
-                            src="https://www.youtube-nocookie.com/embed/${trailerId}?autoplay=1&mute=1&loop=1&playlist=${trailerId}&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&disablekb=1&fs=0&enablejsapi=1"
+                            src="https://yewtu.be/embed/${trailerId}?autoplay=1&mute=1&muted=1&loop=1&playlist=${trailerId}&controls=0"
                             allow="autoplay; encrypted-media">
                         </iframe>
                         
@@ -1643,11 +1643,12 @@ function openPlayerModal(animeId, startEpisodeIndex = null) {
                 muteBtn.addEventListener("click", () => {
                     isMuted = !isMuted;
                     const iframe = document.getElementById("player-trailer-iframe");
-                    if (iframe && iframe.contentWindow) {
-                        iframe.contentWindow.postMessage(JSON.stringify({
-                            event: 'command',
-                            func: isMuted ? 'mute' : 'unMute'
-                        }), '*');
+                    if (iframe) {
+                        if (isMuted) {
+                            iframe.src = `https://yewtu.be/embed/${trailerId}?autoplay=1&mute=1&muted=1&loop=1&playlist=${trailerId}&controls=0`;
+                        } else {
+                            iframe.src = `https://yewtu.be/embed/${trailerId}?autoplay=1&mute=0&muted=0&loop=1&playlist=${trailerId}&controls=0`;
+                        }
                     }
                     
                     // Toggle Icon
