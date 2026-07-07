@@ -184,7 +184,6 @@ function initDiscordSync() {
         sbClient.auth.exchangeCodeForSession(returnedCode).then(({ error }) => {
             if (error) {
                 syncLog("ÉCHEC échange: " + error.message);
-                alert("Échec de la connexion Discord :\n\n" + error.message);
                 history.replaceState(null, "", window.location.pathname);
             } else {
                 syncLog("Échange réussi, session établie.");
@@ -202,7 +201,6 @@ function initDiscordSync() {
         sbClient.auth.setSession({ access_token: accessToken, refresh_token: refreshToken }).then(({ error }) => {
             if (error) {
                 syncLog("ÉCHEC setSession: " + error.message);
-                alert("Échec de la connexion Discord :\n\n" + error.message);
             } else {
                 syncLog("Session établie avec succès.");
             }
@@ -219,10 +217,7 @@ function initDiscordSync() {
     if (oauthError) {
         const message = oauthError.replace(/\+/g, " ");
         console.error("[Sync] Erreur OAuth retournée par Supabase:", message);
-        if (typeof showToast === "function") {
-            showToast("Échec connexion Discord : " + message, "error");
-        }
-        alert("Échec de la connexion Discord :\n\n" + message);
+        history.replaceState(null, "", window.location.pathname);
     }
 
     btn.addEventListener("click", async () => {
