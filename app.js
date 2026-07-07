@@ -1310,8 +1310,8 @@ function getTrailerId(anime) {
         const trimmed = anime.trailerId.trim();
         if (trimmed) return trimmed;
     }
-    // Fallback à l'opening d'animé le plus célèbre et ouvert mondialement (sans blocage géographique) : Idol (Oshi no Ko OP 1 - YOASOBI)
-    return "ZRtdQ81jCgA";
+    // Fallback à l'opening d'animé le plus célèbre au monde (version animation de l'animé) : Naruto Shippuden OP 16 (Silhouette) via Crunchyroll
+    return "k66bQH_596w";
 }
 
 
