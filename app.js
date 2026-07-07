@@ -1489,7 +1489,7 @@ function openPlayerModal(animeId, startEpisodeIndex = null) {
                         <iframe 
                             id="player-trailer-iframe"
                             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; pointer-events: none; opacity: 1; transform: scale(1.0);"
-                            src="https://yewtu.be/embed/${trailerId}?autoplay=1&mute=1&muted=1&loop=1&playlist=${trailerId}&controls=0"
+                            src="https://yewtu.be/embed/${trailerId}?autoplay=1&mute=1&muted=1&loop=1&playlist=${trailerId}&controls=0&local=true"
                             allow="autoplay; encrypted-media">
                         </iframe>
                         
@@ -1645,9 +1645,9 @@ function openPlayerModal(animeId, startEpisodeIndex = null) {
                     const iframe = document.getElementById("player-trailer-iframe");
                     if (iframe) {
                         if (isMuted) {
-                            iframe.src = `https://yewtu.be/embed/${trailerId}?autoplay=1&mute=1&muted=1&loop=1&playlist=${trailerId}&controls=0`;
+                            iframe.src = `https://yewtu.be/embed/${trailerId}?autoplay=1&mute=1&muted=1&loop=1&playlist=${trailerId}&controls=0&local=true`;
                         } else {
-                            iframe.src = `https://yewtu.be/embed/${trailerId}?autoplay=1&mute=0&muted=0&loop=1&playlist=${trailerId}&controls=0`;
+                            iframe.src = `https://yewtu.be/embed/${trailerId}?autoplay=1&mute=0&muted=0&loop=1&playlist=${trailerId}&controls=0&local=true`;
                         }
                     }
                     
