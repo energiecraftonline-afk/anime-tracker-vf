@@ -9,7 +9,7 @@ const SUPABASE_ANON_KEY = "sb_publishable_3NPZsB8HBSK37ZCekjARBg_8soutVCi";
 
 const SYNC_STORAGE_KEY = "crunchy_tracker_progress_v2";
 const SYNC_TABLE = "anime_progress";
-const SYNC_VERSION = "13";
+const SYNC_VERSION = "14";
 
 // Dans l'APK Android (WebView), le retour du login Discord passe par un
 // deep link géré par l'app (voir android-app/MainActivity.java) : le login
