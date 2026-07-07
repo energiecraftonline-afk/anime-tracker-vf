@@ -1307,9 +1307,11 @@ function getTrailerId(anime) {
         return VF_TRAILER_MAP[anime.id];
     }
     if (anime.trailerId) {
-        return anime.trailerId.trim();
+        const trimmed = anime.trailerId.trim();
+        if (trimmed) return trimmed;
     }
-    return null;
+    // Fallback à l'opening le plus connu au monde : Silhouette (Naruto Shippuden OP 16)
+    return "dlFA0Zq1k2A";
 }
 
 // ==========================================================================
