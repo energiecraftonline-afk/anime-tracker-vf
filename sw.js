@@ -1,5 +1,5 @@
 // Service Worker for Anime Tracker VF - Offline Caching
-const CACHE_NAME = 'anime-tracker-vf-v1';
+const CACHE_NAME = 'anime-tracker-vf-v2';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
@@ -38,7 +38,12 @@ self.addEventListener('activate', (event) => {
 // Fetch: Cache-first strategy for local assets, network-first for API calls
 self.addEventListener('fetch', (event) => {
     const url = new URL(event.request.url);
-    
+
+    // Never cache the APK download (binary file, direct network fetch)
+    if (url.pathname.endsWith('.apk')) {
+        return;
+    }
+
     // Network-first for API calls (AniList GraphQL)
     if (url.hostname === 'graphql.anilist.co') {
         event.respondWith(

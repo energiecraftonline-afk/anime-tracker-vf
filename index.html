@@ -9,6 +9,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-512.png">
     <link rel="apple-touch-icon" href="icon-512.png">
     <title>Anime Tracker VF</title>
     <!-- Google Fonts - Outfit -->
@@ -24,13 +25,9 @@
         <!-- Header -->
         <header class="app-header">
             <div class="logo-area">
-                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20Z" fill="currentColor"/>
-                    <path d="M12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" fill="currentColor"/>
-                    <path d="M12 9C10.34 9 9 10.34 9 12C9 13.66 10.34 15 12 15C13.66 15 15 13.66 15 12C15 10.34 13.66 9 12 9Z" fill="currentColor"/>
-                </svg>
+                <img class="logo-icon" src="icon-512.png" alt="Anime Tracker VF" style="border-radius: 8px;">
                 <div class="logo-text">
-                    <span class="logo-primary">Crunchy</span><span class="logo-secondary">Tracker</span>
+                    <span class="logo-primary">Anime</span><span class="logo-secondary">Tracker</span>
                     <span class="badge-vf">VF</span>
                 </div>
             </div>
@@ -96,6 +93,10 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
                             📱 Installer l'App
                         </button>
+                        <a id="download-apk-btn" class="dropdown-item" href="anime-tracker-vf.apk" download="anime-tracker-vf.apk" style="text-decoration: none; color: inherit;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                            🤖 Télécharger l'APK Android
+                        </a>
                     </div>
                 </div>
             </div>
@@ -199,7 +200,7 @@
 
         <!-- Footer -->
         <footer class="app-footer">
-            <p>&copy; 2026 CrunchyTracker VF. Développé pour le suivi des animes en doublage français.</p>
+            <p>&copy; 2026 Anime Tracker VF. Développé pour le suivi des animes en doublage français.</p>
             <p class="footer-disclaimer">Ce site est un outil de suivi personnel et n'est pas affilié à Crunchyroll.</p>
         </footer>
     </div>
@@ -415,6 +416,12 @@
             deferredPrompt = null;
             console.log('[PWA] App installée avec succès !');
         });
+
+        // Hide the APK download button when already running inside the Android app (WebView)
+        const apkBtn = document.getElementById('download-apk-btn');
+        if (apkBtn && /; wv\)/.test(navigator.userAgent)) {
+            apkBtn.style.display = 'none';
+        }
     </script>
 </body>
 </html>

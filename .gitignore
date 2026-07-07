@@ -3,3 +3,5 @@ crunchyroll_all_anime.json
 *.log
 .DS_Store
 Thumbs.db
+release.keystore
+keystore-info.txt
