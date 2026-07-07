@@ -2143,6 +2143,75 @@ body {
     color: #00a8e8 !important;
 }
 
+.platform-badge.netflix {
+    background-color: #E50914;
+    color: #fff;
+}
+.btn-netflix {
+    border-color: rgba(229, 9, 20, 0.4) !important;
+}
+.btn-netflix:hover {
+    background-color: rgba(229, 9, 20, 0.1) !important;
+    border-color: #E50914 !important;
+    color: #E50914 !important;
+}
+.crunchy-open-web-btn.netflix-theme {
+    background-color: #E50914 !important;
+    border-color: #E50914 !important;
+    color: #fff !important;
+    box-shadow: 0 4px 20px rgba(229, 9, 20, 0.4) !important;
+}
+.crunchy-open-web-btn.netflix-theme:hover {
+    background-color: #ff333e !important;
+    transform: scale(1.05) translate3d(0,0,0);
+}
+
+.platform-badge.disney {
+    background-color: #0063e5;
+    color: #fff;
+}
+.btn-disney {
+    border-color: rgba(0, 99, 229, 0.4) !important;
+}
+.btn-disney:hover {
+    background-color: rgba(0, 99, 229, 0.1) !important;
+    border-color: #0063e5 !important;
+    color: #0063e5 !important;
+}
+.crunchy-open-web-btn.disney-theme {
+    background-color: #0063e5 !important;
+    border-color: #0063e5 !important;
+    color: #fff !important;
+    box-shadow: 0 4px 20px rgba(0, 99, 229, 0.4) !important;
+}
+.crunchy-open-web-btn.disney-theme:hover {
+    background-color: #3385ff !important;
+    transform: scale(1.05) translate3d(0,0,0);
+}
+
+.platform-badge.prime {
+    background-color: #00a8e1;
+    color: #fff;
+}
+.btn-prime {
+    border-color: rgba(0, 168, 225, 0.4) !important;
+}
+.btn-prime:hover {
+    background-color: rgba(0, 168, 225, 0.1) !important;
+    border-color: #00a8e1 !important;
+    color: #00a8e1 !important;
+}
+.crunchy-open-web-btn.prime-theme {
+    background-color: #00a8e1 !important;
+    border-color: #00a8e1 !important;
+    color: #fff !important;
+    box-shadow: 0 4px 20px rgba(0, 168, 225, 0.4) !important;
+}
+.crunchy-open-web-btn.prime-theme:hover {
+    background-color: #33beff !important;
+    transform: scale(1.05) translate3d(0,0,0);
+}
+
 .crunchy-open-web-btn.adn-theme {
     background-color: #00a8e8 !important;
     border-color: #00a8e8 !important;
@@ -2154,6 +2223,7 @@ body {
     background-color: #33beff !important;
     transform: scale(1.05) translate3d(0,0,0);
 }
+
 
 
 

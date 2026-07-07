@@ -56,6 +56,9 @@ const formTitleOrig = document.getElementById("form-title-orig");
 const formImageUrl = document.getElementById("form-image-url");
 const formCrunchyrollUrl = document.getElementById("form-crunchyroll-url");
 const formAdnUrl = document.getElementById("form-adn-url");
+const formNetflixUrl = document.getElementById("form-netflix-url");
+const formDisneyUrl = document.getElementById("form-disney-url");
+const formPrimeUrl = document.getElementById("form-prime-url");
 const formEpisodesTotal = document.getElementById("form-episodes-total");
 const formEpisodesWatched = document.getElementById("form-episodes-watched");
 const formStatus = document.getElementById("form-status");
@@ -457,6 +460,27 @@ function renderGrid() {
                             </svg>
                         </span>
                     ` : ''}
+                    ${anime.netflixUrl ? `
+                        <span class="platform-badge netflix" title="Disponible sur Netflix">
+                            <svg viewBox="0 0 24 24">
+                                <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="'Outfit', sans-serif" font-weight="900" font-size="12px">N</text>
+                            </svg>
+                        </span>
+                    ` : ''}
+                    ${anime.disneyUrl ? `
+                        <span class="platform-badge disney" title="Disponible sur Disney+">
+                            <svg viewBox="0 0 24 24">
+                                <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="'Outfit', sans-serif" font-weight="900" font-size="10px">D+</text>
+                            </svg>
+                        </span>
+                    ` : ''}
+                    ${anime.primeUrl ? `
+                        <span class="platform-badge prime" title="Disponible sur Prime Video">
+                            <svg viewBox="0 0 24 24">
+                                <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="'Outfit', sans-serif" font-weight="900" font-size="10px">PV</text>
+                            </svg>
+                        </span>
+                    ` : ''}
                 </div>
                 ${anime.airingStatus ? `
                     <span class="card-badge-airing ${anime.airingStatus === 'RELEASING' ? 'releasing' : 'finished'}">
@@ -735,6 +759,24 @@ function showAnimeDetails(id) {
                             <span style="margin-left: 6px;">ADN</span>
                         </a>
                     ` : ''}
+                    ${anime.netflixUrl ? `
+                        <a href="${anime.netflixUrl}" target="_blank" class="btn-secondary btn-netflix" style="text-decoration: none;" title="Ouvrir sur Netflix">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; color: #E50914;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            <span style="margin-left: 6px;">Netflix</span>
+                        </a>
+                    ` : ''}
+                    ${anime.disneyUrl ? `
+                        <a href="${anime.disneyUrl}" target="_blank" class="btn-secondary btn-disney" style="text-decoration: none;" title="Ouvrir sur Disney+">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; color: #0063e5;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            <span style="margin-left: 6px;">Disney+</span>
+                        </a>
+                    ` : ''}
+                    ${anime.primeUrl ? `
+                        <a href="${anime.primeUrl}" target="_blank" class="btn-secondary btn-prime" style="text-decoration: none;" title="Ouvrir sur Prime Video">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; color: #00a8e1;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            <span style="margin-left: 6px;">Prime Video</span>
+                        </a>
+                    ` : ''}
                     <button class="btn-secondary" id="detail-hide-btn" style="margin-left: auto;">
                         ${anime.status === "hidden" ? `
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px;"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
@@ -785,6 +827,9 @@ function openAddAnimeModal() {
     formStatus.value = "plan-to-watch";
     formRating.value = 0;
     formAdnUrl.value = "";
+    formNetflixUrl.value = "";
+    formDisneyUrl.value = "";
+    formPrimeUrl.value = "";
     
     openModal(editModal);
 }
@@ -798,6 +843,9 @@ function openEditAnimeModal(anime) {
     formImageUrl.value = anime.imageUrl || "";
     formCrunchyrollUrl.value = anime.crunchyrollUrl || "";
     formAdnUrl.value = anime.adnUrl || "";
+    formNetflixUrl.value = anime.netflixUrl || "";
+    formDisneyUrl.value = anime.disneyUrl || "";
+    formPrimeUrl.value = anime.primeUrl || "";
     formEpisodesTotal.value = anime.episodesTotal || "";
     formEpisodesWatched.value = anime.episodesWatched || 0;
     formStatus.value = anime.status;
@@ -819,6 +867,9 @@ function handleFormSubmit(e) {
     const imageUrl = formImageUrl.value.trim();
     const crunchyrollUrl = formCrunchyrollUrl.value.trim();
     const adnUrl = formAdnUrl.value.trim();
+    const netflixUrl = formNetflixUrl.value.trim();
+    const disneyUrl = formDisneyUrl.value.trim();
+    const primeUrl = formPrimeUrl.value.trim();
     const episodesTotal = parseInt(formEpisodesTotal.value) || 1;
     const episodesWatched = parseInt(formEpisodesWatched.value) || 0;
     const status = formStatus.value;
@@ -856,6 +907,9 @@ function handleFormSubmit(e) {
                 imageUrl,
                 crunchyrollUrl,
                 adnUrl,
+                netflixUrl,
+                disneyUrl,
+                primeUrl,
                 episodesTotal,
                 episodesWatched,
                 status: finalStatus,
@@ -876,6 +930,9 @@ function handleFormSubmit(e) {
             imageUrl,
             crunchyrollUrl,
             adnUrl,
+            netflixUrl,
+            disneyUrl,
+            primeUrl,
             episodesTotal,
             episodesWatched,
             status: finalStatus,
@@ -1315,7 +1372,7 @@ function openPlayerModal(animeId, startEpisodeIndex = null) {
         videoPlayerWrapper.innerHTML = `
             <div class="crunchy-mock-player">
                 <div class="player-placeholder" style="background: linear-gradient(135deg, rgba(20, 21, 25, 0.95), rgba(255, 100, 0, 0.1));">
-                    <div class="crunchy-player-overlay-btn-wrapper" style="gap: 12px;">
+                    <div class="crunchy-player-overlay-btn-wrapper" style="gap: 12px; flex-wrap: wrap; padding: 0 20px;">
                         ${anime.crunchyrollUrl ? `
                             <a href="${anime.crunchyrollUrl}" target="_blank" class="crunchy-open-web-btn" title="Ouvrir sur Crunchyroll">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; margin-right: 8px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
@@ -1326,6 +1383,24 @@ function openPlayerModal(animeId, startEpisodeIndex = null) {
                             <a href="${anime.adnUrl}" target="_blank" class="crunchy-open-web-btn adn-theme" title="Ouvrir sur ADN">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; margin-right: 8px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                                 <span>Regarder sur ADN</span>
+                            </a>
+                        ` : ''}
+                        ${anime.netflixUrl ? `
+                            <a href="${anime.netflixUrl}" target="_blank" class="crunchy-open-web-btn netflix-theme" title="Ouvrir sur Netflix">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; margin-right: 8px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                <span>Regarder sur Netflix</span>
+                            </a>
+                        ` : ''}
+                        ${anime.disneyUrl ? `
+                            <a href="${anime.disneyUrl}" target="_blank" class="crunchy-open-web-btn disney-theme" title="Ouvrir sur Disney+">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; margin-right: 8px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                <span>Regarder sur Disney+</span>
+                            </a>
+                        ` : ''}
+                        ${anime.primeUrl ? `
+                            <a href="${anime.primeUrl}" target="_blank" class="crunchy-open-web-btn prime-theme" title="Ouvrir sur Prime Video">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; margin-right: 8px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                <span>Regarder sur Prime Video</span>
                             </a>
                         ` : ''}
                     </div>
