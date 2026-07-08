@@ -1451,17 +1451,34 @@ function getTrailerCandidates(anime) {
     return candidates.filter((id, i) => id && isValidYoutubeId(id) && candidates.indexOf(id) === i);
 }
 
-// Détecteur automatique d'erreur de lecture YouTube (bloquée, privée, supprimée...) pour basculer sur l'opening de secours
+// Détecteur automatique d'erreur de lecture YouTube (bloquée, privée,
+// supprimée...) pour passer à la vidéo suivante de la chaîne.
+// Seuls les VRAIS codes d'erreur fatals déclenchent le basculement :
+// 2 (id invalide), 5 (lecteur), 100 (introuvable), 101/150 (intégration interdite).
+// Les messages de lecture normaux contenant un champ "error" vide sont ignorés.
+let lastAutoFallbackAt = 0;
 window.addEventListener("message", (event) => {
     try {
         const data = typeof event.data === "string" ? JSON.parse(event.data) : event.data;
-        if (data && data.info && typeof data.info.error !== "undefined") {
-            console.warn("YouTube Player error detected, falling back automatically:", data.info.error);
-            clearActiveYtPlayback();
-            const fallbackBtn = document.getElementById("player-fallback-btn");
-            if (fallbackBtn) {
-                fallbackBtn.click();
-            }
+        let errCode = null;
+        if (data && data.event === "onError") {
+            errCode = parseInt(data.info, 10);
+        } else if (data && data.info && typeof data.info === "object" && data.info.error) {
+            errCode = parseInt(data.info.error, 10);
+        }
+        if (!errCode || [2, 5, 100, 101, 150].indexOf(errCode) === -1) return;
+
+        // Anti-rafale : YouTube répète le même message d'erreur plusieurs fois,
+        // on ne bascule qu'une étape à la fois.
+        const now = Date.now();
+        if (now - lastAutoFallbackAt < 1500) return;
+        lastAutoFallbackAt = now;
+
+        console.warn("YouTube Player error detected, falling back automatically:", errCode);
+        clearActiveYtPlayback();
+        const fallbackBtn = document.getElementById("player-fallback-btn");
+        if (fallbackBtn) {
+            fallbackBtn.click();
         }
     } catch (e) {}
 });
