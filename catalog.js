@@ -15668,7 +15668,8 @@ const DEFAULT_ANIME_DATA = [
         "name": "Saison 1",
         "episodesCount": 8
       }
-    ]
+    ],
+    "unavailable": true
   },
   {
     "id": "franchise-120377",
@@ -15690,7 +15691,8 @@ const DEFAULT_ANIME_DATA = [
         "name": "Saison 1",
         "episodesCount": 10
       }
-    ]
+    ],
+    "unavailable": true
   },
   {
     "id": "franchise-97888",
@@ -15712,7 +15714,8 @@ const DEFAULT_ANIME_DATA = [
         "name": "Saison 1",
         "episodesCount": 26
       }
-    ]
+    ],
+    "unavailable": true
   },
   {
     "id": "franchise-129201",
@@ -15734,7 +15737,8 @@ const DEFAULT_ANIME_DATA = [
         "name": "Saison 1",
         "episodesCount": 25
       }
-    ]
+    ],
+    "unavailable": true
   },
   {
     "id": "franchise-155783",
@@ -15756,7 +15760,8 @@ const DEFAULT_ANIME_DATA = [
         "name": "Saison 1",
         "episodesCount": 13
       }
-    ]
+    ],
+    "unavailable": true
   },
   {
     "id": "franchise-100388",
@@ -15778,7 +15783,8 @@ const DEFAULT_ANIME_DATA = [
         "name": "Saison 1",
         "episodesCount": 24
       }
-    ]
+    ],
+    "unavailable": true
   },
   {
     "id": "franchise-101347",
@@ -15800,6 +15806,7 @@ const DEFAULT_ANIME_DATA = [
         "name": "Saison 1",
         "episodesCount": 24
       }
-    ]
+    ],
+    "unavailable": true
   }
 ];

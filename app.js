@@ -517,7 +517,7 @@ function renderGrid() {
     
     filteredList.forEach(anime => {
         const card = document.createElement("div");
-        card.className = "anime-card";
+        card.className = "anime-card" + (anime.unavailable ? " unavailable" : "");
         card.setAttribute("data-id", anime.id);
         card.setAttribute("data-status", anime.status);
         
@@ -586,6 +586,9 @@ function renderGrid() {
                     <span class="card-badge-airing ${anime.airingStatus === 'RELEASING' ? 'releasing' : 'finished'}">
                         ${anime.airingStatus === 'RELEASING' ? 'En Cours' : 'Terminé'}
                     </span>
+                ` : ''}
+                ${anime.unavailable ? `
+                    <span class="card-badge-unavailable" title="Cet animé n'est plus proposé en streaming légal (VF) actuellement">Indisponible</span>
                 ` : ''}
                 <span class="card-rating-overlay" title="Note officielle de la communauté (Crunchyroll / AniList)">
                     <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
