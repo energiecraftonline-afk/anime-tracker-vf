@@ -144,7 +144,9 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/ShingekiNoKyojin-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/ShingekiNoKyojin-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/70299043",
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-5172153f-67d2-4011-bd11-6bec28ba0470"
   },
   {
     "id": "franchise-101922",
@@ -275,7 +277,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/KimetsuNoYaiba-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/KimetsuNoYaiba-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/81091393"
   },
   {
     "id": "franchise-113415",
@@ -374,7 +377,10 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/JujutsuKaisen-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/JujutsuKaisen-OP1-NCBD1080.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7f4a4aae-cf85-49e4-a5bf-dc9041ab21a2",
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-3dd9925f-0eb8-46f4-93d0-30ba887fc8d3",
+    "netflixUrl": "https://www.netflix.com/title/81278456"
   },
   {
     "id": "franchise-21459",
@@ -537,7 +543,9 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/BokuNoHeroAcademia-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/BokuNoHeroAcademia-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/80135674",
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-6c1cfdcd-a3b1-428a-8fe9-aa917d5b6371"
   },
   {
     "id": "franchise-11061",
@@ -639,7 +647,9 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/OnePiece-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/OnePiece-OP1.webm",
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-cdb8e29b-7fb0-4142-9966-3b1125246df0",
+    "netflixUrl": "https://www.netflix.com/title/80107103"
   },
   {
     "id": "franchise-20605",
@@ -690,7 +700,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/TokyoGhoul-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/TokyoGhoul-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/80023687"
   },
   {
     "id": "franchise-5114",
@@ -741,7 +752,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/FullmetalAlchemistBrotherhood-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/FullmetalAlchemistBrotherhood-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/70204981"
   },
   {
     "id": "franchise-20",
@@ -792,7 +804,9 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/Naruto-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/Naruto-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/70205012",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.5eb6f772-ac40-3165-11cf-4eaaa6925a0d"
   },
   {
     "id": "franchise-11757",
@@ -1094,7 +1108,9 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/AnsatsuKyoushitsu-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/AnsatsuKyoushitsu-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/80045948",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d613532f-7789-4685-9811-c7d712693d59"
   },
   {
     "id": "franchise-21507",
@@ -1177,7 +1193,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/MobPsycho100-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/MobPsycho100-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/80179798"
   },
   {
     "id": "franchise-127230",
@@ -1430,7 +1447,9 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/NarutoShippuuden-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/NarutoShippuuden-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/80000603",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8ab85087-71a9-836e-90c9-e08ac5eb0f0a"
   },
   {
     "id": "franchise-21234",
@@ -1535,8 +1554,7 @@ const DEFAULT_ANIME_DATA = [
       }
     ],
     "openingUrl": "https://v.animethemes.moe/SteinsGate-OP1.webm",
-    "noVf": true,
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d9f5c2ce-29ee-4ab7-a46b-aa2c54916cdd"
   },
   {
     "id": "franchise-20464",
@@ -1638,7 +1656,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/BlackClover-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/BlackClover-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/80238012"
   },
   {
     "id": "franchise-101291",
@@ -1772,7 +1791,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/SpyXFamily-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/SpyXFamily-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/81511410"
   },
   {
     "id": "franchise-101921",
@@ -1938,7 +1958,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/DrStone-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/DrStone-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/81046193"
   },
   {
     "id": "franchise-4224",
@@ -2110,7 +2131,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/VinlandSaga-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/VinlandSaga-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/81249833"
   },
   {
     "id": "franchise-124080",
@@ -2161,7 +2183,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/Horimiya-OP1-BD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/Horimiya-OP1-BD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/81020819"
   },
   {
     "id": "franchise-21202",
@@ -2566,7 +2589,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/OnePunchManS2-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/OnePunchManS2-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/80117291"
   },
   {
     "id": "franchise-1",
@@ -2618,8 +2642,7 @@ const DEFAULT_ANIME_DATA = [
       }
     ],
     "openingUrl": "https://v.animethemes.moe/CowboyBebop-OP1.webm",
-    "noVf": true,
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80001305"
   },
   {
     "id": "franchise-154587",
@@ -2686,7 +2709,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/SousouNoFrieren-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/SousouNoFrieren-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/81726714"
   },
   {
     "id": "franchise-9919",
@@ -2804,7 +2828,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/ShieldHero-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/ShieldHero-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/81058649"
   },
   {
     "id": "franchise-101280",
@@ -2903,7 +2928,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/Tensura-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/Tensura-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/81028712"
   },
   {
     "id": "franchise-108465",
@@ -3001,7 +3027,8 @@ const DEFAULT_ANIME_DATA = [
           "day": 1
         }
       }
-    ]
+    ],
+    "netflixUrl": "https://www.netflix.com/title/80987039"
   },
   {
     "id": "franchise-120120",
@@ -3052,7 +3079,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/TokyoRevengers-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/TokyoRevengers-OP1-NCBD1080.webm",
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-be391742-6617-42ad-b53a-be368ee73335"
   },
   {
     "id": "franchise-6547",
@@ -3743,7 +3771,9 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/Overlord-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/Overlord-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/80132110",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.971c7e23-83fb-42ca-8f55-024758829747"
   },
   {
     "id": "franchise-20992",
@@ -4001,7 +4031,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/SoulEater-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/SoulEater-OP1.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.36a90e05-96b2-4ebf-a63f-c35cea90b59b"
   },
   {
     "id": "franchise-11111",
@@ -4121,7 +4152,9 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/FairyTail-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/FairyTail-OP1.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.feb85fea-a45d-f8af-423a-9d7843d1cbe1",
+    "netflixUrl": "https://www.netflix.com/title/70266998"
   },
   {
     "id": "franchise-14813",
@@ -4292,7 +4325,9 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/Dandadan-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/Dandadan-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/81736884",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d7875066-c23f-421c-8a56-07c705c336b3"
   },
   {
     "id": "franchise-21170",
@@ -4498,7 +4533,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/PsychoPass-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/PsychoPass-OP1.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2e53f4e0-f0d2-41c3-9279-396ece7cb1ce"
   },
   {
     "id": "franchise-128893",
@@ -4549,7 +4585,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/Jigokuraku-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/Jigokuraku-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/81574246"
   },
   {
     "id": "franchise-12189",
@@ -5115,7 +5152,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/BlueLock-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/BlueLock-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/81640753"
   },
   {
     "id": "franchise-103572",
@@ -5167,7 +5205,7 @@ const DEFAULT_ANIME_DATA = [
       }
     ],
     "openingUrl": "https://v.animethemes.moe/GotoubunNoHanayome-OP1-NCBD1080.webm",
-    "noVf": true
+    "netflixUrl": "https://www.netflix.com/title/81152346"
   },
   {
     "id": "franchise-114535",
@@ -5440,7 +5478,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/KusuriyaNoHitorigoto-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/KusuriyaNoHitorigoto-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/81712068"
   },
   {
     "id": "franchise-105334",
@@ -5970,7 +6009,9 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/KurokoNoBasket-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/KurokoNoBasket-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/80063153",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.39189665-9249-41ea-a5e1-89c12a1ccf3a"
   },
   {
     "id": "franchise-151801",
@@ -7104,8 +7145,7 @@ const DEFAULT_ANIME_DATA = [
       }
     ],
     "openingUrl": "https://v.animethemes.moe/OuranKoukouHostClub-OP1.webm",
-    "noVf": true,
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/70205014"
   },
   {
     "id": "franchise-889",
@@ -7209,8 +7249,7 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "noVf": true,
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4040a90a-6874-4d04-82f8-67c42d4417db"
   },
   {
     "id": "franchise-339",
@@ -8702,7 +8741,9 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/Boruto-OP1-BD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/Boruto-OP1-BD1080.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.58b69cc5-3950-9951-0002-325a5d14e6dc",
+    "netflixUrl": "https://www.netflix.com/title/81080523"
   },
   {
     "id": "franchise-108489",
@@ -9120,7 +9161,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/DragonBallSuper-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/DragonBallSuper-OP1.webm",
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-ceb1fd76-acbe-4269-a1f3-532614807772"
   },
   {
     "id": "franchise-21366",
@@ -10517,7 +10559,7 @@ const DEFAULT_ANIME_DATA = [
       }
     ],
     "openingUrl": "https://v.animethemes.moe/KoutetsujouNoKabaneri-OP1v2.webm",
-    "noVf": true
+    "netflixUrl": "https://www.netflix.com/title/81095103"
   },
   {
     "id": "franchise-12355",
@@ -10776,7 +10818,9 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/Dorohedoro-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/Dorohedoro-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/80991903",
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-99c35086-cc39-481c-9827-333c0ab15d5a"
   },
   {
     "id": "franchise-114232",
@@ -11610,7 +11654,8 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/ShangrilaFrontier-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/ShangrilaFrontier-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/81727242"
   },
   {
     "id": "franchise-106479",
@@ -11905,7 +11950,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/FullmetalAlchemist-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/FullmetalAlchemist-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/70204980"
   },
   {
     "id": "adn-427",
@@ -11935,7 +11981,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/SailorMoon-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/SailorMoon-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/80992787"
   },
   {
     "id": "adn-1393",
@@ -11995,7 +12042,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/InazumaEleven-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/InazumaEleven-OP1.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fd66f1df-4993-45bd-b40e-a107c29357c7"
   },
   {
     "id": "adn-1361",
@@ -12142,7 +12190,8 @@ const DEFAULT_ANIME_DATA = [
     "rawEndDate": null,
     "nextAiringEpisode": null,
     "nextAiringAt": null,
-    "seasons": []
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80191008"
   },
   {
     "id": "adn-430",
@@ -12227,7 +12276,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/NeonGenesisEvangelion-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/NeonGenesisEvangelion-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/81033445"
   },
   {
     "id": "adn-912",
@@ -12257,7 +12307,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/YofukashiNoUta-OP1-BD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/YofukashiNoUta-OP1-BD1080.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e501fdee-d5ef-4dfe-8ead-aea95e0cdbd3"
   },
   {
     "id": "adn-444",
@@ -12287,7 +12338,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/JojoNoKimyouNaBouken-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/JojoNoKimyouNaBouken-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/80179831"
   },
   {
     "id": "adn-1319",
@@ -12527,7 +12579,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/Bakuman-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/Bakuman-OP1.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.54a6213d-30e1-400f-8891-2fcdbace071d"
   },
   {
     "id": "adn-1279",
@@ -12582,7 +12635,9 @@ const DEFAULT_ANIME_DATA = [
     "rawEndDate": null,
     "nextAiringEpisode": null,
     "nextAiringAt": null,
-    "seasons": []
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80003196",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.aa8c72ab-e4b1-406d-98d2-7026dda31a6d"
   },
   {
     "id": "adn-1270",
@@ -12641,7 +12696,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/X-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/X-OP1.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.dd767ebc-2050-41ab-9289-eb38f11c7104"
   },
   {
     "id": "adn-1187",
@@ -12671,7 +12727,9 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/FairyTail100NenQuest-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/FairyTail100NenQuest-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/81910168",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f0264417-5fbc-429e-a7f3-3152c9cfb882"
   },
   {
     "id": "adn-363",
@@ -12925,7 +12983,9 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/UruseiYatsura-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/UruseiYatsura-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/81642888",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b1895ccc-20b4-4b19-94bc-9f8db9ddfc5f"
   },
   {
     "id": "adn-1200",
@@ -13038,7 +13098,9 @@ const DEFAULT_ANIME_DATA = [
     "rawEndDate": null,
     "nextAiringEpisode": null,
     "nextAiringAt": null,
-    "seasons": []
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80124041",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2cb85964-4d65-2da1-f11c-e7c1dbce34f7"
   },
   {
     "id": "adn-458",
@@ -13257,7 +13319,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/Bokuyaba-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/Bokuyaba-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/81788312"
   },
   {
     "id": "adn-1122",
@@ -13396,7 +13459,9 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/ShadowGarden-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/ShadowGarden-OP1-NCBD1080.webm",
+    "netflixUrl": "https://www.netflix.com/title/81642096",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ff3d02a7-4f3f-4eb6-84dc-63eb0d2e7466"
   },
   {
     "id": "adn-1084",
@@ -13506,7 +13571,9 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/EdensZeroS2-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/EdensZeroS2-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/81261630",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.61a0e6b2-572c-48ac-809e-fa6feba4f1fd"
   },
   {
     "id": "adn-1076",
@@ -13724,7 +13791,8 @@ const DEFAULT_ANIME_DATA = [
     "rawEndDate": null,
     "nextAiringEpisode": null,
     "nextAiringAt": null,
-    "seasons": []
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.382d87d0-69a1-44a5-92f8-0743c4b4dc2b"
   },
   {
     "id": "adn-22",
@@ -13783,7 +13851,8 @@ const DEFAULT_ANIME_DATA = [
     "rawEndDate": null,
     "nextAiringEpisode": null,
     "nextAiringAt": null,
-    "seasons": []
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f594b10d-0c68-4bb1-b44e-4d892c130604"
   },
   {
     "id": "adn-31",
@@ -13843,7 +13912,9 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/Berserk-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/Berserk-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/80243876",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1a64d1d8-3d04-44d7-822d-95b5aa75b220"
   },
   {
     "id": "adn-885",
@@ -14076,7 +14147,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/DragonBallKai-OP1-NCBD.webm"
+    "openingUrl": "https://v.animethemes.moe/DragonBallKai-OP1-NCBD.webm",
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-f228b7f8-bcd2-40b5-b514-dadf66a77707"
   },
   {
     "id": "adn-978",
@@ -14747,7 +14819,8 @@ const DEFAULT_ANIME_DATA = [
     "rawEndDate": null,
     "nextAiringEpisode": null,
     "nextAiringAt": null,
-    "seasons": []
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ab996ea-4b95-6337-9490-6f8597878216"
   },
   {
     "id": "adn-850",
@@ -14807,7 +14880,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/MousouDairinin-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/MousouDairinin-OP1.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2828d6df-81e5-43d8-be36-134a46860153"
   },
   {
     "id": "adn-809",
@@ -14941,7 +15015,8 @@ const DEFAULT_ANIME_DATA = [
     "rawEndDate": null,
     "nextAiringEpisode": null,
     "nextAiringAt": null,
-    "seasons": []
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.dc30a333-0aa6-4196-a55d-665b93dba8f9"
   },
   {
     "id": "adn-704",
@@ -15055,7 +15130,8 @@ const DEFAULT_ANIME_DATA = [
     "rawEndDate": null,
     "nextAiringEpisode": null,
     "nextAiringAt": null,
-    "seasons": []
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d3c52d2c-14b1-452b-ad10-d26e5c96c9e2"
   },
   {
     "id": "adn-671",
@@ -15412,7 +15488,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/NanatsuNoTaizai-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/NanatsuNoTaizai-OP1.webm",
+    "netflixUrl": "https://www.netflix.com/title/80050063"
   },
   {
     "id": "adn-362",
@@ -15472,7 +15549,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/DevilsLine-OP1-NCBD1080.webm"
+    "openingUrl": "https://v.animethemes.moe/DevilsLine-OP1-NCBD1080.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7a66b1ba-2c6d-4ef3-a6f6-784a510581c7"
   },
   {
     "id": "adn-462",
@@ -15648,7 +15726,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/AllOut-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/AllOut-OP1.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4cc1ae50-ef4d-424e-8570-eb97917871fe"
   },
   {
     "id": "adn-451",
@@ -15678,7 +15757,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/KoroSenseiQuest-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/KoroSenseiQuest-OP1.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8ff0fa60-0ecb-4a00-ab72-1ee8059d48fa"
   },
   {
     "id": "adn-411",
@@ -15768,7 +15848,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/NoGameNoLife-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/NoGameNoLife-OP1.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.103dfcc1-f1a8-43dd-90e7-6cbe5d00ccf2"
   },
   {
     "id": "adn-301",
@@ -15798,7 +15879,8 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "openingUrl": "https://v.animethemes.moe/WitchCraftWorks-OP1.webm"
+    "openingUrl": "https://v.animethemes.moe/WitchCraftWorks-OP1.webm",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.c4bc019a-cc0b-133a-27d9-93713b06c174"
   },
   {
     "id": "adn-297",
@@ -16073,8 +16155,7 @@ const DEFAULT_ANIME_DATA = [
         "name": "Saison 1",
         "episodesCount": 8
       }
-    ],
-    "noVf": true
+    ]
   },
   {
     "id": "franchise-120377",
@@ -16097,8 +16178,7 @@ const DEFAULT_ANIME_DATA = [
         "episodesCount": 10
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/CyberpunkEdgerunners-OP1.webm",
-    "noVf": true
+    "openingUrl": "https://v.animethemes.moe/CyberpunkEdgerunners-OP1.webm"
   },
   {
     "id": "franchise-97888",
@@ -16121,8 +16201,7 @@ const DEFAULT_ANIME_DATA = [
         "episodesCount": 26
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/Baki-OP1.webm",
-    "noVf": true
+    "openingUrl": "https://v.animethemes.moe/Baki-OP1.webm"
   },
   {
     "id": "franchise-129201",
@@ -16145,8 +16224,7 @@ const DEFAULT_ANIME_DATA = [
         "episodesCount": 25
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/SummertimeRender-OP1-NCBD1080.webm",
-    "noVf": true
+    "openingUrl": "https://v.animethemes.moe/SummertimeRender-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-155783",
@@ -16169,8 +16247,7 @@ const DEFAULT_ANIME_DATA = [
         "episodesCount": 13
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/TengokuDaimakyou-OP1-NCBD1080.webm",
-    "noVf": true
+    "openingUrl": "https://v.animethemes.moe/TengokuDaimakyou-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-100388",
@@ -16219,5 +16296,4210 @@ const DEFAULT_ANIME_DATA = [
     ],
     "openingUrl": "https://v.animethemes.moe/Dororo2019-OP1-NCBD1080.webm",
     "noVf": true
+  },
+  {
+    "id": "franchise-186497",
+    "titleFr": "The Ramparts of Ice",
+    "titleOrig": "Koori no Jouheki",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186497-uwPrNPphXvjP.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 14,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.1",
+    "trailerId": "a7ah5by0Ffw",
+    "genres": "Comedy, Drama, Romance, Slice of Life",
+    "synopsis": "Socially inept, Higawa Koyuki maintains a wall between herself and other people. She spends her time in high school alone, until she meets Amamiya Minato, a boy who keeps trying to close the distance between them for some reason?!\n\nThe loner Koyuki, the popular Miki, the boundary-less Minato, and the kind basketball player Youta. This is the story about four complicated and confused young people and their mixed up lives!\n\n(Source: Margaret, translated)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "02/04/2026",
+    "lastEpisodeDate": "02/07/2026",
+    "rawStartDate": {
+      "year": 2026,
+      "month": 4,
+      "day": 2
+    },
+    "rawEndDate": {
+      "year": 2026,
+      "month": 7,
+      "day": 2
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/82031882"
+  },
+  {
+    "id": "franchise-169228",
+    "titleFr": "Fist of the North Star: HOKUTO NO KEN",
+    "titleOrig": "Hokuto no Ken: FIST OF THE NORTH STAR",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169228-y79xDpZ29Vv4.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 14,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.1",
+    "trailerId": "Gux_dYHDMK4",
+    "genres": "Action, Drama, Sci-Fi",
+    "synopsis": "In the year 199X, the world is engulfed in a nuclear inferno! The seas have vanished. The earth lies in ruins. It seems all life has been wiped out...but humanity has not perished!\n\nAcross the scorched and broken land, survivors cling to hope, desperately searching for food and water. However, their hopes are trampled underfoot by violence. Might makes right in this world, and the weak are crushed without mercy.\n\nFrom the depths of that despair, a lone man with seven scars on his chest emerges. His name is Kenshiro, heir to the legendary assassination art Hokuto Shinken. As he roams the wasteland in pursuit of his sworn enemy Shin, who stole his fiancée Yuria, Kenshiro answers the cries of the oppressed, becoming a beacon of hope in a world of despair.\n\nStanding in his path are brutal survivors of the apocalypse, their ambitions twisted by power and greed. In a world where the weak are prey and prayers go unheard, Kenshiro forges a path with his iron fists!\n\n(Source: Official Website)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "11/04/2026",
+    "lastEpisodeDate": "27/06/2026",
+    "rawStartDate": {
+      "year": 2026,
+      "month": 4,
+      "day": 11
+    },
+    "rawEndDate": {
+      "year": 2026,
+      "month": 6,
+      "day": 27
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d1393f28-73de-40bb-a1e3-45f3212cee27"
+  },
+  {
+    "id": "franchise-269",
+    "titleFr": "Bleach",
+    "titleOrig": "BLEACH",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx269-d2GmRkJbMopq.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 366,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.0",
+    "trailerId": "0c4IoCA5fY0",
+    "genres": "Action, Adventure, Supernatural",
+    "synopsis": "Ichigo Kurosaki is a rather normal high school student apart from the fact he has the ability to see ghosts. This ability never impacted his life in a major way until the day he encounters the Shinigami Kuchiki Rukia, who saves him and his family's lives from a Hollow, a corrupt spirit that devours human souls. \n\nWounded during the fight against the Hollow, Rukia chooses the only option available to defeat the monster and passes her Shinigami powers to Ichigo. Now forced to act as a substitute until Rukia recovers, Ichigo hunts down the Hollows that plague his town. \n\n",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "05/10/2004",
+    "lastEpisodeDate": "27/03/2012",
+    "rawStartDate": {
+      "year": 2004,
+      "month": 10,
+      "day": 5
+    },
+    "rawEndDate": {
+      "year": 2012,
+      "month": 3,
+      "day": 27
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-c649c634-7f8d-48a9-ba72-48bd4b9c8419"
+  },
+  {
+    "id": "franchise-206914",
+    "titleFr": "Les Nations du Soleil sanglant",
+    "titleOrig": "Nippon Sangoku",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx206914-SHKX08LarRzB.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.2",
+    "trailerId": "PvjwzkcaT2Y",
+    "genres": "Action, Drama, Sci-Fi",
+    "synopsis": "A revolution sparked by nuclear war, natural disaster, and misrule leads to the collapse of Japanese society. The country splits into three nations vying for hegemony, and the Sangoku era begins. Aoteru Misumi, a former agricultural officer, vows to reunify Japan. He rises through the ranks with only his knowledge and eloquence. Witness the legend of the man later hailed as a genius strategist.\n\n(Source: Amazon Prime Video)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "05/04/2026",
+    "lastEpisodeDate": "21/06/2026",
+    "rawStartDate": {
+      "year": 2026,
+      "month": 4,
+      "day": 5
+    },
+    "rawEndDate": {
+      "year": 2026,
+      "month": 6,
+      "day": 21
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e510f6c5-42e5-4147-8e4a-2f84ef675e1c"
+  },
+  {
+    "id": "franchise-207141",
+    "titleFr": "Chainsmoker Cat",
+    "titleOrig": "Yani Neko",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx207141-h5q5KJPd6vaX.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 1,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "KYGgyQtSAdI",
+    "genres": "Comedy, Slice of Life",
+    "synopsis": "Yani is a catgirl with a seriously bad smoking habit. She smokes so much that her apartment smells like ash and is littered with cigarette butts—and plenty of other trash! Every time she tries to quit, she becomes weak to the cravings and gives in almost instantly. Will she ever get her life together, or is she doomed to live as a chainsmoking slob forever? \n\n(Source: Seven Seas Entertainment)",
+    "cast": "",
+    "airingStatus": "RELEASING",
+    "releaseDate": "03/07/2026",
+    "lastEpisodeDate": null,
+    "rawStartDate": {
+      "year": 2026,
+      "month": 7,
+      "day": 3
+    },
+    "rawEndDate": null,
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/82760630"
+  },
+  {
+    "id": "franchise-198113",
+    "titleFr": "KILL BLUE",
+    "titleOrig": "Kill Ao",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198113-NRa47idWSlnx.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.6",
+    "trailerId": "9sEiONbweqI",
+    "genres": "Action, Comedy",
+    "synopsis": "Juuzou Oogami is a legendary hitman who has never failed an assignment, no matter how impossible. One day, after wiping out a powerful organization, he is stung by a mysterious wasp and collapses. When he wakes up, the fearsome 39-year-old assassin has been transformed into a 13-year-old boy!\n\nBefore he can even process what happened, his boss delivers a new order: “In that body, infiltrate a middle school.”\n\nWhat awaits him is an unexpected school life filled with colorful classmates, youthful chaos, and looming danger. Can Juuzou ever return to his original form? Or will the assassins closing in on him end his second life before it even begins!?\n(Source: Official Site)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "11/04/2026",
+    "lastEpisodeDate": "27/06/2026",
+    "rawStartDate": {
+      "year": 2026,
+      "month": 4,
+      "day": 11
+    },
+    "rawEndDate": {
+      "year": 2026,
+      "month": 6,
+      "day": 27
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/82757009"
+  },
+  {
+    "id": "franchise-177699",
+    "titleFr": "Ghost in the Shell",
+    "titleOrig": "Koukaku Kidoutai: THE GHOST IN THE SHELL",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177699-hnzc1CS5ZSM2.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 1,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": null,
+    "trailerId": "b_v0-RWLo18",
+    "genres": "Action, Psychological, Sci-Fi",
+    "synopsis": "The year is 2029. In near-future Japan, where the world has become highly information-intensive, with a vast corporate network covering the planet, electrons and light pulsing through it. But the nation-state and ethnic groups still survive.   Motoko Kusanagi, a full-body cyborg, leads an elite combat unit, including Batou. While commanding her team, Kusanagi envisions the creation of a specialized task force to preemptively strike against emerging threats. Meanwhile, Daisuke Aramaki of the Ministry of Internal Affairs, who had been planning to establish a similar unit, recruited Kusanagi and her team. Together, they begin operations as Public Security Section 9—an offensive tactical unit known as “Shell Squad.” As they confront complex cybercrimes and international conspiracies, the existence of a mysterious, unidentified hacker known as The “Puppet Master” emerges on the horizon of their investigation.  What fate awaits Kusanagi? And what is the Puppet Master’s true objective? A new era of cyberpunk action begins.  \n(Source:攻殻機動隊 THE GHOST IN THE SHELL Site)",
+    "cast": "",
+    "airingStatus": "RELEASING",
+    "releaseDate": "07/07/2026",
+    "lastEpisodeDate": null,
+    "rawStartDate": {
+      "year": 2026,
+      "month": 7,
+      "day": 7
+    },
+    "rawEndDate": null,
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e6239860-6c74-4435-8c48-3e9c88948635"
+  },
+  {
+    "id": "franchise-1535",
+    "titleFr": "Death Note",
+    "titleOrig": "DEATH NOTE",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1535-kUgkcrfOrkUM.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 37,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.2",
+    "trailerId": "NlJZ-YgAt-c",
+    "genres": "Mystery, Psychological, Supernatural, Thriller",
+    "synopsis": "Light Yagami is a genius high school student who is about to learn about life through a book of death. When a bored shinigami, a God of Death, named Ryuk drops a black notepad called a Death Note, Light receives power over life and death with the stroke of a pen. Determined to use this dark gift for the best, Light sets out to rid the world of evil… namely, the people he believes to be evil. Should anyone hold such power?\n\nThe consequences of Light’s actions will set the world ablaze.\n\n(Source: VIZ Media)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "04/10/2006",
+    "lastEpisodeDate": "27/06/2007",
+    "rawStartDate": {
+      "year": 2006,
+      "month": 10,
+      "day": 4
+    },
+    "rawEndDate": {
+      "year": 2007,
+      "month": 6,
+      "day": 27
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/70204970"
+  },
+  {
+    "id": "franchise-481",
+    "titleFr": "Yu-Gi-Oh! Duel Monsters",
+    "titleOrig": "Yu☆Gi☆Oh! Duel Monsters",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx481-Qpqy1TQBOxZO.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 224,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.6",
+    "trailerId": null,
+    "genres": "Adventure, Fantasy",
+    "synopsis": "Yu-Gi-Oh! Duel Monsters centers around the journey of the spirit of an ancient Egyptian pharaoh who is trying to re-discover who he was many years ago, since he has lost his memories. With the help of a boy, Yugi Mutou, the one who awakened the spirit, and his friends, he battles many villains and adversaries. Many of the villains have been linked to the Nameless Pharaoh's past, due to the Millennium Puzzle he holds and many try to take the puzzle and his power away from him.\nThe series focuses on the card game aspect of it and the main theme represented throughout the series is friendship.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "18/04/2000",
+    "lastEpisodeDate": "29/09/2004",
+    "rawStartDate": {
+      "year": 2000,
+      "month": 4,
+      "day": 18
+    },
+    "rawEndDate": {
+      "year": 2004,
+      "month": 9,
+      "day": 29
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/70177034",
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-870b9187-690d-4a9e-8704-b48564b31322"
+  },
+  {
+    "id": "franchise-196935",
+    "titleFr": "Akane-banashi",
+    "titleOrig": "Akane-banashi",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx196935-RnLWBsEvNp8M.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.9",
+    "trailerId": "PZJAOQ-7iJ8",
+    "genres": "Drama",
+    "synopsis": "\"With only your voice and body—master the art.\"\n\nAkane Ousaki, captivated since childhood by the magical performances of her father, Shinta Arakawa, witnesses a shocking incident during his decisive performance for promotion to shin’uchi (master rank).\n\nSix years later, now a high school student, she sets her sights on becoming a shin’uchi herself—pushing forward in the highly competitive world of rakugo.\nA passionate and authentic rakugo drama begins now!\n\n(Source: TV Asahi, edited)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "04/04/2026",
+    "lastEpisodeDate": "20/06/2026",
+    "rawStartDate": {
+      "year": 2026,
+      "month": 4,
+      "day": 4
+    },
+    "rawEndDate": {
+      "year": 2026,
+      "month": 6,
+      "day": 20
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/82701514"
+  },
+  {
+    "id": "franchise-19",
+    "titleFr": "Monster",
+    "titleOrig": "MONSTER",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx19-gtMC64182sm4.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 74,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.4",
+    "trailerId": null,
+    "genres": "Drama, Horror, Mystery, Psychological, Thriller",
+    "synopsis": "Dr. Kenzo Tenma is a renowned Japanese brain surgeon working at a leading hospital in Germany. One night, Dr. Tenma risks his reputation and career to save the life of a critically wounded young boy over that of the town mayor who had been planning to support the hospital financially. A string of mysterious murders begin to occur soon after the operation, and Dr. Tenma emerges as the primary suspect despite no incriminating evidence. \n\nA doctor is taught to believe that all life is equal; however, when another series of murders occur in the surgeon's vicinity, Dr. Tenma's beliefs are shaken as his actions that night are shown to have much broader consequences than he could have imagined. Leaving behind his life as a surgeon he embarks on a journey across the country to unravel the mystery of the boy he saved.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "07/04/2004",
+    "lastEpisodeDate": "28/09/2005",
+    "rawStartDate": {
+      "year": 2004,
+      "month": 4,
+      "day": 7
+    },
+    "rawEndDate": {
+      "year": 2005,
+      "month": 9,
+      "day": 28
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81409869",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.aeb97ccc-181f-4333-bf18-1af348f9b92d"
+  },
+  {
+    "id": "franchise-116674",
+    "titleFr": "Bleach: Thousand-Year Blood War",
+    "titleOrig": "BLEACH: Sennen Kessen-hen",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116674-p3zK4PUX2Aag.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.4",
+    "trailerId": "fzR82oXbjnY",
+    "genres": "Action, Adventure, Supernatural",
+    "synopsis": "Was it all just a coincidence, or was it inevitable?\n\nIchigo Kurosaki gained the powers of a Soul Reaper through a chance encounter. As a Substitute\nSoul Reaper, Ichigo became caught in the turmoil of the Soul Society, a place where deceased\nsouls gather. But with help from his friends, Ichigo overcame every challenge to become even\nstronger.\n\nWhen new Soul Reapers and a new enemy appear in his hometown of Karakura, Ichigo jumps\nback into the battlefield with his Zanpakuto to help those in need. Meanwhile, the Soul Society\nis observing a sudden surge in the number of Hollows being destroyed in the World of the Living.\nThey also receive separate reports of residents in the Rukon District having gone missing. Finally,\nthe Seireitei, home of the Soul Reapers, comes under attack by a group calling themselves the\nWandenreich.\n\nLed by Yhwach, the father of all Quincies, the Wandenreich declare war against the Soul Reapers\nwith the following message: \"Five days from now, the Soul Society will be annihilated by the\nWandenreich.\"\n\nThe history and truth kept hidden by the Soul Reapers for a thousand long years is finally brought\nto light.\n\nAll things must come to an end as Ichigo Kurosaki's final battle begins!",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "11/10/2022",
+    "lastEpisodeDate": "27/12/2022",
+    "rawStartDate": {
+      "year": 2022,
+      "month": 10,
+      "day": 11
+    },
+    "rawEndDate": {
+      "year": 2022,
+      "month": 12,
+      "day": 27
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-571475d5-8b1a-453f-a57f-26bb4dd13304"
+  },
+  {
+    "id": "franchise-179813",
+    "titleFr": "Rooster Fighter",
+    "titleOrig": "Niwatori Fighter",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179813-cLHpUPV1IiEm.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.3",
+    "trailerId": "5hRrvJ08ZSs",
+    "genres": "Action, Adventure, Comedy, Supernatural",
+    "synopsis": "Humanity is on the verge of collapse after the demonic Kaiju descend without warning, laying waste to cities and crushing all in their path. Resistance fails. Hope fades. Things look bad…until a lone rooster steps forward. Keiji, the neighborhood cock of the walk is more than just an ordinary rooster—he’s humanity’s greatest defender! His opponents may be ten stories tall, but \nwith razor-sharp spurs and a battle cry that splits the sky, this unlikely hero carries the fate of the world on his wings. When defenses fall and hope fades, one bird will rise.\n\n(Source: Crunchyroll, VIZ Media, edited)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "14/03/2026",
+    "lastEpisodeDate": "31/05/2026",
+    "rawStartDate": {
+      "year": 2026,
+      "month": 3,
+      "day": 14
+    },
+    "rawEndDate": {
+      "year": 2026,
+      "month": 5,
+      "day": 31
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-eb5b776f-8162-491a-9aca-c1e9b56729e5"
+  },
+  {
+    "id": "franchise-12031",
+    "titleFr": "Kingdom",
+    "titleOrig": "Kingdom",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx12031-1nVQa5nXPt48.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 38,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.7",
+    "trailerId": null,
+    "genres": "Action, Drama",
+    "synopsis": "When low-born servant boys Piao and Xin set out to become the world’s greatest war generals, they quickly find themselves caught up in a violent struggle between two noblemen plotting to overthrow the King. After Piao is killed protecting the rightful ruler of the kingdom of Qin, Xin sets out on a campaign for revenge that leads him straight into the fire of war.\n\nNow, with a target on his back and an army of enemies standing in his way, it will be up to a boy with no name and a young king without a throne to return order to their war-torn country in this historical action-drama based on the Tezuka Award-winning manga, Kingdom.\n\n(Source: Funimation)\n\nNote: The first episode aired with a runtime of 50 minutes as opposed to the standard 25 minute runtime.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "04/06/2012",
+    "lastEpisodeDate": "25/02/2013",
+    "rawStartDate": {
+      "year": 2012,
+      "month": 6,
+      "day": 4
+    },
+    "rawEndDate": {
+      "year": 2013,
+      "month": 2,
+      "day": 25
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80172949"
+  },
+  {
+    "id": "franchise-170083",
+    "titleFr": "Dragon Ball DAIMA",
+    "titleOrig": "Dragon Ball DAIMA",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170083-GTwRrhTApcLR.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 20,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.8",
+    "trailerId": "ezbYAglQoxI",
+    "genres": "Action, Adventure",
+    "synopsis": "Goku and company were living peaceful lives when they suddenly turned small due to a conspiracy! When they discover that the reason for this may lie in a world known as the \"Demon Realm\", a mysterious young Majin named Glorio appears before them.\n\n(Source: Crunchyroll)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "11/10/2024",
+    "lastEpisodeDate": "28/02/2025",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 10,
+      "day": 11
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 2,
+      "day": 28
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81943491"
+  },
+  {
+    "id": "franchise-154116",
+    "titleFr": "Undead Unluck",
+    "titleOrig": "Undead Unluck",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154116-3ydDI9hhvPgw.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 24,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.8",
+    "trailerId": "vR_ioX_-GoQ",
+    "genres": "Action, Comedy, Sci-Fi, Supernatural",
+    "synopsis": "All Fuuko wants is a passionate romance like the one in her favorite shoujo manga. Unfortunately, her Unluck ability makes that impossible. But just as Fuuko hits rock bottom, Andy sweeps her off her feet—literally! Now she's become Andy's unwilling test subject as he works to find a way to trigger a stroke of Unluck big enough to kill him for good. However, when the pair discovers a secret organization is hunting them, it puts Andy's burial plans on hold.\n\n(Source: VIZ Media)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "07/10/2023",
+    "lastEpisodeDate": "23/03/2024",
+    "rawStartDate": {
+      "year": 2023,
+      "month": 10,
+      "day": 7
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 3,
+      "day": 23
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-9a14d04d-01f2-40d0-be62-a6c8ffe24137"
+  },
+  {
+    "id": "franchise-124195",
+    "titleFr": "Baki Hanma",
+    "titleOrig": "Hanma Baki",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124195-5Z1JSrRlbMRe.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.8",
+    "trailerId": "4-YNrsiWikM",
+    "genres": "Action, Sports",
+    "synopsis": "To gain the skills he needs to surpass his powerful father, Baki enters Arizona State Prison to take on the notorious inmate known as Mr. Unchained.\n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "30/09/2021",
+    "lastEpisodeDate": "30/09/2021",
+    "rawStartDate": {
+      "year": 2021,
+      "month": 9,
+      "day": 30
+    },
+    "rawEndDate": {
+      "year": 2021,
+      "month": 9,
+      "day": 30
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81236338"
+  },
+  {
+    "id": "franchise-71",
+    "titleFr": "Full Metal Panic!",
+    "titleOrig": "Full Metal Panic!",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx71-Fi08vs7xNBMW.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 24,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.6",
+    "trailerId": "6GzFzmONrTE",
+    "genres": "Action, Comedy, Mecha, Sci-Fi",
+    "synopsis": "Sousuke Sagara, a seventeen year old military specialist working for the secret organization MITHRIL, has been assigned to protect the latest \"Whispered\" candidate Kaname Chidori. To complete this task Sousuke will have to deal with enemies from his past as well as the occasional panty thief. Unfortunately for Sousuke, the toughest part of his mission isn't only protecting Miss Chidori but also getting used to living an average High School students life, no easy task for someone raised on the battlefield.\n(Source: Anime News Network)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "08/01/2002",
+    "lastEpisodeDate": "18/06/2002",
+    "rawStartDate": {
+      "year": 2002,
+      "month": 1,
+      "day": 8
+    },
+    "rawEndDate": {
+      "year": 2002,
+      "month": 6,
+      "day": 18
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fc6ecff4-20a8-41cd-b8b1-015cbf2df7fb"
+  },
+  {
+    "id": "franchise-161476",
+    "titleFr": "Ishura",
+    "titleOrig": "Ishura",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161476-ukTxAPHib1Fg.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.3",
+    "trailerId": "k0-cO3zve7A",
+    "genres": "Action, Drama, Fantasy",
+    "synopsis": "In a world where the Demon King has died, a host of demigods capable of felling him have inherited the world: a master fencer who can figure out how to take out their opponent with a single glance; a lancer so swift they can break the sound barrier; a wyvern rogue who fights with three legendary weapons at once; an all-powerful wizard who can speak thoughts into being; and an angelic assassin who deals instant death. Eager to attain the title of “One True Hero,” these champions each pursue challenges against formidable foes and spark conflicts themselves. The battle to determine the mightiest of the mighty begins.\n(Source: Yen Press)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "03/01/2024",
+    "lastEpisodeDate": "20/03/2024",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 1,
+      "day": 3
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 3,
+      "day": 20
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-5688fe7b-a605-4858-90a1-e013ef1c94b3"
+  },
+  {
+    "id": "franchise-1726",
+    "titleFr": "Devil May Cry",
+    "titleOrig": "Devil May Cry",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1726-IrpH32PVADiO.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.3",
+    "trailerId": null,
+    "genres": "Action, Fantasy",
+    "synopsis": "Cursed to live as both monster and man, Dante must spend his life fighting the demonic forces of darkness. Brandishing his sword, Rebellion, and his always-loaded guns, Ebony and Ivory, Dante is more than happy to send the demons back to hell—especially when there’s money to be made. The wildly popular video game Devil May Cry is now a series, and this time, there’s no sympathy for the devil. \n(Source: Crunchyroll, edited)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "14/06/2007",
+    "lastEpisodeDate": "06/09/2007",
+    "rawStartDate": {
+      "year": 2007,
+      "month": 6,
+      "day": 14
+    },
+    "rawEndDate": {
+      "year": 2007,
+      "month": 9,
+      "day": 6
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.9aa9f7a8-5b9b-bf07-9123-9d6491b6f60b"
+  },
+  {
+    "id": "franchise-177709",
+    "titleFr": "Sakamoto Days",
+    "titleOrig": "SAKAMOTO DAYS",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177709-e5Qx6RlsBgD5.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 11,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.8",
+    "trailerId": "CdnMoPIgC5s",
+    "genres": "Action, Comedy",
+    "synopsis": "When Sakamoto meets Aoi, the convenience store clerk, it’s love at first sight — and just like that, he retires.\n\nSakamoto gets married, has a daughter, opens a mom-and-pop store in a quiet town, and completely transforms … into a plus-size man. To ensure a peaceful life with his beloved family, the legendary ex–hit man bands together with comrades to face off against the looming threat of assassins.\n\n(Source: Netflix TUDUM)\n\nNote: The series streamed a week in advance on Netflix Japan starting with episode 2 released alongside episode 1.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "11/01/2025",
+    "lastEpisodeDate": "15/03/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 1,
+      "day": 11
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 3,
+      "day": 15
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81663325"
+  },
+  {
+    "id": "franchise-177679",
+    "titleFr": "DARWIN'S INCIDENT",
+    "titleOrig": "Darwin Jihen",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177679-BgsgE0fQk3qN.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "zRann2zoXx0",
+    "genres": "Sci-Fi, Thriller",
+    "synopsis": "Created in a biological science lab, Charlie is a half human, half chimpanzee hybrid known as a \"Humanzee\". Raised by his adoptive human parents, Charlie is now 15 and starting high school. There he meets Lucy, a clever loner who becomes his first-ever friend. But his “normal” life is shattered when the animal rights extremists who freed his mother from the lab fifteen years ago reemerge as terrorists bent on kidnapping Charlie at all costs.\n\n(Source: Kodansha USA)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "07/01/2026",
+    "lastEpisodeDate": "01/04/2026",
+    "rawStartDate": {
+      "year": 2026,
+      "month": 1,
+      "day": 7
+    },
+    "rawEndDate": {
+      "year": 2026,
+      "month": 4,
+      "day": 1
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.c6936fbf-0aee-4c15-b594-9d8ec473a3b4"
+  },
+  {
+    "id": "franchise-210482",
+    "titleFr": "Steel Ball Run: JoJo's Bizarre Adventure",
+    "titleOrig": "JoJo no Kimyou na Bouken: Steel Ball Run - 2nd - 3rd STAGE",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx210482-P1VNKbqdJ6Zj.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 11,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": null,
+    "trailerId": "jXtG_lcR9P4",
+    "genres": "Action, Adventure, Drama, Mystery, Supernatural",
+    "synopsis": "The second race stage of JoJo no Kimyou na Bouken: Steel Ball Run.\n\nIn the 2nd STAGE, a desert crossing spanning roughly 750 miles- the land that Johnny Joestar and Gyro Zeppeli must challenge, is home to the area that is feared as the \"Devil's Palm.\" In 1875, a threat lurking in said desert wiped out a cavalry of 26 people, eliciting fear from the local native people. As ominous incidents begin to unfold, they are forced to realize that this race is far more than a mere competition. The two press forward, where countless hidden motives collide. \n\n(Source: Warner Bros. Japan Anime, Netflix Anime, edited)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "25/09/2026",
+    "lastEpisodeDate": null,
+    "rawStartDate": {
+      "year": 2026,
+      "month": 9,
+      "day": 25
+    },
+    "rawEndDate": null,
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/82116553"
+  },
+  {
+    "id": "franchise-181444",
+    "titleFr": "BLOOM",
+    "titleOrig": "Kaoru Hana wa Rin to Saku",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181444-Ut9DDUZdfHwg.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.3",
+    "trailerId": "wMDwbC-cAQg",
+    "genres": "Comedy, Drama, Romance",
+    "synopsis": "Chidori High is a boys’ school that takes in the dregs of society with the lowest grades. Next door stands Kikyo Girls’ High, where the wealthy, high-class families send their precious daughters. Chidori second-year Rintarou, who has a fierce face but a gentle heart, is helping at his family’s patisserie when he meets a girl named Kaoruko. The two hit it off right away…but this blissful peace is quickly disturbed when Rintarou discovers that Kaoruko is actually a student at Kikyo. Worse, she doesn’t seem to realize what a huge problem this really is! Will these two be able to forge a path for themselves, and sidestep the traps (metaphorical and literal) laid by their classmates?\n\n(Source: Kodansha USA)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "06/07/2025",
+    "lastEpisodeDate": "28/09/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 9,
+      "day": 28
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/82024665"
+  },
+  {
+    "id": "franchise-170942",
+    "titleFr": "Blue Box",
+    "titleOrig": "Ao no Hako",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170942-KKcLfQzV57nG.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 25,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.0",
+    "trailerId": "uvvYMBLY-w4",
+    "genres": "Romance, Slice of Life, Sports",
+    "synopsis": "Do these sports-crossed lovers have a chance?\n\nTaiki Inomata loves badminton, but he has a long way to go before he can reach nationals. When Taiki sees upperclassman Chinatsu Kano practicing her heart out on the girls’ basketball team, he falls for her hard. After an unexpected turn of events brings the two closer together, sports might not be the first thing on their minds anymore!(Source: TMS Anime)\nNote: The series streamed a week in advance on Netflix Japan starting with episode 2 released alongside episode 1.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "03/10/2024",
+    "lastEpisodeDate": "20/03/2025",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 10,
+      "day": 3
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 3,
+      "day": 20
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81663323"
+  },
+  {
+    "id": "franchise-98460",
+    "titleFr": "Devilman Crybaby",
+    "titleOrig": "DEVILMAN crybaby",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98460-bLtH2c3jd6sV.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 10,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.8",
+    "trailerId": "g4LjvxtFieE",
+    "genres": "Action, Drama, Horror, Psychological, Supernatural",
+    "synopsis": "New Devilman project marking Go Nagai's 50th anniversary as a creator.The protagonist Akira Fudou learns from his best friend, Ryou Asuka, that an ancient race of demons has returned to take back the world from humans. Ryou tells Akira that the only way to defeat the demons is to incorporate their supernatural powers, and suggests that he unite with a demon himself. Akira succeeds in transforming into Devilman, who possesses both the powers of a demon and the soul of a human. The battle of Devilman and Akira Fudou begins. (Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "05/01/2018",
+    "lastEpisodeDate": "05/01/2018",
+    "rawStartDate": {
+      "year": 2018,
+      "month": 1,
+      "day": 5
+    },
+    "rawEndDate": {
+      "year": 2018,
+      "month": 1,
+      "day": 5
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80174974"
+  },
+  {
+    "id": "franchise-208352",
+    "titleFr": "Dandelion",
+    "titleOrig": "Dandelion",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b208352-KUuXI4sVbtYV.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 7,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "IRe_ScY2C3s",
+    "genres": "Action, Comedy, Supernatural",
+    "synopsis": "Dandelion follows Tetsuo Tanba and Misaki Kurogane, members of the Japanese Angel Federation’s Send-Off Department. Their job? Tracking down restless earthbound spirits and gently guiding them to the afterlife.\n\nWhile other angels rush to close their cases, the 21st Division’s Dandelion Clan takes a different approach. Dandelion members Tetsuo Tanba and his leader, Misaki Kurogane, listen to each spirit’s regrets and help them resolve what’s holding them back. They even help a spirit who’s an elderly man running at full speed, desperate to escape.\n\nThe angels themselves are full of surprises. Tanba’s permanent scowl and sharp tongue mask a deeply compassionate nature, while Kurogane is a formidable force — despite her girlish appearance. She’s rumored to have laid to rest the legendary soul of Musashi Miyamoto.\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "16/04/2026",
+    "lastEpisodeDate": "16/04/2026",
+    "rawStartDate": {
+      "year": 2026,
+      "month": 4,
+      "day": 16
+    },
+    "rawEndDate": {
+      "year": 2026,
+      "month": 4,
+      "day": 16
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81579317"
+  },
+  {
+    "id": "franchise-177689",
+    "titleFr": "The Summer Hikaru Died",
+    "titleOrig": "Hikaru ga Shinda Natsu",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177689-d0mB5nYgdnhi.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.0",
+    "trailerId": "sFaO07LwAVg",
+    "genres": "Horror, Mystery, Psychological, Supernatural, Thriller",
+    "synopsis": "Two best friends living in a rural Japanese village: Yoshiki and Hikaru. Growing up together, they were inseparable… until the day Hikaru came back from the mountains, and was no longer himself. “Something” has taken over Hikaru’s body, memories, feelings… and everything they know begins to unravel.\n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "06/07/2025",
+    "lastEpisodeDate": "28/09/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 7,
+      "day": 6
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 9,
+      "day": 28
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81948057"
+  },
+  {
+    "id": "franchise-127399",
+    "titleFr": "Valkyrie Apocalypse",
+    "titleOrig": "Shuumatsu no Valkyrie",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127399-AAH1pevCZLrB.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "_9HxsIYORyE",
+    "genres": "Action, Drama, Fantasy, Supernatural",
+    "synopsis": "7 million years of human civilization is coming to an end…\n\nEvery thousand years, all the gods of the world gather in heaven to attend the Conference of Mankind Survival. The gods agree to end to mankind due to their foolish acts, but before the final verdict is made, Brunhild, the eldest of the 13 valkyrie sisters, makes an objection.\n\n“To spice things up, why don’t you test the humans?”\n\nShe proposes that the all-powerful gods face off in one-on-one battles against the strongest champions from human history — during a final struggle known as “Ragnarok.” The first team to win 7 out of 13 battles will be declared the winner, but it seems almost impossible for humans to win against the gods. \n\nAlthough the gods sneer at her declaration, Brunhild provokes them further:\n\n“Are you chickening out?”\n\nHer words hit the gods’ nerves, and, enraged, they accept her proposal. Now, Brunhild and her sisters must choose humanity’s 13 champions in a desperate battle for survival. Will humans surpass gods and prevent humanity’s ultimate end? The eschatological battles between heaven and earth finally begins!\n\n(Source: Warner Bros. Japan)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "17/06/2021",
+    "lastEpisodeDate": "17/06/2021",
+    "rawStartDate": {
+      "year": 2021,
+      "month": 6,
+      "day": 17
+    },
+    "rawEndDate": {
+      "year": 2021,
+      "month": 6,
+      "day": 17
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81281579"
+  },
+  {
+    "id": "franchise-151514",
+    "titleFr": "Du mouvement de la Terre",
+    "titleOrig": "Chi. Chikyuu no Undou ni Tsuite",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151514-Y0d82Ah2ZOHX.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 25,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.3",
+    "trailerId": "EBosY5GPpfw",
+    "genres": "Drama",
+    "synopsis": "The setting is 15th-century Europe. It was a time when heretical ideas lead those to who possessed such a mindset to being burned at the stake for their beliefs.\n\nThe protagonist, Rafał, a child prodigy, is expected to major in theology, the most important subject at the time, at the university where he plans to skip a grade. One day, however, he comes across a mysterious man, and is now studying a possible \"truth\" in the midst of heretical thought!\n(Source: Shogakukan, translated)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "05/10/2024",
+    "lastEpisodeDate": "15/03/2025",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 10,
+      "day": 5
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 3,
+      "day": 15
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81765022"
+  },
+  {
+    "id": "franchise-165171",
+    "titleFr": "Medalist",
+    "titleOrig": "Medalist",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165171-an9pyRXwVxJS.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.2",
+    "trailerId": "yotDEXGaP9k",
+    "genres": "Drama, Psychological, Sports",
+    "synopsis": "Tsukasa Akeuraji, a frustrated skater, meets a girl called Inori Yuitsuka, who is yearning to enter the world of figure skating. Motivated by Inori's obsession on the rink, Tsukasa takes on coaching Inori himself. Inori's talent blossoms, and Tsukasa becomes a brilliant mentor. Together they aim to make her a glorious medalist!! \n\n(Source: Disney+)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "05/01/2025",
+    "lastEpisodeDate": "30/03/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 1,
+      "day": 5
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 3,
+      "day": 30
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-bb33d0c2-b077-4bc0-a549-d2ca27d4afa8"
+  },
+  {
+    "id": "franchise-21827",
+    "titleFr": "Violet Evergarden",
+    "titleOrig": "Violet Evergarden",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21827-ubzq619ZA2E9.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.3",
+    "trailerId": "_grmduuECm4",
+    "genres": "Drama, Fantasy, Slice of Life",
+    "synopsis": "A certain point in time, in the continent of Telesis. The great war which divided the continent into North and South has ended after four years, and the people are welcoming a new generation. Violet Evergarden, a young girl formerly known as “the weapon”, has left the battlefield to start a new life at CH Postal Service. There, she is deeply moved by the work of “Auto Memories Dolls”, who carry people's thoughts and convert them into words. Violet begins her journey as an Auto Memories Doll, and comes face to face with various people's emotions and differing shapes of love. There are words Violet heard on the battlefield, which she cannot forget. These words were given to her by someone she holds dear, more than anyone else. She does not yet know their meaning but she searches to find it.\n\n(Source: Anime News Network)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "11/01/2018",
+    "lastEpisodeDate": "05/04/2018",
+    "rawStartDate": {
+      "year": 2018,
+      "month": 1,
+      "day": 11
+    },
+    "rawEndDate": {
+      "year": 2018,
+      "month": 4,
+      "day": 5
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80182123"
+  },
+  {
+    "id": "franchise-263",
+    "titleFr": "Hajime no Ippo : The Fighting",
+    "titleOrig": "Hajime no Ippo: THE FIGHTING!",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx263-ivVyn9xAgwSZ.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 75,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.3",
+    "trailerId": null,
+    "genres": "Comedy, Drama, Sports",
+    "synopsis": "Makunouchi Ippo has been bullied his entire life. Constantly running errands and being beaten up by his classmates, Ippo has always dreamed of changing himself, but never has the passion to act upon it. One day, in the midst of yet another bullying, Ippo is saved by Takamura Mamoru, who happens to be a boxer. Ippo faints from his injuries and is brought to the Kamogawa boxing gym to recover. As he regains consciousness, he is awed and amazed at his new surroundings in the gym, though lacks confidence to attempt anything. Takamura places a photo of Ippo's classmate on a punching bag and forces him to punch it. It is only then that Ippo feels something stir inside him and eventually asks Takamura to train him in boxing. Thinking that Ippo does not have what it takes, Takamura gives him a task deemed impossible and gives him a one week time limit. With a sudden desire to get stronger, for himself and his hard working mother, Ippo trains relentlessly to accomplish the task within the time limit. Thus Ippo's journey to the top of the boxing world begins.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "04/10/2000",
+    "lastEpisodeDate": "27/03/2002",
+    "rawStartDate": {
+      "year": 2000,
+      "month": 10,
+      "day": 4
+    },
+    "rawEndDate": {
+      "year": 2002,
+      "month": 3,
+      "day": 27
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80995578"
+  },
+  {
+    "id": "franchise-202955",
+    "titleFr": "Le prisme de l'amour",
+    "titleOrig": "Prism Rondo",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b202955-TFyTd1zFT1v7.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 20,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.2",
+    "trailerId": "oLXSfFqTnXg",
+    "genres": "Drama, Romance",
+    "synopsis": "Yoko Kamio, whose manga \"Boys Over Flowers\" enraptured readers around the globe, brings a brand-new classic to viewers worldwide. Set at a London art academy in the opening decade of the 1900s, the Netflix Series \"Love Through a Prism\" follows Lili Ichijoin, a girl enchanted by painting, as she chases her dreams and experiences youth. This ensemble coming-of-age story about young people striving for prismatic radiance against the odds is about to begin.\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "15/01/2026",
+    "lastEpisodeDate": "15/01/2026",
+    "rawStartDate": {
+      "year": 2026,
+      "month": 1,
+      "day": 15
+    },
+    "rawEndDate": {
+      "year": 2026,
+      "month": 1,
+      "day": 15
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81498882"
+  },
+  {
+    "id": "franchise-177474",
+    "titleFr": "TOUGEN ANKI",
+    "titleOrig": "Tougen Anki",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177474-oHil1yLWldfl.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 24,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "2AddvIbCrr8",
+    "genres": "Action, Mystery, Supernatural",
+    "synopsis": "The bloodlines of “Oni” and “Momotarou” have been passed down among certain humans for generations.\n\nLong ago, the Oni, aware of their own ferocity, lived in seclusion. However, their peace was shattered by an invasion led by Momotarou.\nOver thousands of years, these two factions formed the “Momotarou Agency” and the “Oni Agency,” respectively, and have been locked in conflict ever since.\n\nThe protagonist, Shiki Ichinose, suddenly learns of his Oni lineage following an unexpected attack by Momotarou. This revelation sets Shiki on a path to discover the destiny that lies within his blood — a meeting with the Oni dwelling within him.\n\n—A new generation of dark heroics begins here in this tale of demons!\n\n(Source: Official Site)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "11/07/2025",
+    "lastEpisodeDate": "26/12/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 7,
+      "day": 11
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 12,
+      "day": 26
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81969861",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7615134a-e25b-418c-b819-076215c15863"
+  },
+  {
+    "id": "franchise-107660",
+    "titleFr": "Beastars",
+    "titleOrig": "BEASTARS",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx107660-hgknnyaLchJW.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.9",
+    "trailerId": "n-35-JRzT7k",
+    "genres": "Drama, Mystery, Psychological, Romance, Slice of Life",
+    "synopsis": "In a world populated by anthropomorphic animals, herbivores and carnivores coexist with each other. For the adolescents of Cherryton Academy, school life is filled with hope, romance, distrust, and uneasiness.\nThe main character is Legoshi the wolf, a member of the drama club. Despite his menacing appearance, he has a very gentle heart. Throughout most of his life, he has always been an object of fear and hatred by other animals, and he’s been quite accustomed to that lifestyle. But soon, he finds himself becoming more involved with his fellow classmates who have their own share of insecurities and finds his life in school changing slowly.\n(Source: moetron)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "10/10/2019",
+    "lastEpisodeDate": "26/12/2019",
+    "rawStartDate": {
+      "year": 2019,
+      "month": 10,
+      "day": 10
+    },
+    "rawEndDate": {
+      "year": 2019,
+      "month": 12,
+      "day": 26
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81054847"
+  },
+  {
+    "id": "franchise-106154",
+    "titleFr": "Ghost in the Shell SAC_2045",
+    "titleOrig": "Koukaku Kidoutai: SAC_2045",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx106154-14XxxKUUwh13.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.1",
+    "trailerId": "3BAbiNCW91U",
+    "genres": "Action, Mystery, Sci-Fi",
+    "synopsis": "After a global financial crisis, the world is engulfed in an AI-driven \"sustainable war.\" It's up to Section 9 to counter new forms of cyber threats.(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "23/04/2020",
+    "lastEpisodeDate": "23/04/2020",
+    "rawStartDate": {
+      "year": 2020,
+      "month": 4,
+      "day": 23
+    },
+    "rawEndDate": {
+      "year": 2020,
+      "month": 4,
+      "day": 23
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81030224"
+  },
+  {
+    "id": "franchise-158417",
+    "titleFr": "Go! Go! Loser Ranger!",
+    "titleOrig": "Sentai Daishikkaku",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx158417-Ii0DOFwNim0A.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.6",
+    "trailerId": "CUiUxP1p7hI",
+    "genres": "Action, Comedy, Drama, Sci-Fi",
+    "synopsis": "When the Monster Army invaded Earth thirteen years ago, the Divine Dragon Rangers rose up to stop them! With the war raging on, these great heroes are mankind’s last hope!\n\n...or are they?\n\nIn truth, the invaders were subjugated within a year, forced to continue to crank out a monster a week for the Rangers to crush in front of their adoring fans! But one monster has had enough. Something has to change! He’ll rebel against the might of the Dragon Rangers and destroy them all...from the inside!\n\n(Source: Kodansha USA)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "07/04/2024",
+    "lastEpisodeDate": "30/06/2024",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 4,
+      "day": 7
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 6,
+      "day": 30
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-f3a712f6-b358-4b21-b28a-221f23e0eb48"
+  },
+  {
+    "id": "franchise-177814",
+    "titleFr": "Terminator Zero",
+    "titleOrig": "Terminator 0",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177814-Xr9F98LExkWd.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 8,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "BqcSNkmKXzc",
+    "genres": "Action, Drama, Psychological, Sci-Fi, Thriller",
+    "synopsis": "2022: A future war has raged for decades between the few human survivors and an endless army of machines. 1997: The AI known as Skynet gained self-awareness and began its war against humanity.\n\nCaught between the future and this past is a soldier sent back in time to change the fate of humanity. She arrives in 1997 to protect a scientist named Malcolm Lee who works to launch a new AI system designed to compete with Skynet’s impending attack on humanity. As Malcolm navigates the moral complexities of his creation, he’s hunted by an unrelenting assassin from the future, which forever alters the fate of his three children.\n(Source: Netflix TUDUM)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "29/08/2024",
+    "lastEpisodeDate": "29/08/2024",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 8,
+      "day": 29
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 8,
+      "day": 29
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81217220"
+  },
+  {
+    "id": "franchise-98314",
+    "titleFr": "Gambling School",
+    "titleOrig": "Kakegurui",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98314-TSJykxVwCCQN.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "v2xJDuM9ZDM",
+    "genres": "Drama, Mystery, Psychological",
+    "synopsis": "During daylight hours, an exclusive, elite private school prepares its illustrious students for careers in business, politics, and high society. But when darkness falls, the halls of this esteemed establishment transform into an underground gambling den where bright-eyed youngsters learn the timeless art of bluffing, backdoor dealings and social manipulation. In this school for the rich and elite, money is power, and the tyrant of the betting books rules with an iron fist. So when the beautiful Yumeko Jabami upsets the academy hierarchy with her voracious appetite for the thrill of the gamble, the entire student body mobilizes to send her house of cards tumbling down.\n\n(Source: Sentai Filmworks)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "01/07/2017",
+    "lastEpisodeDate": "23/09/2017",
+    "rawStartDate": {
+      "year": 2017,
+      "month": 7,
+      "day": 1
+    },
+    "rawEndDate": {
+      "year": 2017,
+      "month": 9,
+      "day": 23
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80175351"
+  },
+  {
+    "id": "franchise-2823",
+    "titleFr": "Barbapapa",
+    "titleOrig": "Barbapapa",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2823.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 45,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "2.9",
+    "trailerId": null,
+    "genres": "Comedy, Fantasy",
+    "synopsis": "Barbapapa and his family can turn into anything they want. Each member of the family has his or her own personality. Very good show for the youngest children as each episode deals with another problem they will recognise in a way that is 'morally correct'.\n\n(Source: Anime News Network)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "13/10/1974",
+    "lastEpisodeDate": "28/09/1975",
+    "rawStartDate": {
+      "year": 1974,
+      "month": 10,
+      "day": 13
+    },
+    "rawEndDate": {
+      "year": 1975,
+      "month": 9,
+      "day": 28
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4c40e9aa-d8a3-46ce-9aed-f2c25c3263ed"
+  },
+  {
+    "id": "franchise-100891",
+    "titleFr": "Kengan Ashura",
+    "titleOrig": "Kengan Ashura",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100891-vPfnfkzizYFe.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.6",
+    "trailerId": "Q2O4yzfR5FQ",
+    "genres": "Action, Sports",
+    "synopsis": "Since the Edo periods of Japan, gladiator arenas exist in certain areas. In these arenas, wealthy business owners and merchants hire gladiators to fight in unarmed combat where winner takes all. Toki Taouma, nicknamed \"Ashura\", joins these arenas and devastates his opponents. His spectacular ability to crush his enemies catches the attention of the big business owners, including the Nogi Group chairman, Nogi Hideki.\n\n(Source: MangaHelpers)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "31/07/2019",
+    "lastEpisodeDate": "31/07/2019",
+    "rawStartDate": {
+      "year": 2019,
+      "month": 7,
+      "day": 31
+    },
+    "rawEndDate": {
+      "year": 2019,
+      "month": 7,
+      "day": 31
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80992228"
+  },
+  {
+    "id": "franchise-6024",
+    "titleFr": "Chi, Une Vie de Chat",
+    "titleOrig": "Chi's Sweet Home: Atarashii Ouchi",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6024-eYiQMRfPfWiF.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 104,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.7",
+    "trailerId": null,
+    "genres": "Comedy, Slice of Life",
+    "synopsis": "Chi is still living with the Yamada family, but they decide it isn't fair to force her to hide indoors in their \"no pets allowed\" apartment. So they decide there is only one thing to be done, Chi must move away for her own happiness.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "30/03/2009",
+    "lastEpisodeDate": "24/09/2009",
+    "rawStartDate": {
+      "year": 2009,
+      "month": 3,
+      "day": 30
+    },
+    "rawEndDate": {
+      "year": 2009,
+      "month": 9,
+      "day": 24
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81712502"
+  },
+  {
+    "id": "franchise-150654",
+    "titleFr": "Moonrise",
+    "titleOrig": "MOONRISE",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx150654-pgima1BrY7N0.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 18,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.2",
+    "trailerId": "e1Y9KkuL2DQ",
+    "genres": "Action, Adventure, Sci-Fi",
+    "synopsis": "In a not-too-distant future, humanity has established a loosely organized world government with everything managed by an international AI network called Sapientia. People live peaceful lives by loyally obeying its rational decisions. However, Sapientia’s lunar development project, which sends criminals and pollutants to the Moon to maintain Earth’s peace, creates disparity and poverty on the Moon, sparking a catalyst for war. Jacob \"Jack\" Shadow gets caught up in this conflict after losing his family to a terrorist bombing by the Moon's rebel army. Vowing revenge, Jack joins the Earth army as a scout on the Moon, only to discover an unexpected leader among the resistance forces. \n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "10/04/2025",
+    "lastEpisodeDate": "10/04/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 4,
+      "day": 10
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 4,
+      "day": 10
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81251383"
+  },
+  {
+    "id": "franchise-186621",
+    "titleFr": "A Star Brighter than the Sun",
+    "titleOrig": "Taiyou yori mo Mabushii Hoshi",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186621-jFeAgDQkQMUm.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.6",
+    "trailerId": "ASdWWKeNBlI",
+    "genres": "Romance",
+    "synopsis": "Sae Iwata, a slightly tougher-than-average girl, falls for the gentle smile of Kouki Kamishiro, a delicate boy, back in elementary school. By the time they enter junior high school, Kuoki has grown into a charming and popular teen who now feels out of reach. When they are assigned to the sports festival committee together, Sae’s long-hidden first love begins to stir once more.\n\n(Source: Amazon Prime Video, edited)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "02/10/2025",
+    "lastEpisodeDate": "18/12/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 10,
+      "day": 2
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 12,
+      "day": 18
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4604d36e-9206-4746-9b00-9ffd17026546"
+  },
+  {
+    "id": "franchise-1818",
+    "titleFr": "Claymore",
+    "titleOrig": "CLAYMORE",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1818-KieLJv0qo3mO.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 26,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.7",
+    "trailerId": "c5DDD0ofspk",
+    "genres": "Action, Adventure, Fantasy, Horror",
+    "synopsis": "A brutal scourge stalks the land. Yoma, monsters driven by a hunger satisfied by only one quarry - Humanity. The dark breed knows but a singular foe: Claymore. Human-Yoma hybrids of extraordinary strength and cunning, the Claymores roam from skirmish to skirmish delivering salvation by the edge of a blade.\n\nThus begins the twisting tale of Clare, one such sister of the sword driven by pain in both victory and defeat. A child silent and suffering hidden in her past, Clare's march toward vengeance unfolds along a path marked by violence, solitude and scorn. In a land where even the predator is prey, the haunted hearts of hunter and hunted alike wear the scars of the age.\n\n(Source: Funimation)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "04/04/2007",
+    "lastEpisodeDate": "26/09/2007",
+    "rawStartDate": {
+      "year": 2007,
+      "month": 4,
+      "day": 4
+    },
+    "rawEndDate": {
+      "year": 2007,
+      "month": 9,
+      "day": 26
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/70204964"
+  },
+  {
+    "id": "franchise-153930",
+    "titleFr": "Romantic Killer",
+    "titleOrig": "Romantic Killer",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153930-uTRxaIcNa26E.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.9",
+    "trailerId": "jcmnHOJm8-A",
+    "genres": "Comedy, Romance",
+    "synopsis": "Anzu Hoshino is a \"non-heroine type\" high school girl who pays no attention to fashion or romance and spends every day playing video games. When the wizard Riri suddenly appears, Anzu is forced to participate in the Magical World's project to stop population decline. This romantic comedy depicts what happens when Anzu goes from living a life immersed in her three favorite things — video games, chocolate, and cats — to being surrounded by handsome guys. Anzu is steadfast in her claim that she never wanted to live in a dating simulation game. She meets a handsome guy who is so popular it hurts, a clean-cut and athletic childhood friend, and a beautiful rich young guy who is naive about the outside world. By meeting Anzu, they all begin to change gradually.\n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "27/10/2022",
+    "lastEpisodeDate": "27/10/2022",
+    "rawStartDate": {
+      "year": 2022,
+      "month": 10,
+      "day": 27
+    },
+    "rawEndDate": {
+      "year": 2022,
+      "month": 10,
+      "day": 27
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81318888"
+  },
+  {
+    "id": "franchise-140291",
+    "titleFr": "Disney Twisted-Wonderland: The Animation",
+    "titleOrig": "Disney Twisted-Wonderland: THE ANIMATION - Season 1: EPISODE of HEARTSLABYUL",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140291-RAwYjwC9vWDR.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 8,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "ln2sbYZzG6E",
+    "genres": "Adventure, Fantasy",
+    "synopsis": "Yuuken is whisked away to Night Raven College, an arcane academy in the world of Twisted Wonderland. Stranded until he can find a way home, Yuuken is allowed to stay on campus despite having no magic of his own. But when his new friends land him in trouble with the headmage, his future at the school looks bleak. Now Yuuken’s fate hinges on bringing together a pair of argumentative first-years and a fire-breathing monster cat…\n\n(Source: VIZ Media, edited)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "29/10/2025",
+    "lastEpisodeDate": "17/12/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 10,
+      "day": 29
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 12,
+      "day": 17
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-dea589b3-2f6d-4991-a875-c67d625a4e37"
+  },
+  {
+    "id": "franchise-148862",
+    "titleFr": "The Seven Deadly Sins: Four Knights of the Apocalypse",
+    "titleOrig": "Nanatsu no Taizai: Mokushiroku no Yonkishi",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx148862-ctw1sn45I4ZX.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 24,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.6",
+    "trailerId": "FCK1T_jNx4E",
+    "genres": "Action, Adventure, Fantasy",
+    "synopsis": "Percival is a kind boy who lives out on the frontier called \"Finger of God\" along with his grandfather. However, the world was not kind enough to let peace and tranquility last for long. An encounter with a mysterious knight changed their destiny, and a shocking truth comes to light. The boy then sets off on an endless journey.\n\n(Source: Kodansha USA)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "08/10/2023",
+    "lastEpisodeDate": "31/03/2024",
+    "rawStartDate": {
+      "year": 2023,
+      "month": 10,
+      "day": 8
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 3,
+      "day": 31
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81562396"
+  },
+  {
+    "id": "franchise-165159",
+    "titleFr": "Beyblade X",
+    "titleOrig": "BEYBLADE X",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165159-aCFC9Sng7t4M.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 1,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.2",
+    "trailerId": "SXdTmFshlFs",
+    "genres": "Action, Adventure, Sports",
+    "synopsis": "Bird Kazami, aiming to become a pro Blader, meets former champion Ekusu Kurosu, also known as 'Kamen X', and forms a team so that they can aim for the \"top\" of the X Tower. But what awaits them is a spectacular battle that no one has ever seen before. The yet unseen 'X'. The super accelerated (Xtreme) Beyblade runs through a new era!\n\n(Source: Official website)",
+    "cast": "",
+    "airingStatus": "RELEASING",
+    "releaseDate": "06/10/2023",
+    "lastEpisodeDate": null,
+    "rawStartDate": {
+      "year": 2023,
+      "month": 10,
+      "day": 6
+    },
+    "rawEndDate": null,
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81924739",
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-9ab37ad5-5efd-40bb-a1a5-35e87085a4bf"
+  },
+  {
+    "id": "franchise-180367",
+    "titleFr": "Witch Watch",
+    "titleOrig": "Witch Watch",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180367-GlRuB2lG7Kaa.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 25,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.6",
+    "trailerId": "JHa8g_1xsvI",
+    "genres": "Comedy, Drama, Fantasy, Romance, Slice of Life, Supernatural",
+    "synopsis": "Morihito Otogi, a high school student who comes from a lineage of ogres, enjoys a peaceful, ordinary life until his childhood friend, Nico, moves in with him. Nico is a witch-in-training, and chooses Morihito to be her familiar. While Nico is thrilled to reunite with her old friend and crush, Morihito is tasked with the perilous duty to protect her from a foretold calamity. Between the unpredictable chaos caused by Nico’s magic, and the awkwardness of sharing a home, their lives become a whirlwind of supernatural hijinks and threats.\n\n(Source: Crunchyroll) \n\nNotes: \n- Worldwide premiere of Episodes 1-3 titled as WITCH WATCH: WATCH PARTY before the Japanese premiere was pre-screened in advance in theaters on March 16, 2025 in North America by GKIDS Films and March 22 and 23 in Europe by Animation Digital Network. \n- Episodes 1-2 + a selection of stories (Cat Scout, Kanshi's Part Time Job Diaries ~ The Side Job ~, and Kan & Nico's Channel) was pre-screened in advance in theaters on March 30, 2025 in Japan. The regular TV broadcast began April 6, 2025.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "06/04/2025",
+    "lastEpisodeDate": "05/10/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 4,
+      "day": 6
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 10,
+      "day": 5
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81991687",
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.0357bfec-72fe-40ad-9f27-1d93c3481617"
+  },
+  {
+    "id": "franchise-138060",
+    "titleFr": "Star Wars Visions",
+    "titleOrig": "Star Wars: Visions",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138060-8G02wer2Lsxo.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 9,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "lle0NNmvIyU",
+    "genres": "Action, Adventure, Sci-Fi",
+    "synopsis": "An anthology of animated shorts celebrating Star Wars through the lens of the world's best anime creators and storytellers.\n\n1) The Duel (Mizuno Takanobu, Kamikaze Douga)\n\n2) Tatooine Rhapsody (Taku Kimura, Studio Colorido)\n\n3) The Twins (Hiroyuki Imaishi, Trigger)\n\n4) The Village Bride (Hitoshi Haga, Kinema Citrus)\n\n5) The Ninth Jedi (Kenji Kamiyama, Production I.G.)\n\n6) T0-B1 (Abel Gongora, Science SARU)\n\n7) The Elder (Masahiko Ootsuka, Trigger)\n\n8) Lop and Ochou (Yuuki Igarashi, Geno Studio)\n\n9) Akakiri (Eun-Yeong Choi, Science SARU)\nNote: A further batch of 9 episodes released on May 4, 2023 as Star Wars: Visions Volume 2 does not meet our eligibility requirements as only a single episode was animated by a studio meeting our Country of Origin criteria.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "22/09/2021",
+    "lastEpisodeDate": "22/09/2021",
+    "rawStartDate": {
+      "year": 2021,
+      "month": 9,
+      "day": 22
+    },
+    "rawEndDate": {
+      "year": 2021,
+      "month": 9,
+      "day": 22
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-2bd9a5cd-ab23-40ec-b211-4c87f2e94528"
+  },
+  {
+    "id": "franchise-147103",
+    "titleFr": "My Happy Marriage",
+    "titleOrig": "Watashi no Shiawase na Kekkon",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147103-Om2LOXlhHNAe.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.8",
+    "trailerId": "HnLsLUBxboo",
+    "genres": "Drama, Romance, Supernatural",
+    "synopsis": "Despite being born into a noble family, Miyo lost her birth mother at a young age and grew up being abused by her stepmother, stepsister, and father.\n\nWhen she finally receives news that she's to be married off, she finds out that her husband-to-be is Kiyoka, a soldier with a reputation for being cruel and heartless. In fact, he's had numerous previous fiancées who have all fled his household; none lasting even a mere three days.  Resigned to the fact that her family had abandoned her, Miyo knocks on the gate of the Kudou household to find herself greeted by a beautiful man with pale skin. Despite the poor treatment she receives from her husband-to-be during their first meeting, Miyo is unable to return to her old home and spends her time cooking and doing chores. However, as the days pass, Miyo and Kiyoka being to slowly open their hearts to each other... \n\n(Source: KADOKAWA, edited)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "05/07/2023",
+    "lastEpisodeDate": "20/09/2023",
+    "rawStartDate": {
+      "year": 2023,
+      "month": 7,
+      "day": 5
+    },
+    "rawEndDate": {
+      "year": 2023,
+      "month": 9,
+      "day": 20
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81564905"
+  },
+  {
+    "id": "franchise-12531",
+    "titleFr": "Kids on the Slope",
+    "titleOrig": "Sakamichi no Apollon",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx12531-m8q2U1lA6V90.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.0",
+    "trailerId": "fpJSOUCSWGI",
+    "genres": "Drama, Music, Romance, Slice of Life",
+    "synopsis": "The beginning of summer, 1966. \nBecause of his father's job situation, freshman high school student Kaoru Nishimi moves by himself from Yokosuka to Kyushu to live with relatives. Until then, Kaoru was an honor roll student who tended to keep to himself, but meeting notorious bad boy Sentaro Kawabuchi starts to change him. Through his devil-may-care classmate, Kaoru learns the attractions of jazz and finds the first person he can call a \"friend\". He also discovers how much fun it is to play music with a pal. \nOther characters include Sentaro's kind childhood chum, Ritsuko, who is the daughter of a record shop owner; the mysterious upperclassman, Yurika; and Brother Jun, the much-admired leader among their peers. Set against the backdrop of a seaside town with a scent of American culture, this series is a drama about young people coming into their own, crossing each other's paths, and finding friendship, love, and music! \n(Source: Official Website)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "13/04/2012",
+    "lastEpisodeDate": "29/06/2012",
+    "rawStartDate": {
+      "year": 2012,
+      "month": 4,
+      "day": 13
+    },
+    "rawEndDate": {
+      "year": 2012,
+      "month": 6,
+      "day": 29
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8335a45b-61e6-4a8c-9c17-81ffbaf74b9b"
+  },
+  {
+    "id": "franchise-20946",
+    "titleFr": "Mon Histoire",
+    "titleOrig": "Ore Monogatari!!",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20946-ejH7JhG6z25y.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 24,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.9",
+    "trailerId": "GdB0LsAceGE",
+    "genres": "Comedy, Romance",
+    "synopsis": "Takeo Gouda is a giant guy with a giant heart. Too bad the girls don't want him! (They always go for his good-looking best friend, Sunakawa.) Used to being on the sidelines, Takeo simply stands tall and accepts his fate. But one day when he saves a girl named Yamato from a harasser on the train, his (love!) life suddenly takes an incredible turn! Takeo can hardly believe it when he crosses paths with Yamato again, and he finds himself falling in love with her… But with handsome Sunakawa around, does Takeo even stand a chance?\n(Source: Crunchyroll)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "09/04/2015",
+    "lastEpisodeDate": "24/09/2015",
+    "rawStartDate": {
+      "year": 2015,
+      "month": 4,
+      "day": 9
+    },
+    "rawEndDate": {
+      "year": 2015,
+      "month": 9,
+      "day": 24
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81409988"
+  },
+  {
+    "id": "franchise-151799",
+    "titleFr": "New PANTY & STOCKING with GARTERBELT",
+    "titleOrig": "New PANTY & STOCKING with GARTERBELT",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151799-igwbH3AffgHc.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.0",
+    "trailerId": "tYjfjKcxl74",
+    "genres": "Action, Comedy, Ecchi, Supernatural",
+    "synopsis": "The Bitches Are Back!!\n\nIn Daten City, a realm between heaven and hell, sinister spirits known as \"Ghosts\" prowl the streets, feeding on human desires and resentment. Yet, in the darkest moments, two figures emerge to obliterate these vengeful beings with a divine light beyond human understanding. Their names? Panty & Stocking! These fallen angel sisters have been tasked with purging the darkness engulfing the earth. But who are they, really? Are they truly messengers of God... or agents of the Devil? \n\n(Source: New PANTY & STOCKING with GARTERBELT Official Site)\n\n Note: Unveiled at Anime Expo 2022's \"TRIGGER 10 YEAR ANNIVERSARY & ANNOUNCEMENT\" panel.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "10/07/2025",
+    "lastEpisodeDate": "25/09/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 7,
+      "day": 10
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 9,
+      "day": 25
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7b167752-6b5c-4edd-b498-041df6dc1b21"
+  },
+  {
+    "id": "franchise-21858",
+    "titleFr": "Little Witch Academia",
+    "titleOrig": "Little Witch Academia (TV)",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21858-huBrbIOGMYXv.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 25,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.9",
+    "trailerId": "pgz2bMz-Zz8",
+    "genres": "Comedy, Fantasy",
+    "synopsis": "In a time when magic is on the decline amid society, Atsuko Kagari is a cheerful girl who enters Luna Nova Academy in order to accomplish her dream of becoming a witch like her idol, Shiny Chariot. Shiny is a famous witch who disappeared from public view many years ago. On her way to school, Kagari meets the kind Lotte Yanson and the mischevious Sucy Manbavaran and the three become friends as they share a bedroom in campus. At the academy, Atsuko soon discovers she is in serious disadvantage compared to the other girls since she doesn`t come from a magical family and is required to learn the magical curriculum from scratch. Having found an item that once belonged to Chariot, Atsuko must discover how to activate and properly use the mysterious Shiny Rod as she hopes it might lead to finding out what has truly happened to her vanished idol.\n\n(Source: Anime News Network)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "09/01/2017",
+    "lastEpisodeDate": "26/06/2017",
+    "rawStartDate": {
+      "year": 2017,
+      "month": 1,
+      "day": 9
+    },
+    "rawEndDate": {
+      "year": 2017,
+      "month": 6,
+      "day": 26
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80156387"
+  },
+  {
+    "id": "franchise-124494",
+    "titleFr": "RESIDENT EVIL : Infinite Darkness",
+    "titleOrig": "Biohazard: Infinite Darkness",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124494-YZ8Cslde2tc7.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 4,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.0",
+    "trailerId": "P-js-Eww1OI",
+    "genres": "Action, Horror, Sci-Fi",
+    "synopsis": "In 2006, there were traces of improper access to secret Presidential files found in the White House's network. American federal agent Leon S. Kennedy is among the group invited to the White House to investigate this incident, but when the lights suddenly go out, Leon and the SWAT team are forced to take down a horde of mysterious zombies.\n\nMeanwhile, TerraSave staff member Claire Redfield encounters a mysterious image drawn by a youth in a country she visited, while providing support to refugees. Haunted by this drawing, which appears to be of a victim of viral infection, Claire starts her own investigation. The next morning, Claire visits the White House to request the construction of a welfare facility. There, she has a chance reunion with Leon and uses the opportunity to show him the boy's drawing. Leon seems to realize some sort of connection between the zombie outbreak at the White House and the strange drawing, but he tells Claire that there is no relation and leaves.\n\nIn time, these two zombie outbreaks in distant countries lead to events that shake the nation to its very core.\n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "08/07/2021",
+    "lastEpisodeDate": "08/07/2021",
+    "rawStartDate": {
+      "year": 2021,
+      "month": 7,
+      "day": 8
+    },
+    "rawEndDate": {
+      "year": 2021,
+      "month": 7,
+      "day": 8
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80987064"
+  },
+  {
+    "id": "franchise-180746",
+    "titleFr": "SHIBOYUGI: Playing Death Games to Put Food on the Table",
+    "titleOrig": "Shibou Yuugi de Meshi wo Kuu.",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180746-eqDiHbzoHMFh.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 11,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "rqp_JkzslnM",
+    "genres": "Action, Drama, Mystery, Thriller",
+    "synopsis": "At just seventeen, Yuki is a professional death game player. She’s survived enough rounds to know that survival is calculation, not luck—and that failure is final. For most players, the games are a nightmare with no escape. For Yuki, they’re simply business. Yet in a world where rooms turn into graves and every choice could be her last, even experience offers no protection.\n\n(Source: Crunchyroll)\n\nNote: The first episode aired with a runtime of ~47 minutes as opposed to the standard 24 minute long episode.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "07/01/2026",
+    "lastEpisodeDate": "18/03/2026",
+    "rawStartDate": {
+      "year": 2026,
+      "month": 1,
+      "day": 7
+    },
+    "rawEndDate": {
+      "year": 2026,
+      "month": 3,
+      "day": 18
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/82047155"
+  },
+  {
+    "id": "franchise-110349",
+    "titleFr": "Great Pretender",
+    "titleOrig": "GREAT PRETENDER",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx110349-59hhZ9CNHVdk.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 23,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.0",
+    "trailerId": "WUMAeUwxsCk",
+    "genres": "Action, Comedy, Drama, Thriller",
+    "synopsis": "Self-styled “Japan's greatest swindler” Makoto Edamura is mainly targeting elder people and occasional foreign travelers. But when he tries to scam an apparently clueless French tourist in Tokyo, he can't possibly imagine that what looked like just another ordinary job is going to take him all the way to Los Angeles, tied upside-down on the famous Hollywood sign… And he is yet to find out what fate awaits him!\n\n(Source: Crunchyroll)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "02/06/2020",
+    "lastEpisodeDate": "21/09/2020",
+    "rawStartDate": {
+      "year": 2020,
+      "month": 6,
+      "day": 2
+    },
+    "rawEndDate": {
+      "year": 2020,
+      "month": 9,
+      "day": 21
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81220435"
+  },
+  {
+    "id": "franchise-175642",
+    "titleFr": "Sand Land: The Series",
+    "titleOrig": "SAND LAND: THE SERIES",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175642-TAHPp5wztFUp.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.7",
+    "trailerId": "eoIceltMvH0",
+    "genres": "Action, Adventure, Fantasy, Supernatural",
+    "synopsis": "In the far future, war has destroyed the entire Earth, leaving only a barren wasteland where the supply of water is controlled by the greedy king. In search of a long-lost lake, Sheriff Rao asked the king of the demons for help...and got the king's son, Beelzebub, and his assistant, Thief. Together the unlikely trio sets off across the desert, facing dragons, bandits and the deadliest foe of all... the King's army itself! \nThe first half of the SAND LAND: THE SERIES anime, episodes one to six, are titled “Akuma no Ooji” and is based on the film adaptation with some new footage, it will premiere alongside episode seven, which is the first episode of a brand-new arc titled “Tenshi no Yuusha”.\n\n(Source: VIZ Media, Crunchyroll News, edited)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "20/03/2024",
+    "lastEpisodeDate": "01/05/2024",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 3,
+      "day": 20
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 5,
+      "day": 1
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-087be178-2332-4f35-95c6-1d3c898550c6"
+  },
+  {
+    "id": "franchise-179302",
+    "titleFr": "Sanda",
+    "titleOrig": "SANDA",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179302-gWWAh5BfQyl4.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.7",
+    "trailerId": "PG9F1afLT-Y",
+    "genres": "Action, Drama, Mystery",
+    "synopsis": "In a future where children are few and regarded as Japan's most valuable assets, Christmas has become a mere legend of the past. For the students of Daikoku Welfare Academy—a boarding school where they are educated, protected, and monitored—the mythical Santa Claus is a forgotten character of fiction. For the adults, Santa Claus is a very real menace that needs to be neutralized by the Saint Nick Pursuit Unit in case he makes an appearance.\n\nShiori Fuyumura, a student of Daikoku Welfare Academy, is determined to find her best friend, Ichie Ono, who has been declared dead after being missing for six months. One morning, Fuyumura summons her fellow class representative, Kazushige Sanda, only to attack the unknowing boy. She is convinced that Sanda is the descendant of the infamous Santa Claus—the only person who can make her wish of finding Ono come true—and is determined to force out his dormant true self by any means necessary.\n\n(Source: MAL Rewrite)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "04/10/2025",
+    "lastEpisodeDate": "20/12/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 10,
+      "day": 4
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 12,
+      "day": 20
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d05a91a0-99e3-4a8b-9ff0-3da3341f1128"
+  },
+  {
+    "id": "franchise-2246",
+    "titleFr": "Mononoke",
+    "titleOrig": "Mononoke",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2246-WHkSkgyuxfgD.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.1",
+    "trailerId": null,
+    "genres": "Fantasy, Horror, Mystery, Psychological, Supernatural",
+    "synopsis": "Mononoke is a spin-off of the Bakeneko story arc of Ayakashi: Japanese Classic Horror. It follows the Medicine Seller as he deals with various spirits or \"Mononoke\" in feudal Japan. Just like in the Bakeneko story, he combats with a series of tools and his vast knowledge of the supernatural on his side, but can only slay the Mononoke when he uncovers its form (Katachi), the truth behind its appearance (Makoto) and the reason for its unusual behavior (Kotowari).\n(Source: Wikipedia)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "13/07/2007",
+    "lastEpisodeDate": "28/09/2007",
+    "rawStartDate": {
+      "year": 2007,
+      "month": 7,
+      "day": 13
+    },
+    "rawEndDate": {
+      "year": 2007,
+      "month": 9,
+      "day": 28
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80169676"
+  },
+  {
+    "id": "franchise-124786",
+    "titleFr": "GODZILLA L'origine de l'invasion",
+    "titleOrig": "Godzilla: Singular Point",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124786-nq5AzrR1DI7z.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.3",
+    "trailerId": "wUhyxRbLWbk",
+    "genres": "Action, Mecha, Mystery, Sci-Fi",
+    "synopsis": "This series features an original story, which depicts the young geniuses Mei Kamino, a female researcher, and Yun Arikawa, a male engineer, as they take on an unprecedented threat with their companions. When danger comes up from the depths, only young geniuses Mei, Yun, and their team can face the threat in Godzilla Singular Point!\n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "25/03/2021",
+    "lastEpisodeDate": "17/06/2021",
+    "rawStartDate": {
+      "year": 2021,
+      "month": 3,
+      "day": 25
+    },
+    "rawEndDate": {
+      "year": 2021,
+      "month": 6,
+      "day": 17
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80234811"
+  },
+  {
+    "id": "franchise-72",
+    "titleFr": "Full Metal Panic? Fumoffu",
+    "titleOrig": "Full Metal Panic? Fumoffu",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx72-dalTPVFKaOuZ.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.9",
+    "trailerId": "rYHyGKZdw2o",
+    "genres": "Action, Comedy, Romance",
+    "synopsis": "It's back-to-school mayhem with Kaname Chidori and her war-freak classmate Sousuke Sagara as they encounter more misadventures in and out of Jindai High School. But when Kaname gets into some serious trouble, Sousuke takes the guise of Bonta-kun - the gun-wielding, butt-kicking mascot. And while he struggles to continue living as a normal teenager, Sousuke also has to deal with protecting his superior officer Teletha Testarossa, who has decided to take a vacation from Mithril and spend a couple of weeks as his and Kaname's classmate.\n\n(Source: Anime News Network)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "26/08/2003",
+    "lastEpisodeDate": "18/10/2003",
+    "rawStartDate": {
+      "year": 2003,
+      "month": 8,
+      "day": 26
+    },
+    "rawEndDate": {
+      "year": 2003,
+      "month": 10,
+      "day": 18
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7e1790c3-54ef-46ea-8bb0-d0a0611db198"
+  },
+  {
+    "id": "franchise-108353",
+    "titleFr": "SPRIGGAN",
+    "titleOrig": "SPRIGGAN (ONA)",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108353-f43dOeHJ84r4.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 6,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "IYxy0EPwkc8",
+    "genres": "Action, Adventure, Sci-Fi",
+    "synopsis": "A great civilization once existed on this Earth. Possessing knowledge and scientific prowess far exceeding that of modern man, the relics of this ancient civilization remain hidden across this world even now. As high-speed communication networks cover the globe and the peering eyes of satellites are able to expose all secrets, the armies of great nations clash as they seek to uncover and research these artifacts, which possess an unfathomable “power.” A member of this ancient civilization carved a message into a plate: “Protect our relics from evil-doers.” Taking this message to heart, one organization aims to seal away this ancient civilization for good. The elite secret agents of this organization are known as…Spriggans.\n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "18/06/2022",
+    "lastEpisodeDate": "18/06/2022",
+    "rawStartDate": {
+      "year": 2022,
+      "month": 6,
+      "day": 18
+    },
+    "rawEndDate": {
+      "year": 2022,
+      "month": 6,
+      "day": 18
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81050064"
+  },
+  {
+    "id": "franchise-100665",
+    "titleFr": "Back Street Girls -GOKUDOLS-",
+    "titleOrig": "Back Street Girls: Gokudols",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100665-rbfp9LH6Swe6.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 10,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "giX8KHAGnHY",
+    "genres": "Comedy, Ecchi, Music",
+    "synopsis": "A group of 3 yakuza failed their boss for the last time. After messing up an important job, the boss gave them 2 choices: Honorably committing suicide, or go to Thailand to get a sex reassignment surgery in order to become \"female\" idols. After a gruesome year long training to become idols, they successfully debut, with overwhelming popularity, much to their dismay. This is where their tragedy truly begins.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "04/07/2018",
+    "lastEpisodeDate": "05/09/2018",
+    "rawStartDate": {
+      "year": 2018,
+      "month": 7,
+      "day": 4
+    },
+    "rawEndDate": {
+      "year": 2018,
+      "month": 9,
+      "day": 5
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80996957"
+  },
+  {
+    "id": "franchise-185213",
+    "titleFr": "Mobile Suit Gundam GQuuuuuuX",
+    "titleOrig": "Kidou Senshi Gundam GQuuuuuuX",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185213-RKQN0qxKlqd6.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "2WvQ7xXQqUw",
+    "genres": "Action, Drama, Mecha, Sci-Fi",
+    "synopsis": "Amate Yuzuriha is a high-school student living peacefully in a space colony floating in outer space.\nWhen she meets a war refugee named Nyaan, Amate is drawn into the illegal mobile suit dueling sport known as Clan Battle.\nUnder the entry name \"Machu,\" she throws herself into fierce battle day after day, piloting the GQuuuuuuX. Then an unidentified Gundam mobile suit pursued by both the space force and the police appears before her, along with its pilot, a boy named Shuji.\nNow their world is about to enter a new era.\n(Source: Official Site)\nNote: Prior to broadcasting, \"Mobile Suit Gundam GQuuuuuuX -Beginning-\" — a theatrical pre-screening of the first 3 and 8th episodes edited together— debuted in Japan on January 17, 2025 and in North America on February 28, 2025.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "09/04/2025",
+    "lastEpisodeDate": "25/06/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 4,
+      "day": 9
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 6,
+      "day": 25
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f5ad8a9d-f1e5-4d09-934b-6d462852c8e3"
+  },
+  {
+    "id": "franchise-175868",
+    "titleFr": "Sakuna: Of Rice and Ruin",
+    "titleOrig": "Tensui no Sakuna-hime",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175868-oSzeoiq8nAkj.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.3",
+    "trailerId": "lCY7GwAQXfs",
+    "genres": "Action, Fantasy",
+    "synopsis": "Two realms exist in the ancient land of Yanato: the Lofty Realm, where gods reside, and the Lowly Realm, where humans reside. Princess Sakuna was the daughter of the god of war and goddess of harvest, but she led a lazy life. One day, she is banished to Hinoe Island, the Isle of Demons. Stranded in a barren land, Sakuna sets out to slay demons and farm rice. Her new adventure begins!\n\n(Source: Crunchyroll)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "06/07/2024",
+    "lastEpisodeDate": "28/09/2024",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 7,
+      "day": 6
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 9,
+      "day": 28
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81914001"
+  },
+  {
+    "id": "franchise-567",
+    "titleFr": "The Big O",
+    "titleOrig": "THE Big O",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx567-iWOJNRu4begJ.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.7",
+    "trailerId": "GOzphFKZAFk",
+    "genres": "Action, Mecha, Mystery, Psychological, Sci-Fi",
+    "synopsis": "Paradigm City is a place without a past. 40 years ago, something happened that wiped the memories of everyone in it. Unfortunately, the people of Paradigm City were very busy before then, making Megadueses (giant robots) and monsters. People who were born after the memory wipe are gaining/recovering memories of the past and using them to build newer threats. With the help of The Big O (a faithful giant robot), his butler Norman and the android Dorothy, Roger Smith keeps Paradigm City safe. As problems mount and more memories surface, Roger's past and Paradigm's future begin to become suspect...",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "13/10/1999",
+    "lastEpisodeDate": "19/01/2000",
+    "rawStartDate": {
+      "year": 1999,
+      "month": 10,
+      "day": 13
+    },
+    "rawEndDate": {
+      "year": 2000,
+      "month": 1,
+      "day": 19
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.5e6a7744-cfaf-42e9-acce-5f4df4ab6b9b"
+  },
+  {
+    "id": "franchise-166703",
+    "titleFr": "Gundam : Requiem pour une vengeance",
+    "titleOrig": "Kidou Senshi Gundam: Fukushuu no Requiem",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166703-S326TyV68NG8.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 6,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.0",
+    "trailerId": "X666fU0ZVFM",
+    "genres": "Mecha, Sci-Fi",
+    "synopsis": "In the year 0079 of the Universal Century, the Principality of Zeon declares independence from the Earth Federation, plunging the two nations into war. Thanks to a revolutionary new weapon known as a Mobile Suit, the Zeon Force initially gains the upper hand. However, they lacked the power to take control of the entire Earth, bringing the war to a stalemate.\nEleven months into the war, the Earth Federation forces manage to seize a Zeon-controlled base located in Eastern Europe. Among the mixed battalion headed to reclaim this base is Sorari and the Red Wolves division, a Mobile Suit platoon that has just descended from space.\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "17/10/2024",
+    "lastEpisodeDate": "17/10/2024",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 10,
+      "day": 17
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 10,
+      "day": 17
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81276500"
+  },
+  {
+    "id": "franchise-169930",
+    "titleFr": "T・P BON",
+    "titleOrig": "T・P Bon",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169930-4H33tRufyN3j.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 24,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.3",
+    "trailerId": "aN9_RkCGzGM",
+    "genres": "Sci-Fi",
+    "synopsis": "Ordinary junior high school student Bon Namihira encounters Time Patrol member Ream Stream, a girl from the future, along with a strange creature called Buyoyon. The Time Patrol agents save those who died unfortunate deaths that don't significantly alter the course of history. During these missions, anyone who sees Ream and the other agents has their memories erased. However, Bon's memory remains mysteriously intact, so he is brought in as a Time Patrol agent-in-training. Teaming up with Ream to carry out missions, Bon is excited about using tools of the future, including the \"time boat\" that can sail through time and space. Bon gets carried away at times, but through the missions, he touches the lives of people who lived wisely in each era. Go on an epic journey throughout Earth and the history of humanity along with T・P BON!\n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "02/05/2024",
+    "lastEpisodeDate": "17/07/2024",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 5,
+      "day": 2
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 7,
+      "day": 17
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81497635"
+  },
+  {
+    "id": "franchise-128705",
+    "titleFr": "Blue Period",
+    "titleOrig": "Blue Period",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx128705-LqIWVpiwDlDc.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.9",
+    "trailerId": "IV0-SYn3YuM",
+    "genres": "Drama, Slice of Life",
+    "synopsis": "The studious Yatora leaves a dry life of study and good manners behind for a new passion: painting. But untethering yourself from all your past expectations is dangerous as well as thrilling…\n\n(Source: Kodansha USA)\n\nNote: The anime premiered on Netflix on Sep 25, 2021 in Japan. The TV broadcast started on Oct 2, 2021.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "25/09/2021",
+    "lastEpisodeDate": "11/12/2021",
+    "rawStartDate": {
+      "year": 2021,
+      "month": 9,
+      "day": 25
+    },
+    "rawEndDate": {
+      "year": 2021,
+      "month": 12,
+      "day": 11
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81318842"
+  },
+  {
+    "id": "franchise-170206",
+    "titleFr": "Scott Pilgrim prend son envol",
+    "titleOrig": "Scott Pilgrim Takes Off",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170206-ZP4qAzx2I2oR.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 8,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.0",
+    "trailerId": "dLvRvqByxUI",
+    "genres": "Action, Comedy, Drama, Mystery, Romance, Supernatural",
+    "synopsis": "When girl meets boy, love takes off...\n\nScott Pilgrim meets the girl of his dreams, Ramona Flowers, but learns he must defeat her seven evil exes in order to date her. Then things get even more complicated. Based on the graphic novels by Bryan Lee O'Malley. \n\n(Source: Science Saru, Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "17/11/2023",
+    "lastEpisodeDate": "17/11/2023",
+    "rawStartDate": {
+      "year": 2023,
+      "month": 11,
+      "day": 17
+    },
+    "rawEndDate": {
+      "year": 2023,
+      "month": 11,
+      "day": 17
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81153115"
+  },
+  {
+    "id": "franchise-157960",
+    "titleFr": "Bullet Bullet",
+    "titleOrig": "BULLET/BULLET",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx157960-IrnEWE1pvoT3.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.0",
+    "trailerId": "JxAWVHYDiZ4",
+    "genres": "",
+    "synopsis": "In the near future, civilization has collapsed, and the world has become a wasteland. Despite their poverty, the people use remnants of past civilizations to lead resilient lives. Gear works in a junk shop while also retrieving stolen goods alongside Qu-0213, a robot with four personalities, and White Bear, a gambler. One day, Gear finds himself thrust into a once-in-a-lifetime job to steal an important item. They soon find themselves up against deadly assassins, heart- pounding car chases, and explosive battles. What Gear and his team do not know yet is that the item they stole holds a secret that could shake the very foundation of this world.\n\n(Source: Disney+)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "16/07/2025",
+    "lastEpisodeDate": "13/08/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 7,
+      "day": 16
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 8,
+      "day": 13
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-52e7dbe7-b28a-428a-963e-acfaa81b4ba6"
+  },
+  {
+    "id": "franchise-125426",
+    "titleFr": "La Voie du tablier",
+    "titleOrig": "Gokushufudou",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx125426-WeKnIVjCRNIC.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 5,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "cvZ9thKolOA",
+    "genres": "Comedy, Slice of Life",
+    "synopsis": "He was the fiercest member of the yakuza, a man who left countless underworld legends in his wake. They called him “the Immortal Dragon.” But one day he walked away from it all to travel another path—the path of the househusband! The curtain rises on this cozy yakuza comedy!\n\n(Source: VIZ Media)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "08/04/2021",
+    "lastEpisodeDate": "08/04/2021",
+    "rawStartDate": {
+      "year": 2021,
+      "month": 4,
+      "day": 8
+    },
+    "rawEndDate": {
+      "year": 2021,
+      "month": 4,
+      "day": 8
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81261669"
+  },
+  {
+    "id": "franchise-11633",
+    "titleFr": "Blood Lad",
+    "titleOrig": "Blood Lad",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11633-vIjtabJq64Xt.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 10,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "bBBp1tw_vEI",
+    "genres": "Action, Adventure, Comedy, Ecchi, Supernatural",
+    "synopsis": "Staz is the vampire boss of a section of the demon world, but he has little interest in human blood. He's more infatuated with Japanese culture. When he learns that Yanagi Fuyumi, a Japanese teenage girl, accidentally wanders into the demon city, he jumps to the occasion. However, while Staz deals with an intruder on his turf, the oblivious Fuyumi is killed by a monster and becomes a wandering ghost. The disappointed Staz vows to her that he will find a way to bring Fuyumi back to life.\n",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "08/07/2013",
+    "lastEpisodeDate": "09/09/2013",
+    "rawStartDate": {
+      "year": 2013,
+      "month": 7,
+      "day": 8
+    },
+    "rawEndDate": {
+      "year": 2013,
+      "month": 9,
+      "day": 9
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.83b7632a-4038-43ab-9404-41cb6d42612b"
+  },
+  {
+    "id": "franchise-181841",
+    "titleFr": "City the Animation",
+    "titleOrig": "CITY THE ANIMATION",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181841-R6fB3bmU5eOE.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.0",
+    "trailerId": "YP17uvO9amU",
+    "genres": "Comedy, Slice of Life",
+    "synopsis": "This town, is not just a normal town.\nThere's laughter, love and emotional moments.\nAn unpredictable ordinary life presented by the residents.\nExciting stuffs come one after another. Welcome to CITY. \n\n(Source: Kyoto Animation)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "07/07/2025",
+    "lastEpisodeDate": "29/09/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 7,
+      "day": 7
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 9,
+      "day": 29
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8c1f778c-d940-4c50-895a-f498c55101f3"
+  },
+  {
+    "id": "franchise-99725",
+    "titleFr": "A.I.C.O. -Incarnation-",
+    "titleOrig": "A.I.C.O. -Incarnation-",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx99725-7kukTkRRmgT1.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.1",
+    "trailerId": "ct-Kaq-QuNc",
+    "genres": "Action, Sci-Fi",
+    "synopsis": "In Japan in the year 2035, an accident known as the \"Burst\" occurs during a research project, spawning an out-of-control artificial life form called \"Matter\" that has spread throughout the Kurobe Gorge. The research city that was once hailed as the hope for humanity is cordoned off by the government. Two years later, 15-year-old Aiko Tachibana, who lost her family in the Burst, learns something unbelievable from Yuya Kanzaki, a new student at her school. A secret is hidden within her body, and the answer to the puzzle lies at the \"Primary Point\" that was the center of the Burst. When boy meets girl with the fate of humanity in their hands, what new truth will come to light? \n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "09/03/2018",
+    "lastEpisodeDate": "09/03/2018",
+    "rawStartDate": {
+      "year": 2018,
+      "month": 3,
+      "day": 9
+    },
+    "rawEndDate": {
+      "year": 2018,
+      "month": 3,
+      "day": 9
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80161848"
+  },
+  {
+    "id": "franchise-101281",
+    "titleFr": "CAROLE & TUESDAY",
+    "titleOrig": "Carole & Tuesday",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101281-s1UoXUaYXhxn.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 24,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.8",
+    "trailerId": "CBak9m0bcB0",
+    "genres": "Drama, Music, Sci-Fi",
+    "synopsis": "Fifty years have passed since mankind began migrating to the new frontier: Mars.\nIt's an age where most culture is produced by AI, and people are content to be passive consumers.\n\nThere's a girl.\nScrapping a living in the metropolis of Alba City, she's working part-time while trying to become a musician. She's always felt like something is missing.\nHer name is Carole.\n\nThere's a girl.\nBorn to a wealthy family in the provincial town of Herschel City, she dreams of becoming a musician, but nobody around her understands. She feels like the loneliest person in the world.\nHer name is Tuesday.\n\nA chance meeting brings them together.\nThey want to sing.\nThey want to make music.\nTogether, they feel like they just might have a chance.\n\nThe two of them may only create a tiny wave.\nBut that wave will eventually grow into something larger...\n\n(Source: Official Website)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "10/04/2019",
+    "lastEpisodeDate": "03/10/2019",
+    "rawStartDate": {
+      "year": 2019,
+      "month": 4,
+      "day": 10
+    },
+    "rawEndDate": {
+      "year": 2019,
+      "month": 10,
+      "day": 3
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80992137"
+  },
+  {
+    "id": "franchise-175198",
+    "titleFr": "Übel Blatt",
+    "titleOrig": "Übel Blatt",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175198-AtWwEQPTjQ6N.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.0",
+    "trailerId": "3BPBHHz5v74",
+    "genres": "Action, Adventure, Drama, Fantasy",
+    "synopsis": "Rumors stir throughout the land: when the wielder of the black sword draws his dark blade, all who stand in its path are torn asunder…!\nKöinzell, the mysterious young boy who carries the black sword, undeniably wields it with exceptional skill, but can he truly be responsible for the bloody rumors?\nPursued by the Traitorous Lances, four powerful warriors who were thought to have been defeated by the Seven Heroes, the strength of the young swordsman will be tested to its limit. At battle’s end, only the shocking truth of Köinzell’s quest will stand above the corpses of his enemies…\nAn epic fantasy on the grandest of scales!\n\n(Source: Yen Press)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "11/01/2025",
+    "lastEpisodeDate": "29/03/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 1,
+      "day": 11
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 3,
+      "day": 29
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fbd0daf7-1bf1-4b59-ae8e-a9688472bfc0"
+  },
+  {
+    "id": "franchise-21717",
+    "titleFr": "Fate/Extra Last Encore",
+    "titleOrig": "Fate/EXTRA Last Encore",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21717-2gU0L4IvrUVC.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.0",
+    "trailerId": "PdXv5a5YMi4",
+    "genres": "Action, Fantasy, Psychological",
+    "synopsis": "Waking up in a strange virtual world with no recollection of the past, Hakuno finds himself forced to fight for survival in a war he does not understand for a prize beyond value; the opportunity to have one's wish granted. With only an enigmatic \"Servant\" by his side, Hakuno Kishinami will have to face both friends and foes in battles to the death in order to not only gain possession of a mysterious object known as the \"Holy Grail,\" but also to find the answer to the most important question of all: \"Who am I?\"\n\nNotes: \n\n- Includes episodes 11-13, Illustrias Geocentric Theory. \n\n- The last episode aired with a runtime of 48 minutes as opposed to the standard 24.\n",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "28/01/2018",
+    "lastEpisodeDate": "29/07/2018",
+    "rawStartDate": {
+      "year": 2018,
+      "month": 1,
+      "day": 28
+    },
+    "rawEndDate": {
+      "year": 2018,
+      "month": 7,
+      "day": 29
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80185145"
+  },
+  {
+    "id": "franchise-125428",
+    "titleFr": "Sky-High Survival",
+    "titleOrig": "Tenkuu Shinpan",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx125428-eXVYIlRnCOtB.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.3",
+    "trailerId": "A25xEmPNmBM",
+    "genres": "Action, Horror, Mystery",
+    "synopsis": "High school student Yuri Honjou finds herself lost in an “abnormal space” where countless skyscrapers are connected by suspension bridges and “masked figures” mercilessly slaughter their confused and fleeing victims. To survive in this hellish world, she has two choices: kill the masked figures or be killed. Yuri is determined to survive in order to destroy this irrational world, but what will be her ultimate fate?\n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "25/02/2021",
+    "lastEpisodeDate": "25/02/2021",
+    "rawStartDate": {
+      "year": 2021,
+      "month": 2,
+      "day": 25
+    },
+    "rawEndDate": {
+      "year": 2021,
+      "month": 2,
+      "day": 25
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81043571"
+  },
+  {
+    "id": "franchise-171400",
+    "titleFr": "Puniru is a Kawaii Slime",
+    "titleOrig": "Puniru wa Kawaii Slime",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171400-fbiXZGItjJtP.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "isltEPrpqZg",
+    "genres": "Comedy, Fantasy, Romance, Slice of Life",
+    "synopsis": "Seven years ago, Kotarou made a slime that unexpectedly came to life. He named her Puniru, and they’ve been best friends ever since. The two have grown up a lot over the years, and Puniru is now a beautiful, carefree girl who can shapeshift into other cute forms. But with her spontaneous spirit and wild antics, Kotarou can never catch a break!\n\n(Source: Crunchyroll, edited)\n",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "06/10/2024",
+    "lastEpisodeDate": "22/12/2024",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 10,
+      "day": 6
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 12,
+      "day": 22
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81975106"
+  },
+  {
+    "id": "franchise-109217",
+    "titleFr": "Eden",
+    "titleOrig": "Eden",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx109217-VZ0m6KhY3dHg.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 4,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.0",
+    "trailerId": "SLmfyh1Q0mo",
+    "genres": "Adventure, Sci-Fi",
+    "synopsis": "Thousands of years in the future, a city known as “Eden 3” is inhabited solely by robots whose former masters vanished a long time ago. On a routine assignment, two farming robots accidentally awaken a human baby girl from stasis questioning all they were taught to believe -- that humans were nothing more than a forbidden ancient myth. Together, the two robots secretly raise the child in a safe haven outside Eden.(Source: Netflix, edited)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "27/05/2021",
+    "lastEpisodeDate": "27/05/2021",
+    "rawStartDate": {
+      "year": 2021,
+      "month": 5,
+      "day": 27
+    },
+    "rawEndDate": {
+      "year": 2021,
+      "month": 5,
+      "day": 27
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80992783"
+  },
+  {
+    "id": "franchise-135660",
+    "titleFr": "Exception",
+    "titleOrig": "exception",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx135660-tpZ1LUb1dIe9.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 8,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "2.9",
+    "trailerId": "ctUiQSAYOTo",
+    "genres": "Horror, Sci-Fi, Thriller",
+    "synopsis": "In the distant future, human beings have been forced to leave earth and migrate to another galaxy. An advanced team of spacecraft arrives at a planet that is to be terraformed. Each member of the team is output by a biological 3D printer. \n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "13/10/2022",
+    "lastEpisodeDate": "13/10/2022",
+    "rawStartDate": {
+      "year": 2022,
+      "month": 10,
+      "day": 13
+    },
+    "rawEndDate": {
+      "year": 2022,
+      "month": 10,
+      "day": 13
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81002444"
+  },
+  {
+    "id": "franchise-355",
+    "titleFr": "Shakugan no Shana",
+    "titleOrig": "Shakugan no Shana",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx355-tB52QB38leMs.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 24,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "uFsKKFLc7zk",
+    "genres": "Action, Comedy, Drama, Fantasy, Romance, Supernatural",
+    "synopsis": "He had thought his normal days would last forever, until they were ended abruptly by an encounter with a girl with red hair and eyes. He named her Shana.\nNot long after he enters high school, Sakai Yuji&rsquo;s normal days come to an end. He sees something bizarre on his way home: people are frozen in a strange fire, and a monster that looks like a large doll is attacking them. Just when he's about to be killed, a girl in a dark cloak wielding a large sword appears, and slices the monster in half. Although Yuji survives the strange encounter, the girl informs him of a desolate truth: \" 'You' don't exist anymore.\"\nShe calls herself a Flame Haze who hunts \"Guze no Tomogara\"; intruders from another world. She explains to him that he is a \"Torch\", a substitute of Yuji whose &ldquo;existence&rdquo; has already been devoured. She also told him that he is a special Torch, \"Mystes\", which contains a precious item in it. When he looks at his chest, he sees within himself a faint flame, just as she said.\nIt is in this way that his eternal struggle alongside the girl begins. \n(Source: AnimeNfo)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "06/10/2005",
+    "lastEpisodeDate": "23/03/2006",
+    "rawStartDate": {
+      "year": 2005,
+      "month": 10,
+      "day": 6
+    },
+    "rawEndDate": {
+      "year": 2006,
+      "month": 3,
+      "day": 23
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.888f1d6d-ed5c-4a4e-8a40-b74a6ba6cb7f"
+  },
+  {
+    "id": "franchise-155015",
+    "titleFr": "Onimusha",
+    "titleOrig": "ONIMUSHA",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx155015-YJkkmMgJesxE.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 8,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.1",
+    "trailerId": "-1wsUxg68Ek",
+    "genres": "Action, Supernatural",
+    "synopsis": "An anime based on CAPCOM's legendary Sengoku period game: ONIMUSHA. The adaptation will have famed director Takashi Miike as the chief director of the series at animation studio Sublimation, while Shinya Sugai is directing the series. The anime will use the late prolific actor Toshiro Mifune as a model for the character Miyamoto Musashi.\n \nThe beginning of the Edo Period, Musashi is no longer a young man. He departs with the legendary  Oni Gauntlet to defeat the Genma.\n\n(Source: Anime News Network, Netflix, edited)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "02/11/2023",
+    "lastEpisodeDate": "02/11/2023",
+    "rawStartDate": {
+      "year": 2023,
+      "month": 11,
+      "day": 2
+    },
+    "rawEndDate": {
+      "year": 2023,
+      "month": 11,
+      "day": 2
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81153116"
+  },
+  {
+    "id": "franchise-101239",
+    "titleFr": "Ahiru no Sora",
+    "titleOrig": "Ahiru no Sora",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101239-iGhniUbzVgpn.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 50,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "Yt4N0UUEd90",
+    "genres": "Drama, Sports",
+    "synopsis": "He may be short in stature, but Sora Kurumatani can soar and score on the basketball court! With a passion for the sport he inherited from his mother, Sora vows to her that he’ll take top prize at a high school basketball tournament… but there’s one problem. His new school’s basketball club has turned into a hangout for delinquents! Will Sora’s sheer tenacity and amazing three-point shooting change their minds and get the club up and running again?\n\n(Source: Sentai Filmworks)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "02/10/2019",
+    "lastEpisodeDate": "30/09/2020",
+    "rawStartDate": {
+      "year": 2019,
+      "month": 10,
+      "day": 2
+    },
+    "rawEndDate": {
+      "year": 2020,
+      "month": 9,
+      "day": 30
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80245713"
+  },
+  {
+    "id": "franchise-109946",
+    "titleFr": "Super Crooks",
+    "titleOrig": "Super Crooks",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx109946-S05QNnNplFV2.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "uui6VjP2to4",
+    "genres": "Action, Drama, Supernatural, Thriller",
+    "synopsis": "One last heist. That's what they all say, right? Just one final score, and everyone can retire and take up fishing. Thing is, the jails are filled with super villains who thought the same thing, and got busted. But the Heat's in a jam. He's run up the kind of gambling debt that - if he can't pay it back in cash - will be paid in blood. Nobody wants to see the most beloved supercrook of all time rubbed out by the mob - especially his biggest fan, Johnny Bolt. And Johnny's got a plan to help the Heat and make all his buddies disgustingly rich at the same time. Unfortunately for Johnny's recruits, they have to head to Spain and rob the world's most notorious super villain blind. And that's where things get tricky.\n\n(Source: Millar World)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "25/11/2021",
+    "lastEpisodeDate": "25/11/2021",
+    "rawStartDate": {
+      "year": 2021,
+      "month": 11,
+      "day": 25
+    },
+    "rawEndDate": {
+      "year": 2021,
+      "month": 11,
+      "day": 25
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81034907"
+  },
+  {
+    "id": "franchise-101571",
+    "titleFr": "Aggretsuko",
+    "titleOrig": "Aggressive Retsuko",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101571-7vzCaj13jkGS.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 10,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.8",
+    "trailerId": "1n3xXuEyr40",
+    "genres": "Comedy, Music, Slice of Life",
+    "synopsis": "Some offices have stereotypical dynamics: the chauvinistic pig of a boss who never does any real work; the employees whose goal is to suck up to the boss; the ones whose lives seem perfect; and the individuals who have all the actual work pushed onto them. Retsuko the red panda is in the last group, as she stays late most nights to make up the work her coworkers are too lazy to do themselves.\n\nHer relief from the stress of her everyday life comes in the form of singing death metal at a local karaoke club. Night after night, Retsuko channels her grief into a microphone and considers the place to be her own personal sanctuary. But as she moves further away from her comfort zone and the ideas people have of her, she discovers that letting others into her world of death metal may not be such a bad thing.\n",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "20/04/2018",
+    "lastEpisodeDate": "20/04/2018",
+    "rawStartDate": {
+      "year": 2018,
+      "month": 4,
+      "day": 20
+    },
+    "rawEndDate": {
+      "year": 2018,
+      "month": 4,
+      "day": 20
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80198505"
+  },
+  {
+    "id": "franchise-184989",
+    "titleFr": "The Dinner Table Detective",
+    "titleOrig": "Nazotoki wa Dinner no Ato de",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184989-UaWWbrRn2vWV.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.0",
+    "trailerId": "6wszobi3vHc",
+    "genres": "Comedy, Drama, Mystery",
+    "synopsis": "Rich heiress Reiko Hosho lives a double life as a novice detective, fighting crime under Inspector Kazamatsuri—also from a wealthy family. After work, Reiko sheds her pantsuit to don a lovely dress for dinner each day. Difficult cases force her to confide in her butler Kageyama, who proceeds to savagely ridicule her inability to solve mysteries, all while brilliantly unraveling each case himself.\n\n(Source: Amazon Prime Video)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "04/04/2025",
+    "lastEpisodeDate": "20/06/2025",
+    "rawStartDate": {
+      "year": 2025,
+      "month": 4,
+      "day": 4
+    },
+    "rawEndDate": {
+      "year": 2025,
+      "month": 6,
+      "day": 20
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.791957df-f3b5-4986-8eb5-d366996f3866"
+  },
+  {
+    "id": "franchise-100663",
+    "titleFr": "Ultraman",
+    "titleOrig": "ULTRAMAN",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100663-ZeVDbYEGCiFu.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.1",
+    "trailerId": "qNlPjL4YhjU",
+    "genres": "Action, Drama, Sci-Fi",
+    "synopsis": "Decades ago, a being known as the Giant of Light joined Shin Hayata of the Scientific Special Search Party to save Earth from an invasion of terrifying monsters known as Kaiju. Now, many years later, those dark days are fading into memory, and the world is at peace. But in the shadows a new threat is growing, a danger that can only be faced by a new kind of hero - a new kind of Ultraman...\nShinjirou is an ordinary teenager, but his father is the legendary Shin Hayata. When he learns that his father passed on the \"Ultraman Factor\" to him, and that he possesses incredible powers, nothing will ever be the same again.\n(Source: VIZ Media)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "01/04/2019",
+    "lastEpisodeDate": "01/04/2019",
+    "rawStartDate": {
+      "year": 2019,
+      "month": 4,
+      "day": 1
+    },
+    "rawEndDate": {
+      "year": 2019,
+      "month": 4,
+      "day": 1
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80231373"
+  },
+  {
+    "id": "franchise-144677",
+    "titleFr": "Bastard!! Heavy Metal, Dark Fantasy",
+    "titleOrig": "BASTARD!!: Ankoku no Hakaishin (ONA)",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx144677-nn0zdlrGZ4Ir.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 24,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.1",
+    "trailerId": "_Iqc-dG8peA",
+    "genres": "Action, Adventure, Comedy, Ecchi, Fantasy",
+    "synopsis": "In a postapocalyptic world of heavy metal fantasy, the only thing able to save humans from orcs, lizard men, and other monsters is something even MORE evil. Sealed within a 14-year-old boy, the chaotic wizard Dark Schneider is unleashed to fight four mighty generals and their plot to resurrect the evil god Anslasax.\n\n(Source: VIZ Media)\nNote: The first 13 episodes were released worldwide on Netflix on June 30, 2022, while the remaining 11 episodes released on September 15, 2022.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "30/06/2022",
+    "lastEpisodeDate": "15/09/2022",
+    "rawStartDate": {
+      "year": 2022,
+      "month": 6,
+      "day": 30
+    },
+    "rawEndDate": {
+      "year": 2022,
+      "month": 9,
+      "day": 15
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81281582"
+  },
+  {
+    "id": "franchise-135429",
+    "titleFr": "Make My Day",
+    "titleOrig": "MAKE MY DAY",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx135429-7BuTRpJhPjZl.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 8,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "2.6",
+    "trailerId": "a0WJGo3VtKM",
+    "genres": "Horror, Sci-Fi, Thriller",
+    "synopsis": "The snowy, ice-covered planet Coldfoot is home to a precious energy-rich ore called “Sig.” On the surface, the planet seems to be a crime-free utopia, but in reality prisoners are used for back-breaking Sig mining. Jim, a young prison guard, rushes to the site of a sudden mining accident to find a mysterious creature attacking the humans. \n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "02/02/2023",
+    "lastEpisodeDate": "02/02/2023",
+    "rawStartDate": {
+      "year": 2023,
+      "month": 2,
+      "day": 2
+    },
+    "rawEndDate": {
+      "year": 2023,
+      "month": 2,
+      "day": 2
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81176967"
+  },
+  {
+    "id": "franchise-162796",
+    "titleFr": "Kinnikuman Perfect Origin Arc",
+    "titleOrig": "Kinnikuman: Kanpeki Choujin Shiso-hen",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx162796-CFwUdsPSLpzv.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.3",
+    "trailerId": "VxDprh_c7kw",
+    "genres": "Action, Comedy, Sports",
+    "synopsis": "A new Kinnikuman series to celebrate the 40th anniversary of the original TV anime. Adapts the Perfect Origin Arc from the Manga.\nKinnikuman returns to the ring in an epic three-way battle between the Justice, Devil and Perfect Chojin factions, and reveals the roots of the Chojin.\n(Source: Netflix)\nNote: Includes Episode 0.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "07/07/2024",
+    "lastEpisodeDate": "23/09/2024",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 7,
+      "day": 7
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 9,
+      "day": 23
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81781519"
+  },
+  {
+    "id": "franchise-108450",
+    "titleFr": "Drifting Dragons",
+    "titleOrig": "Kuutei Dragons",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108450-egUEb5lOpGxS.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "jiKn2nKpxHI",
+    "genres": "Action, Adventure, Fantasy",
+    "synopsis": "The Quin Zaza airship sails the skies in pursuit of the deadliest (and tastiest) magical monsters in the blue: DRAGONS. While most people fear these scaly beasts, the crew of the Zaza specializes in bringing them down to earth to offer the world the medicine and food only dragons can provide. It’s a tough living, and the price for failure is all too often death, but the rewards for success are riches immeasurable — not to mention the most delicious cuisine around!\n\n(Source: Sentai Filmworks)\n\nNote: All episodes premiered on Netflix on January 9, 2020, but aired weekly on TV.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "09/01/2020",
+    "lastEpisodeDate": "09/01/2020",
+    "rawStartDate": {
+      "year": 2020,
+      "month": 1,
+      "day": 9
+    },
+    "rawEndDate": {
+      "year": 2020,
+      "month": 1,
+      "day": 9
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80992788"
+  },
+  {
+    "id": "franchise-112357",
+    "titleFr": "Japan Sinks: 2020",
+    "titleOrig": "Nihon Chinbotsu: 2020",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112357-N03rYtjPxJtE.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 10,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.2",
+    "trailerId": "yfys-2KA3oQ",
+    "genres": "Drama, Sci-Fi",
+    "synopsis": "The setting for this adaptation is moved from 1970s Japan to 2020, just after the Tokyo Olympics. The story centers on the Mutou family, and the siblings Ayumu and Gou. The four members of the Mutou family are caught in an earthquake that hits Tokyo, and attempt to escape the city, while disaster claws at their heels.\n\n(Source: Anime News Network)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "09/07/2020",
+    "lastEpisodeDate": "09/07/2020",
+    "rawStartDate": {
+      "year": 2020,
+      "month": 7,
+      "day": 9
+    },
+    "rawEndDate": {
+      "year": 2020,
+      "month": 7,
+      "day": 9
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80993018"
+  },
+  {
+    "id": "franchise-108357",
+    "titleFr": "Vampire in the Garden",
+    "titleOrig": "Vampire in the Garden",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108357-i1p927RRYjxg.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 5,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "wl6tSENVhoQ",
+    "genres": "Action, Adventure, Drama, Fantasy, Music, Sci-Fi",
+    "synopsis": "One cold winter, humanity lost its battle with the vampires, and with it, most of where they called home. A small population of survivors created a wall of light in a small town to protect them and give them a place to live in peace. Our protagonist, Momo, lives a repressed life but still wishes to coexist with the enemy, the vampires. Fine, the vampire queen, once loved humans and disappeared from the battlefield. As war rages through the humans’ town, the two have a fateful encounter. Once upon a time, humans and vampires lived in harmony in a place called Paradise. This is the story of a young girl and a vampire on a journey to find Paradise.\n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "16/05/2022",
+    "lastEpisodeDate": "16/05/2022",
+    "rawStartDate": {
+      "year": 2022,
+      "month": 5,
+      "day": 16
+    },
+    "rawEndDate": {
+      "year": 2022,
+      "month": 5,
+      "day": 16
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80996247"
+  },
+  {
+    "id": "franchise-153906",
+    "titleFr": "Tekken: Bloodline",
+    "titleOrig": "Tekken: Bloodline",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153906-FGzh9vn1bCCw.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 6,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.1",
+    "trailerId": "x6-donCAnCc",
+    "genres": "Action, Sports, Supernatural",
+    "synopsis": "\"Power is everything.\" Jin Kazama learned the family self-defense arts, Kazama-Style Traditional Martial Arts, from his mother at an early age. Even so, he was powerless when a monstrous evil suddenly appeared, destroying everything dear to him, changing his life forever. Angry at himself for being unable to stop it, Jin vowed revenge and sought absolute power to exact it. His quest will lead to the ultimate battle on a global stage — The King of Iron Fist Tournament. \n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "18/08/2022",
+    "lastEpisodeDate": "18/08/2022",
+    "rawStartDate": {
+      "year": 2022,
+      "month": 8,
+      "day": 18
+    },
+    "rawEndDate": {
+      "year": 2022,
+      "month": 8,
+      "day": 18
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81002441"
+  },
+  {
+    "id": "franchise-163137",
+    "titleFr": "Le Pavillon des hommes",
+    "titleOrig": "Oooku",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b163137-KBXHcaCBf1ZF.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 10,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.6",
+    "trailerId": "lL2yLQtxWrw",
+    "genres": "Drama, Romance, Slice of Life",
+    "synopsis": "In Edo period Japan (1603 to 1868), a strange new disease called the Redface Pox has begun to prey on the country's men. Within eighty years of the first outbreak, the male population has fallen to a quarter of the total female population. Women have taken on all the roles traditionally granted to men, even that of the Shogun. The men, precious providers of life, are carefully protected and the most beautiful of the men are sent to serve in the Shogun's Inner Chambers.\n\n(Source: VIZ Media)\n\nNote: The first episode has a runtime of 1 hour and 18 minutes.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "29/06/2023",
+    "lastEpisodeDate": "29/06/2023",
+    "rawStartDate": {
+      "year": 2023,
+      "month": 6,
+      "day": 29
+    },
+    "rawEndDate": {
+      "year": 2023,
+      "month": 6,
+      "day": 29
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81464005"
+  },
+  {
+    "id": "franchise-139589",
+    "titleFr": "Kotaro en solo",
+    "titleOrig": "Kotarou wa Hitorigurashi",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx139589-oFz7JwpwRkQV.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 10,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "4.0",
+    "trailerId": "WLzmLUtVkxA",
+    "genres": "Comedy, Drama, Slice of Life",
+    "synopsis": "A lonely little boy moves into a ramshackle apartment building all on his own and makes friends with the broke manga artist who lives next door.\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "10/03/2022",
+    "lastEpisodeDate": "10/03/2022",
+    "rawStartDate": {
+      "year": 2022,
+      "month": 3,
+      "day": 10
+    },
+    "rawEndDate": {
+      "year": 2022,
+      "month": 3,
+      "day": 10
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81275353"
+  },
+  {
+    "id": "franchise-109639",
+    "titleFr": "Dino Girl Gauko",
+    "titleOrig": "Kyouryuu Shoujo Gauko",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109639-dYkX119PtRm9.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 20,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "2.9",
+    "trailerId": "U5jzF8uvVSQ",
+    "genres": "Comedy, Slice of Life",
+    "synopsis": "The comedy series is set in Japan and follows Naoko Watanabe, a typical tween girl aside from the fact that she possesses strange and sometimes troubling powers. When her anger exceeds a maximum level, she turns into Gauko, the fire-breathing dinosaur girl.\n\n(Source: Variety)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "22/11/2019",
+    "lastEpisodeDate": "22/11/2019",
+    "rawStartDate": {
+      "year": 2019,
+      "month": 11,
+      "day": 22
+    },
+    "rawEndDate": {
+      "year": 2019,
+      "month": 11,
+      "day": 22
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80216180"
+  },
+  {
+    "id": "franchise-135643",
+    "titleFr": "The Grimm Variations",
+    "titleOrig": "Grimm Kumikyoku",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx135643-wcXWT26p84R3.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 6,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.3",
+    "trailerId": "bTU3detmX_I",
+    "genres": "Fantasy, Psychological, Sci-Fi, Thriller",
+    "synopsis": "Once upon a time, brothers Jacob and Wilhelm collected fairy tales from across the land and made them into a book. They also had a much younger sister, the innocent and curious Charlotte, who they loved very much. One day, while the brothers were telling Charlotte a fairy tale like usual, they saw that she had a somewhat melancholy look on her face. She asked them, \"Do you suppose they really lived happily ever after?\"\n\nThe pages of Grimms' Fairy Tales, written by Jacob and Wilhelm, are now presented from the unique perspective of Charlotte, who sees the stories quite differently from her brothers.\n\n(Source: Netflix Anime)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "17/04/2024",
+    "lastEpisodeDate": "17/04/2024",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 4,
+      "day": 17
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 4,
+      "day": 17
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81050090"
+  },
+  {
+    "id": "franchise-165",
+    "titleFr": "RahXephon",
+    "titleOrig": "RahXephon",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165-TBPrUsYj4SUL.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 26,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "HeUbGYvHM77N90_1",
+    "genres": "Drama, Mecha, Music, Mystery, Psychological, Romance, Sci-Fi",
+    "synopsis": "In the year 2012 Japan was invaded by the Mu. Human-like beings from another dimension with blue blood.\nIn the year 2015 Tokyo is attacked by invaders, who are repelled by a humanoid weapon called a Dolem. During the chaos, Ayato Kamina meets Reika Mishima, a classmate.\nDuring that same day, he is attacked by government officials but a woman named Haruka comes to his rescue, informing him that she was sent to get him by the Organization TERRA, and that Tokyo had been sealed in a time rift where time flows one third as fast as the outside world.\nHe flees from Haruka onto a train where he sees Reika once more. Arriving at the Room of Rah, he follows her to a tremendous egg where the Dolem RahXephon is hatched from, and upon her singing his mother appears atop the Dolem that had stopped the TERRA Invasion. In the battle Ayato's mother is injured, and Ayato flees Tokyo Jupiter with Haruka upon seeing his mother's blue blood.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "21/01/2002",
+    "lastEpisodeDate": "10/09/2002",
+    "rawStartDate": {
+      "year": 2002,
+      "month": 1,
+      "day": 21
+    },
+    "rawEndDate": {
+      "year": 2002,
+      "month": 9,
+      "day": 10
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.5c1aa57c-6194-4419-a7cd-1a47f3d290c5"
+  },
+  {
+    "id": "franchise-154643",
+    "titleFr": "Synduality Noir",
+    "titleOrig": "SYNDUALITY Noir",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154643-NbuhZQCxgKMj.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.3",
+    "trailerId": "FzwpalvyRas",
+    "genres": "Action, Mecha, Sci-Fi",
+    "synopsis": "The year is 2222. It has been years since Tears of the New Moon, a mysterious rain, poured and wiped out almost the entire human race. The poisonous rain gave birth to deformed creatures devouring humans, and humanity fled from the danger. As means for survival, the humans then build an underground haven; Amasia. In this newly built dystopian city, in a pursuit of maintaining their existence, they run into an Artificial Intelligence named Magus. Not knowing how things will work between them, the story of how Humans and AI coinciding and trying to find their truths begin.\n\n(Source: PlayStation, edited)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "11/07/2023",
+    "lastEpisodeDate": "26/09/2023",
+    "rawStartDate": {
+      "year": 2023,
+      "month": 7,
+      "day": 11
+    },
+    "rawEndDate": {
+      "year": 2023,
+      "month": 9,
+      "day": 26
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-e9f6aba2-325f-4cb6-a8b4-aa5fef1106dd"
+  },
+  {
+    "id": "franchise-105807",
+    "titleFr": "7Seeds",
+    "titleOrig": "7SEEDS",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105807-Ivd7xc40XdGF.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.1",
+    "trailerId": "uGPF79Xl6XQ",
+    "genres": "Action, Adventure, Drama, Horror, Mystery, Psychological, Romance, Sci-Fi",
+    "synopsis": "Scientists had predicted this disaster, and in response, the leaders of every country met to develop a plan for human survival before the meteor hit. The Seven Seeds project was developed out of this meeting. Each country froze a number of young healthy people, which allowed them to survive the meteor. After the computer determined that Earth was once again safe for human life, it released them into the world.\n\nThe Japanese government created five groups of survivors: Winter group, Spring group, Summer group A, Summer group B, and Fall group. Each group consisted of seven members and one guide. The guide carried small tubes of poison on their necks to allow them to end their lives if their situation became unbearable. The Japanese government prepared seven \"Fuji\" as refuges for the groups. In each Fuji, the group would find seeds and numerous books instructing them on survival in the wilderness.\n\nIt premiered on TV on January 14th, 2020.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "28/06/2019",
+    "lastEpisodeDate": "28/06/2019",
+    "rawStartDate": {
+      "year": 2019,
+      "month": 6,
+      "day": 28
+    },
+    "rawEndDate": {
+      "year": 2019,
+      "month": 6,
+      "day": 28
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80183051"
+  },
+  {
+    "id": "franchise-131930",
+    "titleFr": "Yasuke",
+    "titleOrig": "Yasuke",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131930-Us7lsOPyNfAX.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 6,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "2.8",
+    "trailerId": "ijKAtzQY1wc",
+    "genres": "Action, Fantasy, Mecha, Sci-Fi",
+    "synopsis": "In a war-torn feudal Japan filled with mechs and magic, the greatest ronin never known, Yasuke, struggles to maintain a peaceful existence after a past life of violence. But when a local village becomes the center of social upheaval between warring daimyo, Yasuke must take up his sword and transport a mysterious child who is the target of dark forces and bloodthirsty warlords. The story of Yasuke, the first African samurai who actually served the legendary Oda Nobunaga, will be released to the world.\n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "29/04/2021",
+    "lastEpisodeDate": "29/04/2021",
+    "rawStartDate": {
+      "year": 2021,
+      "month": 4,
+      "day": 29
+    },
+    "rawEndDate": {
+      "year": 2021,
+      "month": 4,
+      "day": 29
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80990863"
+  },
+  {
+    "id": "franchise-105096",
+    "titleFr": "Hero Mask",
+    "titleOrig": "HERO MASK",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx105096-cnoCYIEWrDKT.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 15,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.0",
+    "trailerId": "7FtgXtNPQGY",
+    "genres": "Action, Mystery, Sci-Fi, Thriller",
+    "synopsis": "Now there's a mysterious Mask before James Blood, and the man behind it is one that shouldn't exist.\nWhat is the mystery surrounding this mask...?\n\nSo begins an action-packed crime story set in a beautiful city!\n\n(Source: Official Website)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "03/12/2018",
+    "lastEpisodeDate": "03/12/2018",
+    "rawStartDate": {
+      "year": 2018,
+      "month": 12,
+      "day": 3
+    },
+    "rawEndDate": {
+      "year": 2018,
+      "month": 12,
+      "day": 3
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80200027"
+  },
+  {
+    "id": "franchise-110354",
+    "titleFr": "BNA: Brand New Animal",
+    "titleOrig": "BNA",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx110354-JJKR42frJABe.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.6",
+    "trailerId": "QY2CbUsOgAM",
+    "genres": "Action, Comedy, Fantasy",
+    "synopsis": "In the 21st century, the existence of animal-humans came to light after being hidden in the darkness of history. Michiru lived life as a normal human, until one day she suddenly turns into a tanuki-human. She runs away and takes refuge in a special city area called \"Anima City\" that was set up 10 years ago for animal-humans to be able to live as themselves. There Michiru meets Shirou, a wolf-human who hates humans. Through Shirou, Michiru starts to learn about the worries, lifestyle, and joys of the animal-humans. As Michiru and Shirou try to learn why Michiru suddenly turned into an animal-human, they unexpectedly get wrapped up in a large incident.\n\n(Source: Anime News Network)\n\nNote: The TV broadcast ended on June 25, 2020.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "21/03/2020",
+    "lastEpisodeDate": "06/05/2020",
+    "rawStartDate": {
+      "year": 2020,
+      "month": 3,
+      "day": 21
+    },
+    "rawEndDate": {
+      "year": 2020,
+      "month": 5,
+      "day": 6
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81220429"
+  },
+  {
+    "id": "franchise-125447",
+    "titleFr": "Thermae Romae Novae",
+    "titleOrig": "Thermae Romae Novae",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx125447-Sqcq8oDHvZOK.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 11,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.5",
+    "trailerId": "zfwCaZsZp5Q",
+    "genres": "Comedy, Slice of Life",
+    "synopsis": "Lucius, a bath designer in the Roman Empire, accidentally slips back in time to present day Japan and learns about Japanese bath culture in this comedy.\n\n(Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "28/03/2022",
+    "lastEpisodeDate": "28/03/2022",
+    "rawStartDate": {
+      "year": 2022,
+      "month": 3,
+      "day": 28
+    },
+    "rawEndDate": {
+      "year": 2022,
+      "month": 3,
+      "day": 28
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81264354"
+  },
+  {
+    "id": "franchise-108356",
+    "titleFr": "Dragon's Dogma",
+    "titleOrig": "Dragon’s Dogma",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108356-qxHmuNVZFRwJ.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 7,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "2.8",
+    "trailerId": "ngebNhckOc8",
+    "genres": "Action, Adventure, Fantasy, Supernatural",
+    "synopsis": "Based on the action RPG of the same name.The story follows a man's journey seeking revenge on a dragon who stole his heart. On his way, the man is brought back to life as an ‘Arisen’. An action adventure about a man challenged by demons who represent the seven deadly sins of humans. (Source: Netflix)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "17/09/2020",
+    "lastEpisodeDate": "17/09/2020",
+    "rawStartDate": {
+      "year": 2020,
+      "month": 9,
+      "day": 17
+    },
+    "rawEndDate": {
+      "year": 2020,
+      "month": 9,
+      "day": 17
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80992784"
+  },
+  {
+    "id": "franchise-147850",
+    "titleFr": "Shaman King Flowers",
+    "titleOrig": "SHAMAN KING: FLOWERS",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b147850-USIKDjVK7xTn.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.2",
+    "trailerId": "pm3hRAeHLjc",
+    "genres": "Action, Adventure, Comedy, Supernatural",
+    "synopsis": "Sequel to SHAMAN KING (2021). \n\nThe action returns in this brand-new sequel to SHAMAN KING! Hana Asakura finds that being the son of Yoh & Anna Asakura isn't all it's cracked up to be, and his boredom has him itching for any kind of excitement. But when a fight comes straight to his doorstep, it's from a place he least expects—his own family? The battle for Asakura supremacy begins!  \n\n(Source: Kodansha USA)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "10/01/2024",
+    "lastEpisodeDate": "03/04/2024",
+    "rawStartDate": {
+      "year": 2024,
+      "month": 1,
+      "day": 10
+    },
+    "rawEndDate": {
+      "year": 2024,
+      "month": 4,
+      "day": 3
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81749969"
+  },
+  {
+    "id": "franchise-183822",
+    "titleFr": "Zou",
+    "titleOrig": "Honnou da Zou",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183822-i0SQ36HbtQY8.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 1,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": null,
+    "trailerId": "4ykYc6IiR_c",
+    "genres": "Comedy",
+    "synopsis": "",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "17/04/2013",
+    "lastEpisodeDate": "17/04/2013",
+    "rawStartDate": {
+      "year": 2013,
+      "month": 4,
+      "day": 17
+    },
+    "rawEndDate": {
+      "year": 2013,
+      "month": 4,
+      "day": 17
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.3b007f2f-2035-4f56-92e8-7ce8d1d43db1"
+  },
+  {
+    "id": "franchise-101705",
+    "titleFr": "Notre jeunesse en orbite",
+    "titleOrig": "Chikyuugai Shounen Shoujo",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101705-bpXMRKKyzqg5.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 6,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "a3J4KbvIslA",
+    "genres": "Adventure, Sci-Fi",
+    "synopsis": "The anime is set in 2045, where the Internet and AI are commonplace even in space, and centers on a group of children stranded in space after a large-scale accident occurs in a space station. By using narrowband, social networking, and a drone that they can manipulate through smartphones and low-intelligence AI, they overcome many crises.\n\n(Source: Anime News Network)\nNote: Also released in Japan as a 2-part film series with the same content, the first part showing in theaters simultaneously with the worldwide Netflix release.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "28/01/2022",
+    "lastEpisodeDate": "28/01/2022",
+    "rawStartDate": {
+      "year": 2022,
+      "month": 1,
+      "day": 28
+    },
+    "rawEndDate": {
+      "year": 2022,
+      "month": 1,
+      "day": 28
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81340914"
+  },
+  {
+    "id": "franchise-9941",
+    "titleFr": "Tiger & Bunny",
+    "titleOrig": "TIGER & BUNNY",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9941-ixTUsgXCg2AI.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 25,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.9",
+    "trailerId": null,
+    "genres": "Action, Comedy, Mecha, Mystery",
+    "synopsis": "Sternbild City is home to people called \"Next,\" who use their special abilities to protect the people as superheroes. These heroes solve cases and save lives so they can wear sponsor logos or acquire \"hero points.\" Their activities are documented on the popular program \"Hero TV,\" which picks the \"King of Heroes\" in a yearly ranking. The veteran hero Wild Tiger has always preferred to work alone, but now he's been assigned the rookie Barnaby Brooks Jr., who has a different perspective on being a superhero.\n(Source: Anime News Network)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "03/04/2011",
+    "lastEpisodeDate": "18/09/2011",
+    "rawStartDate": {
+      "year": 2011,
+      "month": 4,
+      "day": 3
+    },
+    "rawEndDate": {
+      "year": 2011,
+      "month": 9,
+      "day": 18
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80039972"
+  },
+  {
+    "id": "franchise-109586",
+    "titleFr": "Cagaster of an Insect Cage",
+    "titleOrig": "Mushikago no Cagaster",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx109586-kCEXqdiTMX0j.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.1",
+    "trailerId": "aUAJsXRSqyE",
+    "genres": "Action, Drama, Sci-Fi",
+    "synopsis": "The nightmare that wiped out two thirds of the human race thirty years ago wasn't caused by germs. It was bugs on an entirely different kind of scale: bizarre insects that mutate their victims into half-human creatures that rapidly evolve into rampaging giant monsters!\n\nYet, as unstoppable as the monstrous insects seemed, humanity is as hard to kill as cockroaches, and exterminators like Kidou now spend their lives stalking and killing the creatures called Cagasters. As the brief still-partially human phase is the best time to strike, however, exterminators soon learn to distance themselves, socially and emotionally, from normal people. But when Kidou finds himself suddenly tasked with returning a young survivor to her mother, he starts to realize that his emotions and humanity may not be buried as deeply as he believed!\n\n(Source: Sentai Filmworks)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "06/02/2020",
+    "lastEpisodeDate": "06/02/2020",
+    "rawStartDate": {
+      "year": 2020,
+      "month": 2,
+      "day": 6
+    },
+    "rawEndDate": {
+      "year": 2020,
+      "month": 2,
+      "day": 6
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80224581"
+  },
+  {
+    "id": "franchise-108598",
+    "titleFr": "Levius",
+    "titleOrig": "Levius",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108598-RGcBgF8J7fec.png",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "mea4naWOOcs",
+    "genres": "Drama, Sci-Fi, Sports",
+    "synopsis": "In the 19th century empire after the war, rose “mechanical boxing” which involved people who had had their bodies modified. Under his uncle’s tutelage, Levius, a lonely youth who lost his father in the war and whose mother is in a coma, enters the mechanical boxing scene.",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "28/11/2019",
+    "lastEpisodeDate": "28/11/2019",
+    "rawStartDate": {
+      "year": 2019,
+      "month": 11,
+      "day": 28
+    },
+    "rawEndDate": {
+      "year": 2019,
+      "month": 11,
+      "day": 28
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80156799"
+  },
+  {
+    "id": "franchise-101597",
+    "titleFr": "Ultramarine Magmell",
+    "titleOrig": "Gunjou no Magmell",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101597-1hmWoRvno4Tq.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 13,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "2.9",
+    "trailerId": "1ghnR7G2WHo",
+    "genres": "Action, Adventure, Fantasy",
+    "synopsis": "The fantasy series takes place in a world where a new continent named Magmell suddenly appears in the ocean, and a new age of exploration begins. Explorers venture to the island to find previously unknown lifeforms and resources, but experience one disaster after another. The manga follows the mysterious young men who make a living as relief workers who aid the explorers.\n\n(Source: Anime News Network)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "07/04/2019",
+    "lastEpisodeDate": "30/06/2019",
+    "rawStartDate": {
+      "year": 2019,
+      "month": 4,
+      "day": 7
+    },
+    "rawEndDate": {
+      "year": 2019,
+      "month": 6,
+      "day": 30
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81019771"
+  },
+  {
+    "id": "franchise-111131",
+    "titleFr": "Cannon Busters",
+    "titleOrig": "CANNON BUSTERS",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx111131-qc5z5Xu4Qiti.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.1",
+    "trailerId": "QFb3lNBV8Qs",
+    "genres": "Action, Adventure, Fantasy, Mecha, Sci-Fi",
+    "synopsis": "Follow the adventures and exploits of S.A.M, a high-end, royal-class friendship droid who's joined by a quirky, discarded maintenance robot and a brash, deadly fugitive. Together, the unlikely trio embarks on an unforgettable journey in a fantastic and dangerous world in search of S.A.M's best friend, the heir to a powerful kingdom under siege.\n\n(Source: Official Website)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "15/08/2019",
+    "lastEpisodeDate": "15/08/2019",
+    "rawStartDate": {
+      "year": 2019,
+      "month": 8,
+      "day": 15
+    },
+    "rawEndDate": {
+      "year": 2019,
+      "month": 8,
+      "day": 15
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80195357"
+  },
+  {
+    "id": "franchise-21516",
+    "titleFr": "Kuromukuro",
+    "titleOrig": "Kuromukuro",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21516-F3sOzoi6aHsZ.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 26,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "oIOgBRsCsUQ",
+    "genres": "Action, Mecha",
+    "synopsis": "During the construction of the Kurobe Dam, an ancient artifact was discovered, and so the United Nations Kurobe Research Institute was established. Intellectuals from all over the world gathered to study the object, and the children of those researchers attend Mt. Tate International Senior High School, including the institute head's daughter, Yukina Shirahane. In the summer of 2016, a lone samurai once again awakens!\n\n(Source: Pony Canyon USA)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "07/04/2016",
+    "lastEpisodeDate": "29/09/2016",
+    "rawStartDate": {
+      "year": 2016,
+      "month": 4,
+      "day": 7
+    },
+    "rawEndDate": {
+      "year": 2016,
+      "month": 9,
+      "day": 29
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80103318"
+  },
+  {
+    "id": "franchise-101500",
+    "titleFr": "Ingress: The Animation",
+    "titleOrig": "Ingress",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx101500-cyZGel4enSqH.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 11,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "2.9",
+    "trailerId": "jGRUyyUZOK0",
+    "genres": "Action, Mystery, Sci-Fi",
+    "synopsis": "Special Investigator Makoto Midorikawa possesses the unusual ability to unlock and perceive the memories of any object with a single touch. While investigating an explosion at a laboratory, his powers put him in the crosshairs of an international conspiracy centered around Exotic Matter (XM), a mysterious substance that could rewrite the fabric of human destiny. Caught between the Resistance and the Enlightened, rival factions hellbent on exploiting XM to twist civilization to their whim, Makoto must use his abilities to unlock the secrets of XM and save humanity.\n\n(Source: Sentai Filmworks)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "18/10/2018",
+    "lastEpisodeDate": "18/10/2018",
+    "rawStartDate": {
+      "year": 2018,
+      "month": 10,
+      "day": 18
+    },
+    "rawEndDate": {
+      "year": 2018,
+      "month": 10,
+      "day": 18
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80992853"
+  },
+  {
+    "id": "franchise-163138",
+    "titleFr": "Yakitori: Soldiers of Misfortune",
+    "titleOrig": "Yakitori",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b163138-cVwMVA4hp9eD.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 6,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.0",
+    "trailerId": "mbgkuC8od98",
+    "genres": "Action, Sci-Fi",
+    "synopsis": "Set in a future where the solar system is dominated by trade federations who are in constant conflict. In order to escape his restrictive homeland of Japan, and under the recommendation of his military cook friend Pupkin, Akira enlists in a trade federation orbital drop infantry unit. Such infantry are notorious for their 70% casualty rate, and are nicknamed \"Yakitori\" for their expendability. \n(Source: Anime News Network, edited)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "18/05/2023",
+    "lastEpisodeDate": "18/05/2023",
+    "rawStartDate": {
+      "year": 2023,
+      "month": 5,
+      "day": 18
+    },
+    "rawEndDate": {
+      "year": 2023,
+      "month": 5,
+      "day": 18
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/81186862"
+  },
+  {
+    "id": "franchise-98073",
+    "titleFr": "Lost Song",
+    "titleOrig": "LOST SONG",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98073-oHmRx41uN89W.jpg",
+    "crunchyrollUrl": null,
+    "adnUrl": null,
+    "episodesTotal": 12,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": "3.4",
+    "trailerId": "vQuNJ06_1GI",
+    "genres": "Drama, Fantasy, Music",
+    "synopsis": "Rin, an energetic girl who loves to eat, lives in a verdant frontier village. Deep within the royal palace in the bustling capital city, the songstress Finis spends her days in solitude. Both share a special power no other person has. A miraculous power that can heal wounds, create water and stir the wind -- the power of song. Guided by destiny, the two young women each face an arduous journey with the power of song. The shadow of war looms over the kingdom, tainting even the miraculous songs with the blood of innocents. Loved ones meet their deaths as silent screams echo through a stone prison. As two destinies intersect, will the final song be one of despair, hope or...?\n\n(Source: Anime News Network)",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "31/03/2018",
+    "lastEpisodeDate": "16/06/2018",
+    "rawStartDate": {
+      "year": 2018,
+      "month": 3,
+      "day": 31
+    },
+    "rawEndDate": {
+      "year": 2018,
+      "month": 6,
+      "day": 16
+    },
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": [],
+    "netflixUrl": "https://www.netflix.com/title/80191369"
   }
 ];

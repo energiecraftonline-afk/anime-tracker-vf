@@ -418,67 +418,7 @@ function renderHero() {
     if (detailsBtn) detailsBtn.addEventListener("click", () => showAnimeDetails(pick.id));
 }
 
-// ==========================================================================
-// CARROUSELS HORIZONTAUX — Reprendre la lecture / Tendances de la saison
-// ==========================================================================
-function renderRows() {
-    const wrap = document.getElementById("rows-section");
-    if (!wrap) return;
 
-    const rows = [];
-    const resume = animeList
-        .filter(a => a.status === "watching" && a.episodesWatched > 0 && a.episodesWatched < a.episodesTotal && a.status !== "hidden")
-        .sort((a, b) => (b.episodesWatched / b.episodesTotal) - (a.episodesWatched / a.episodesTotal));
-    if (resume.length > 0) {
-        rows.push({ title: "Reprendre la lecture", items: resume.slice(0, 15), resume: true });
-    }
-    const trending = animeList
-        .filter(a => a.airingStatus === "RELEASING" && !a.unavailable && a.imageUrl && a.status !== "hidden")
-        .sort((a, b) => parseFloat(b.siteRating || 0) - parseFloat(a.siteRating || 0));
-    if (trending.length > 2) {
-        rows.push({ title: "Tendances de la saison", items: trending.slice(0, 15), resume: false });
-    }
-
-    if (rows.length === 0) {
-        wrap.innerHTML = "";
-        return;
-    }
-
-    wrap.innerHTML = rows.map((row, rowIdx) => `
-        <div class="row-block">
-            <h3 class="row-title">${row.title}</h3>
-            <div class="row-scroller">
-                ${row.items.map(a => {
-                    const total = parseInt(a.episodesTotal || 0);
-                    const watched = parseInt(a.episodesWatched || 0);
-                    const pct = total > 0 ? Math.round((watched / total) * 100) : 0;
-                    const cover = a.imageUrl ? a.imageUrl : getFallbackImage(a.titleFr);
-                    return `
-                        <div class="row-card" data-id="${a.id}" data-resume="${row.resume ? "1" : ""}">
-                            <div class="row-card-poster">
-                                <img src="${cover}" alt="" loading="lazy">
-                                ${row.resume ? `<div class="row-card-progress"><div style="width: ${pct}%"></div></div>` : ""}
-                                <div class="row-card-play">
-                                    <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
-                                </div>
-                            </div>
-                            <span class="row-card-title">${a.titleFr}</span>
-                            <span class="row-card-sub">${row.resume ? `Ép. ${Math.min(watched + 1, total)} / ${total}` : `★ ${a.siteRating || "—"}`}</span>
-                        </div>
-                    `;
-                }).join("")}
-            </div>
-        </div>
-    `).join("");
-
-    wrap.querySelectorAll(".row-card").forEach(el => {
-        el.addEventListener("click", () => {
-            const id = el.getAttribute("data-id");
-            if (el.getAttribute("data-resume") === "1") openPlayerModal(id);
-            else showAnimeDetails(id);
-        });
-    });
-}
 
 function updateStats() {
     const hiddenCount = animeList.filter(a => a.status === "hidden").length;
@@ -508,7 +448,6 @@ function updateStats() {
     if (countHidden) countHidden.textContent = hiddenCount;
 
     renderHero();
-    renderRows();
 }
 
 // Détection automatique de la version française (VF vs VOSTFR)
