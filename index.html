@@ -150,12 +150,6 @@
                         </svg>
                         <span>Tester l'application</span>
                     </a>
-                    <div class="apk-preview-backdrop"></div>
-                    <div id="apk-preview-popup" class="apk-preview-popup">
-                        <video id="apk-preview-video" muted loop playsinline preload="none" poster="icon-512.png">
-                            <source data-src="apk-preview.mp4" type="video/mp4">
-                        </video>
-                    </div>
                 </div>
 
                 <!-- Data Dropdown Button (masqué) -->
@@ -438,6 +432,17 @@
         </div>
     </div>
 
+    <!-- Apercu video APK : hors de .app-header (backdrop-filter du header cree un
+         containing block pour les descendants position:fixed, ce qui rognait la
+         popup a la hauteur du header au lieu du viewport entier). -->
+    <div id="apk-preview-backdrop" class="apk-preview-backdrop">
+        <div id="apk-preview-popup" class="apk-preview-popup">
+            <video id="apk-preview-video" muted loop playsinline preload="none" poster="icon-512.png">
+                <source data-src="apk-preview.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
     <!-- Link to app logic (defer : execution non-bloquante, ordre preserve) -->
     <script src="catalog.js" defer></script>
     <script src="app.js" defer></script>
@@ -492,9 +497,12 @@
             console.log('[PWA] App installée avec succès !');
         });
 
+        // Detecte si la page tourne dans le WebView de l'appli Android (Play Store)
+        const isAndroidWebView = /; wv\)/.test(navigator.userAgent);
+
         // Hide the APK download button when already running inside the Android app (WebView)
         const apkBtn = document.getElementById('download-apk-btn');
-        if (apkBtn && /; wv\)/.test(navigator.userAgent)) {
+        if (apkBtn && isAndroidWebView) {
             apkBtn.style.display = 'none';
         }
 
@@ -502,8 +510,9 @@
         // source chargee seulement au premier survol (evite de telecharger la
         // video pour rien), lecture en pause quand la souris quitte le bouton.
         const apkPreviewWrapper = document.querySelector('.apk-preview-wrapper');
+        const apkPreviewBackdrop = document.getElementById('apk-preview-backdrop');
         const apkPreviewVideo = document.getElementById('apk-preview-video');
-        if (apkPreviewWrapper && apkPreviewVideo) {
+        if (apkPreviewWrapper && apkPreviewBackdrop && apkPreviewVideo) {
             let previewLoaded = false;
             apkPreviewWrapper.addEventListener('mouseenter', () => {
                 if (!previewLoaded) {
@@ -514,12 +523,25 @@
                     }
                     previewLoaded = true;
                 }
+                apkPreviewBackdrop.classList.add('is-visible');
                 apkPreviewVideo.currentTime = 0;
                 apkPreviewVideo.play().catch(() => {});
             });
             apkPreviewWrapper.addEventListener('mouseleave', () => {
+                apkPreviewBackdrop.classList.remove('is-visible');
                 apkPreviewVideo.pause();
             });
+        }
+
+        // Bouton Ko-fi : masque dans l'appli Android (WebView), affiche seulement sur le site web
+        if (!isAndroidWebView) {
+            const kofiScript = document.createElement('script');
+            kofiScript.src = 'https://storage.ko-fi.com/cdn/widget/Widget_2.js';
+            kofiScript.onload = () => {
+                kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'E0J822UNFL');
+                kofiwidget2.draw();
+            };
+            document.body.appendChild(kofiScript);
         }
     </script>
 </body>
