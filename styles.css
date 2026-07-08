@@ -2945,8 +2945,8 @@ body {
 }
 
 .leaderboard-toggle-btn {
-    position: absolute;
-    left: -36px;
+    position: fixed;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
     width: 36px;
@@ -2963,8 +2963,12 @@ body {
     justify-content: center;
     cursor: pointer;
     z-index: 1001;
-    transition: background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
+    transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1), background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
     box-shadow: -4px 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.leaderboard-toggle-btn.drawer-open {
+    right: 360px;
 }
 
 .leaderboard-toggle-btn:hover {
@@ -2979,7 +2983,7 @@ body {
     transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.leaderboard-drawer.open .leaderboard-toggle-btn svg {
+.leaderboard-toggle-btn.drawer-open svg {
     transform: rotate(180deg);
 }
 
@@ -3154,6 +3158,10 @@ body {
     .leaderboard-drawer.open {
         right: 0;
     }
+    .leaderboard-toggle-btn.drawer-open {
+        right: 100%;
+    }
 }
+
 
 

@@ -443,9 +443,11 @@ function initLeaderboardEvents() {
         isLeaderboardOpen = !isLeaderboardOpen;
         if (isLeaderboardOpen) {
             drawer.classList.add("open");
+            toggleBtn.classList.add("drawer-open");
             fetchAndRenderLeaderboard();
         } else {
             drawer.classList.remove("open");
+            toggleBtn.classList.remove("drawer-open");
         }
     });
     
@@ -454,6 +456,7 @@ function initLeaderboardEvents() {
         if (isLeaderboardOpen && !drawer.contains(e.target) && e.target !== toggleBtn && !toggleBtn.contains(e.target)) {
             isLeaderboardOpen = false;
             drawer.classList.remove("open");
+            toggleBtn.classList.remove("drawer-open");
         }
     });
 }
