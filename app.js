@@ -1715,11 +1715,20 @@ function openPlayerModal(animeId, startEpisodeIndex = null) {
             if (mediaIndex >= mediaSteps.length) {
                 const placeholder = videoPlayerWrapper.querySelector(".player-placeholder");
                 if (placeholder) {
+                    // Le trailer existe souvent sur YouTube mais son intégration
+                    // est interdite par la chaîne : proposer de l'ouvrir là-bas.
+                    const lastYt = mediaSteps.filter(s => s.type === "yt").pop();
                     placeholder.innerHTML = `
                         <div class="player-placeholder-icon-wrapper" style="text-align: center; padding: 24px;">
                             <svg class="player-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width: 48px; height: 48px; color: var(--text-muted); margin-bottom: 12px;"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-                            <h4 style="font-size: 16px; margin-bottom: 4px;">Bande-annonce non disponible</h4>
-                            <p style="font-size: 13px; color: var(--text-muted);">Aucune vidéo lisible pour cet animé.</p>
+                            <h4 style="font-size: 16px; margin-bottom: 4px;">Lecture intégrée impossible</h4>
+                            <p style="font-size: 13px; color: var(--text-muted); margin-bottom: ${lastYt ? "16px" : "0"};">${lastYt ? "La chaîne du trailer interdit sa lecture en dehors de YouTube." : "Aucune vidéo trouvée pour cet animé."}</p>
+                            ${lastYt ? `
+                                <a href="https://www.youtube.com/watch?v=${lastYt.id}" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(255, 0, 0, 0.85); color: #fff; font-weight: 700; font-size: 13.5px; padding: 10px 20px; border-radius: 9999px; text-decoration: none;">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px;"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.51A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.123 2.136c1.872.51 9.377.51 9.377.51s7.505 0 9.377-.51A3.02 3.02 0 0 0 23.5 17.81C24 15.93 24 12 24 12s0-3.93-.5-5.81z"/><path d="M9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#282828"/></svg>
+                                    Voir le trailer sur YouTube
+                                </a>
+                            ` : ""}
                         </div>
                     `;
                 }
