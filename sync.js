@@ -337,24 +337,27 @@ async function fetchAndRenderLeaderboard() {
         const users = data.map(row => {
             const progress = row.data || {};
             const profile = progress.__user_profile || {};
-            
+
             let totalEps = 0;
+            let completedCount = 0;
             Object.keys(progress).forEach(key => {
                 if (key !== "__user_profile" && progress[key] && typeof progress[key] === "object") {
                     totalEps += parseInt(progress[key].episodesWatched || 0);
+                    if (progress[key].status === "completed") completedCount++;
                 }
             });
-            
+
             const totalMins = totalEps * 24;
             const hours = Math.round(totalMins / 60);
             const name = profile.name || `Utilisateur ${row.user_id.substring(0, 5)}`;
             const avatarUrl = profile.avatar_url || `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=ff6400&color=fff&bold=true`;
-            
+
             return {
                 userId: row.user_id,
                 name: name,
                 avatarUrl: avatarUrl,
                 episodesCount: totalEps,
+                completedCount: completedCount,
                 hours: hours,
                 updatedAt: new Date(row.updated_at)
             };
@@ -378,42 +381,82 @@ async function fetchAndRenderLeaderboard() {
             return a.name.localeCompare(b.name, "fr");
         });
         
-        contentEl.innerHTML = "";
-        
-        activeUsers.forEach((user, index) => {
-            const rank = index + 1;
+        // ----- Rendu : podium top 3 + liste + ma position épinglée -----
+        const fallbackAvatar = (name) => `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=ff6400&color=fff&bold=true`;
+        const levelOf = (h) => h >= 500 ? { name: "Légende", color: "#f59e0b" }
+            : h >= 200 ? { name: "Otaku", color: "#a855f7" }
+            : h >= 50 ? { name: "Passionné", color: "#3b82f6" }
+            : h >= 10 ? { name: "Amateur", color: "#22c55e" }
+            : { name: "Novice", color: "#9ca3af" };
+        const fmtTime = (h) => h >= 48 ? `${Math.floor(h / 24)}j ${h % 24}h` : `${h}h`;
+        const maxHours = Math.max(activeUsers[0].hours, 1);
+        const medals = ["🥇", "🥈", "🥉"];
+
+        const podiumUsers = activeUsers.slice(0, 3);
+        // Ordre visuel du podium : 2e, 1er, 3e
+        const podiumOrder = [podiumUsers[1], podiumUsers[0], podiumUsers[2]].filter(Boolean);
+
+        let html = `<div class="lb-podium">`;
+        podiumOrder.forEach((user) => {
+            const rank = activeUsers.indexOf(user) + 1;
+            const lvl = levelOf(user.hours);
             const isMe = syncUser && syncUser.id === user.userId;
-            const rankClass = rank <= 3 ? `rank-${rank}` : "";
-            const meClass = isMe ? "current-user" : "";
-            
-            const item = document.createElement("div");
-            item.className = `leaderboard-item ${rankClass} ${meClass}`;
-            
-            item.innerHTML = `
-                <div class="leaderboard-rank">${rank}</div>
-                <img class="leaderboard-avatar" src="${user.avatarUrl}" alt="${user.name}" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(user.name)}&background=ff6400&color=fff&bold=true'">
-                <div class="leaderboard-info">
-                    <div class="leaderboard-name">${user.name} ${isMe ? "(Vous)" : ""}</div>
-                    <div class="leaderboard-stats">${user.episodesCount} épisode${user.episodesCount > 1 ? 's' : ''} vu${user.episodesCount > 1 ? 's' : ''}</div>
-                </div>
-                <div class="leaderboard-hours">
-                    <span>${user.hours}</span>
-                    <span class="leaderboard-hours-label">Heures</span>
+            html += `
+                <div class="lb-podium-col place-${rank} ${isMe ? "current-user" : ""}">
+                    <span class="lb-medal">${medals[rank - 1]}</span>
+                    <img class="lb-podium-avatar" src="${user.avatarUrl}" alt="" onerror="this.src='${fallbackAvatar(user.name)}'">
+                    <span class="lb-podium-name">${user.name}${isMe ? " (Vous)" : ""}</span>
+                    <span class="lb-podium-hours">${fmtTime(user.hours)}</span>
+                    <span class="lb-level" style="color: ${lvl.color}; border-color: ${lvl.color}44; background: ${lvl.color}1a;">${lvl.name}</span>
+                    <div class="lb-podium-base">${rank}</div>
                 </div>
             `;
-            
-            contentEl.appendChild(item);
         });
-        
-        if (syncUser && !activeUsers.some(u => u.userId === syncUser.id)) {
-            const notice = document.createElement("div");
-            notice.className = "leaderboard-empty";
-            notice.style.borderTop = "1px solid rgba(255, 255, 255, 0.08)";
-            notice.style.marginTop = "16px";
-            notice.innerHTML = `
-                <p style="font-size: 0.8rem;">Votre progression n'apparaît pas encore dans le classement car vous n'avez pas d'heures de visionnage enregistrées.</p>
+        html += `</div>`;
+
+        // Liste à partir du 4e
+        activeUsers.slice(3).forEach((user, i) => {
+            const rank = i + 4;
+            const isMe = syncUser && syncUser.id === user.userId;
+            const lvl = levelOf(user.hours);
+            const barPct = Math.max(3, Math.round((user.hours / maxHours) * 100));
+            html += `
+                <div class="leaderboard-item ${isMe ? "current-user" : ""}">
+                    <div class="leaderboard-rank">${rank}</div>
+                    <img class="leaderboard-avatar" src="${user.avatarUrl}" alt="" onerror="this.src='${fallbackAvatar(user.name)}'">
+                    <div class="leaderboard-info">
+                        <div class="leaderboard-name">${user.name}${isMe ? " (Vous)" : ""} <span class="lb-level" style="color: ${lvl.color}; border-color: ${lvl.color}44; background: ${lvl.color}1a;">${lvl.name}</span></div>
+                        <div class="leaderboard-stats">${user.episodesCount} ép. vus · ${user.completedCount} terminé${user.completedCount > 1 ? "s" : ""}</div>
+                        <div class="lb-bar"><div style="width: ${barPct}%"></div></div>
+                    </div>
+                    <div class="leaderboard-hours">
+                        <span>${fmtTime(user.hours)}</span>
+                        <span class="leaderboard-hours-label">de visionnage</span>
+                    </div>
+                </div>
             `;
-            contentEl.appendChild(notice);
+        });
+
+        contentEl.innerHTML = html;
+
+        // Ma position, toujours visible en bas
+        if (syncUser) {
+            const myIndex = activeUsers.findIndex(u => u.userId === syncUser.id);
+            const meBar = document.createElement("div");
+            meBar.className = "lb-me-bar";
+            if (myIndex !== -1) {
+                const me = activeUsers[myIndex];
+                const ahead = myIndex > 0 ? activeUsers[myIndex - 1] : null;
+                const gap = ahead ? (ahead.hours - me.hours) : 0;
+                meBar.innerHTML = `
+                    <span class="lb-me-rank">#${myIndex + 1}</span>
+                    <span class="lb-me-text">Votre position · ${fmtTime(me.hours)} de visionnage</span>
+                    <span class="lb-me-gap">${myIndex === 0 ? "👑 En tête !" : `${fmtTime(gap)} du rang #${myIndex}`}</span>
+                `;
+            } else {
+                meBar.innerHTML = `<span class="lb-me-text">Marquez des épisodes vus pour entrer au classement !</span>`;
+            }
+            contentEl.appendChild(meBar);
         }
         
     } catch (err) {
