@@ -348,6 +348,76 @@ function saveData() {
 // ==========================================================================
 // RENDERING & LAYOUT
 // ==========================================================================
+// ==========================================================================
+// HERO IMMERSIF — animé à reprendre (ou tendance de la saison)
+// ==========================================================================
+let heroPickId = null;
+
+function renderHero() {
+    const hero = document.getElementById("hero-section");
+    if (!hero) return;
+
+    let pick = heroPickId ? animeList.find(a => a.id === heroPickId) : null;
+    if (!pick) {
+        // Priorité : l'animé en cours le plus avancé (à reprendre)
+        pick = animeList
+            .filter(a => a.status === "watching" && a.episodesWatched > 0 && a.episodesWatched < a.episodesTotal && a.imageUrl)
+            .sort((a, b) => (b.episodesWatched / b.episodesTotal) - (a.episodesWatched / a.episodesTotal))[0];
+        // Sinon : une tendance en cours de diffusion
+        if (!pick) {
+            const trending = animeList.filter(a => a.airingStatus === "RELEASING" && a.imageUrl && !a.unavailable && parseFloat(a.siteRating || 0) >= 4);
+            pick = trending.length > 0 ? trending[Math.floor(Math.random() * trending.length)] : null;
+        }
+        if (pick) heroPickId = pick.id;
+    }
+    if (!pick) {
+        hero.style.display = "none";
+        return;
+    }
+
+    const total = parseInt(pick.episodesTotal || 0);
+    const watched = parseInt(pick.episodesWatched || 0);
+    const isResume = pick.status === "watching" && watched > 0 && watched < total;
+    const nextEp = Math.min(watched + 1, total);
+    const pct = total > 0 ? Math.round((watched / total) * 100) : 0;
+    const genres = (pick.genres || "").split(",").slice(0, 3).map(g => g.trim()).filter(Boolean).join(" · ");
+
+    hero.style.display = "flex";
+    hero.innerHTML = `
+        <div class="hero-backdrop" style="background-image: url('${pick.imageUrl}')"></div>
+        <div class="hero-inner">
+            <img class="hero-poster" src="${pick.imageUrl}" alt="${pick.titleFr}">
+            <div class="hero-content">
+                <span class="hero-kicker">${isResume ? "Reprendre la lecture" : "Tendance de la saison"}</span>
+                <h2 class="hero-title">${pick.titleFr}</h2>
+                <div class="hero-meta">
+                    <span><span class="star">★</span> ${pick.siteRating || "—"}</span>
+                    ${genres ? `<span>${genres}</span>` : ""}
+                    <span>${total} épisode${total > 1 ? "s" : ""}</span>
+                </div>
+                ${pick.synopsis ? `<p class="hero-synopsis">${pick.synopsis.split("\n")[0]}</p>` : ""}
+                <div class="hero-actions">
+                    <button class="hero-play-btn" id="hero-play-btn">
+                        <svg viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px;"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                        ${isResume ? `Reprendre l'épisode ${nextEp}` : "Commencer à regarder"}
+                    </button>
+                    <button class="hero-details-btn" id="hero-details-btn">Détails</button>
+                </div>
+                ${isResume ? `
+                    <div class="hero-progress">
+                        <div class="hero-progress-label"><span>Progression</span><span>${watched} / ${total} (${pct}%)</span></div>
+                        <div class="hero-progress-track"><div class="hero-progress-fill" style="width: ${pct}%"></div></div>
+                    </div>
+                ` : ""}
+            </div>
+        </div>
+    `;
+    const playBtn = document.getElementById("hero-play-btn");
+    if (playBtn) playBtn.addEventListener("click", () => openPlayerModal(pick.id));
+    const detailsBtn = document.getElementById("hero-details-btn");
+    if (detailsBtn) detailsBtn.addEventListener("click", () => showAnimeDetails(pick.id));
+}
+
 function updateStats() {
     const hiddenCount = animeList.filter(a => a.status === "hidden").length;
     const visibleList = animeList.filter(a => a.status !== "hidden");
@@ -374,6 +444,8 @@ function updateStats() {
     countCompleted.textContent = completed;
     countOnHold.textContent = animeList.filter(a => a.status === "on-hold").length;
     if (countHidden) countHidden.textContent = hiddenCount;
+
+    renderHero();
 }
 
 // Détection automatique de la version française (VF vs VOSTFR)
@@ -594,6 +666,11 @@ function renderGrid() {
                 ${anime.unavailable ? `
                     <span class="card-badge-unavailable" title="Cet animé n'est plus proposé en streaming légal (VF) actuellement">Indisponible</span>
                 ` : ''}
+                <div class="card-hover-meta">
+                    <span class="hover-line"><span class="star">★</span> ${anime.siteRating || "—"} &nbsp;•&nbsp; ${total} épisode${total > 1 ? 's' : ''}</span>
+                    ${anime.genres ? `<span class="hover-line">${anime.genres.split(',').slice(0, 3).join(' · ')}</span>` : ''}
+                    <span class="hover-line">${total - watched > 0 ? `${total - watched} épisode${total - watched > 1 ? 's' : ''} restant${total - watched > 1 ? 's' : ''}` : 'Terminé ✓'}</span>
+                </div>
                 <span class="card-rating-overlay" title="Note officielle de la communauté (Crunchyroll / AniList)">
                     <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                     <span>${anime.siteRating || '4.2'}</span>

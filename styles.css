@@ -2313,3 +2313,346 @@ select option {
 
 
 
+
+/* ==========================================================================
+   REDESIGN « CINEMATIC DARK » — surcharge du thème
+   ========================================================================== */
+:root {
+    --bg-darker: #06070a;
+    --bg-dark: #0a0c10;
+    --bg-card: #12151c;
+    --bg-card-hover: #181c25;
+    --bg-input: #10131a;
+    --border-color: #1e222b;
+    --primary-glow: rgba(255, 100, 0, 0.18);
+    --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.65);
+    --ease-premium: cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-fast: 0.25s var(--ease-premium);
+    --transition-normal: 0.4s var(--ease-premium);
+}
+
+body {
+    background:
+        radial-gradient(1200px 500px at 80% -10%, rgba(255, 100, 0, 0.05), transparent 60%),
+        radial-gradient(900px 420px at 5% 8%, rgba(59, 130, 246, 0.04), transparent 55%),
+        var(--bg-dark);
+    background-attachment: fixed;
+}
+
+/* Header translucide flotté */
+.app-header {
+    position: sticky;
+    top: 0;
+    z-index: 90;
+    background: rgba(10, 12, 16, 0.72);
+    backdrop-filter: blur(18px) saturate(140%);
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    margin: 0 -24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* Cartes : élévation douce, métadonnées au survol */
+.anime-card {
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.015), transparent 30%), var(--bg-card);
+    transition: transform 0.4s var(--ease-premium), box-shadow 0.4s var(--ease-premium), border-color 0.4s var(--ease-premium);
+}
+
+.anime-card:hover {
+    transform: translateY(-8px) scale(1.015);
+    border-color: rgba(255, 100, 0, 0.35);
+    box-shadow: 0 24px 50px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 100, 0, 0.12);
+}
+
+.card-hover-meta {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 42px 12px 12px;
+    background: linear-gradient(180deg, transparent, rgba(4, 5, 8, 0.92) 55%);
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 0.4s var(--ease-premium), transform 0.4s var(--ease-premium);
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 2;
+}
+
+.anime-card:hover .card-hover-meta {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card-hover-meta .hover-line {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.85);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-hover-meta .hover-line .star {
+    color: #eab308;
+}
+
+/* Badges fins translucides */
+.card-badge-vf {
+    background: rgba(255, 100, 0, 0.16);
+    color: #ffb27d;
+    border: 1px solid rgba(255, 100, 0, 0.4);
+    backdrop-filter: blur(6px);
+    font-weight: 700;
+}
+
+.card-badge-vf.vostfr {
+    background: rgba(148, 163, 184, 0.14);
+    color: #cbd5e1;
+    border-color: rgba(148, 163, 184, 0.35);
+}
+
+.card-badge-airing {
+    backdrop-filter: blur(6px);
+    font-weight: 700;
+}
+
+.card-badge-airing.releasing {
+    background: rgba(34, 197, 94, 0.16);
+    color: #6ee7a0;
+    border: 1px solid rgba(34, 197, 94, 0.4);
+}
+
+.card-badge-airing.finished {
+    background: rgba(59, 130, 246, 0.15);
+    color: #93c5fd;
+    border: 1px solid rgba(59, 130, 246, 0.4);
+}
+
+.platform-badge {
+    backdrop-filter: blur(6px);
+}
+
+/* Onglets de filtre affinés */
+.filter-tab {
+    border: 1px solid transparent;
+    transition: all 0.3s var(--ease-premium);
+}
+
+.filter-tab.active {
+    border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* ---------- HERO IMMERSIF ---------- */
+.hero-section {
+    position: relative;
+    margin: 20px 0 6px;
+    border-radius: 22px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    min-height: 300px;
+    display: flex;
+    align-items: flex-end;
+    isolation: isolate;
+}
+
+.hero-backdrop {
+    position: absolute;
+    inset: -40px;
+    background-size: cover;
+    background-position: center 25%;
+    filter: blur(26px) brightness(0.5) saturate(1.25);
+    transform: scale(1.1);
+    z-index: -2;
+}
+
+.hero-section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(6, 7, 10, 0.92) 0%, rgba(6, 7, 10, 0.55) 55%, rgba(6, 7, 10, 0.25) 100%),
+                linear-gradient(0deg, rgba(6, 7, 10, 0.85) 0%, transparent 45%);
+    z-index: -1;
+}
+
+.hero-inner {
+    display: flex;
+    gap: 28px;
+    padding: 32px;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.hero-poster {
+    width: 150px;
+    border-radius: 14px;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    flex-shrink: 0;
+}
+
+.hero-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.hero-kicker {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #ffb27d;
+    background: rgba(255, 100, 0, 0.14);
+    border: 1px solid rgba(255, 100, 0, 0.35);
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.hero-title {
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+    line-height: 1.1;
+    margin-bottom: 8px;
+}
+
+.hero-meta {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+}
+
+.hero-meta .star { color: #eab308; }
+
+.hero-synopsis {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 640px;
+    margin-bottom: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.hero-play-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--primary);
+    color: var(--text-dark);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    padding: 13px 26px;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: all 0.3s var(--ease-premium);
+    box-shadow: 0 8px 24px rgba(255, 100, 0, 0.35);
+}
+
+.hero-play-btn:hover {
+    background: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 14px 32px rgba(255, 100, 0, 0.45);
+}
+
+.hero-details-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.07);
+    color: var(--text-white);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    padding: 13px 24px;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    backdrop-filter: blur(8px);
+    transition: all 0.3s var(--ease-premium);
+}
+
+.hero-details-btn:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.28);
+}
+
+.hero-progress {
+    margin-top: 16px;
+    max-width: 380px;
+}
+
+.hero-progress .hero-progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 5px;
+}
+
+.hero-progress .hero-progress-track {
+    height: 5px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+.hero-progress .hero-progress-fill {
+    height: 100%;
+    background: var(--primary);
+    border-radius: 9999px;
+}
+
+/* ---------- MOBILE : barre d'onglets basse + hero compact ---------- */
+@media (max-width: 768px) {
+    .filter-navbar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 95;
+        margin: 0;
+        padding: 8px 10px calc(10px + env(safe-area-inset-bottom));
+        background: rgba(8, 9, 13, 0.88);
+        backdrop-filter: blur(20px) saturate(140%);
+        -webkit-backdrop-filter: blur(20px) saturate(140%);
+        border-top: 1px solid rgba(255, 255, 255, 0.07);
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    .filter-navbar::-webkit-scrollbar { display: none; }
+
+    .main-content {
+        padding-bottom: 84px;
+    }
+
+    .hero-inner {
+        padding: 20px;
+        gap: 16px;
+    }
+
+    .hero-poster { width: 92px; }
+    .hero-title { font-size: 22px; }
+    .hero-synopsis { -webkit-line-clamp: 2; font-size: 13px; }
+    .hero-section { min-height: 220px; }
+}
+
