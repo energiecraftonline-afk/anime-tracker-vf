@@ -12,7 +12,7 @@ if (typeof DEFAULT_ANIME_DATA === 'undefined') {
 let animeList = [];
 let currentFilter = "all";
 let currentSearch = "";
-let currentSort = "alphabetical";
+let currentSort = "last-episode-desc";
 let currentPlatform = "all";
 
 // YouTube Error Auto-Fallback Globals
