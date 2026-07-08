@@ -688,7 +688,6 @@ function renderGrid() {
         const isVf = detectIfVf(anime);
         
         card.innerHTML = `
-            <div class="card-status-bar ${anime.status}"></div>
             <div class="card-image-wrapper js-open-details">
                 <img class="card-image" src="${coverSrc}" alt="Affiche de ${anime.titleFr}" loading="lazy">
                 <div class="card-overlay"></div>

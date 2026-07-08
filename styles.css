@@ -687,16 +687,6 @@ select option {
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px var(--primary-glow);
 }
 
-/* Status Indicator Ribbon */
-.card-status-bar {
-    height: 4px;
-    width: 100%;
-}
-.card-status-bar.watching { background-color: var(--color-watching); }
-.card-status-bar.plan-to-watch { background-color: var(--color-plan-to-watch); }
-.card-status-bar.completed { background-color: var(--color-completed); }
-.card-status-bar.on-hold { background-color: var(--color-on-hold); }
-
 /* Image Area */
 .card-image-wrapper {
     position: relative;
