@@ -117,12 +117,13 @@ body::before {
    LAYOUT CONTAINER
    ========================================================================== */
 .app-container {
+    --container-padding: 24px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 var(--container-padding);
 }
 
 /* ==========================================================================
@@ -147,6 +148,7 @@ body::before {
 .logo-icon {
     width: 36px;
     height: 36px;
+    border-radius: var(--radius-sm);
     color: var(--primary);
     filter: drop-shadow(0 0 6px var(--primary-glow));
     animation: pulse-logo 3s ease-in-out infinite;
@@ -1551,9 +1553,10 @@ select option {
 
 @media (max-width: 480px) {
     .app-container {
-        padding: 0 12px;
+        --container-padding: 12px;
+        padding: 0 var(--container-padding);
     }
-    
+
     .logo-text {
         font-size: 20px;
     }
@@ -1721,10 +1724,17 @@ select option {
 
 .player-controls-desc {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 12px;
+}
+
+#player-platforms-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 4px;
 }
 
 .player-controls-desc h3 {
@@ -2351,9 +2361,13 @@ body {
     backdrop-filter: blur(18px) saturate(140%);
     -webkit-backdrop-filter: blur(18px) saturate(140%);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    margin: 0 -24px;
-    padding-left: 24px;
-    padding-right: 24px;
+    /* Compense le padding de .app-container via une variable partagee
+       (--container-padding) plutot qu'une valeur codee en dur : elle suit
+       desormais automatiquement le changement de padding sous 480px, au
+       lieu de desaligner le header du reste du contenu en dessous. */
+    margin: 0 calc(-1 * var(--container-padding));
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
 }
 
 /* Cartes : élévation douce, métadonnées au survol */
@@ -2906,7 +2920,10 @@ body {
     -webkit-backdrop-filter: blur(8px);
     border-left: 1px solid rgba(255, 255, 255, 0.08);
     box-shadow: -10px 0 40px rgba(0, 0, 0, 0.6);
-    z-index: 1000;
+    /* Sous .modal (z-index:1000) : le tiroir de classement ne doit jamais
+       passer au-dessus d'une modale ouverte, quel que soit l'ordre du DOM
+       ou l'ordre d'ouverture reel. */
+    z-index: 990;
     transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1);
     display: flex;
     flex-direction: column;
@@ -2934,7 +2951,7 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    z-index: 1001;
+    z-index: 991; /* toujours sous .modal (1000), voir .leaderboard-drawer */
     transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1), background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
     box-shadow: -4px 0 12px rgba(0, 0, 0, 0.3);
 }

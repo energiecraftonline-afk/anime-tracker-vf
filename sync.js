@@ -533,7 +533,7 @@ function renderLeaderboardContent(contentEl) {
         html += `
             <div class="lb-podium-col place-${rank} ${isMe ? "current-user" : ""}">
                 <span class="lb-podium-rank">#${rank}</span>
-                <span class="lb-podium-name">${user.name}${isMe ? " (Vous)" : ""}</span>
+                <span class="lb-podium-name">${escapeHtml(user.name)}${isMe ? " (Vous)" : ""}</span>
                 <span class="lb-podium-hours">${mainValue[lbSortMode](user)}</span>
             </div>
         `;
@@ -547,13 +547,13 @@ function renderLeaderboardContent(contentEl) {
         const lvl = levelOf(user.hours);
         const barPct = Math.max(3, Math.round((refOf(user) / maxRef) * 100));
         html += `
-            <div class="leaderboard-item ${isMe ? "current-user" : ""}">
+            <div class="leaderboard-item ${isMe ? "current-user" : ""}" style="--i: ${i};">
                 <div class="leaderboard-rank">${rank}</div>
-                <img class="leaderboard-avatar" src="${user.avatarUrl}" alt="" onerror="this.src='${fallbackAvatar(user.name)}'">
+                <img class="leaderboard-avatar" src="${user.avatarUrl}" alt="" data-avatar-fallback-name="${escapeHtml(user.name)}">
                 <div class="leaderboard-info">
-                    <div class="leaderboard-name">${user.name}${isMe ? " (Vous)" : ""} <span class="lb-level" style="color: ${lvl.color}; border-color: ${lvl.color}44; background: ${lvl.color}1a;">${lvl.name}</span></div>
+                    <div class="leaderboard-name">${escapeHtml(user.name)}${isMe ? " (Vous)" : ""} <span class="lb-level" style="color: ${lvl.color}; border-color: ${lvl.color}44; background: ${lvl.color}1a;">${lvl.name}</span></div>
                     <div class="leaderboard-stats">${user.episodesCount} ép. · ${user.completedCount} terminé${user.completedCount > 1 ? "s" : ""} · ${activityOf(user.updatedAt)}</div>
-                    ${user.topAnimeTitle ? `<div class="lb-top-anime">Fan de ${user.topAnimeTitle}</div>` : ""}
+                    ${user.topAnimeTitle ? `<div class="lb-top-anime">Fan de ${escapeHtml(user.topAnimeTitle)}</div>` : ""}
                     <div class="lb-bar"><div style="width: ${barPct}%"></div></div>
                 </div>
                 <div class="leaderboard-hours">
@@ -565,6 +565,14 @@ function renderLeaderboardContent(contentEl) {
     });
 
     contentEl.innerHTML = html;
+
+    // Repli avatar (evite l'echappement JS-dans-attribut d'un onerror inline
+    // pour un nom entierement controle par le client Supabase qui l'a ecrit)
+    contentEl.querySelectorAll(".leaderboard-avatar").forEach(img => {
+        img.addEventListener("error", () => {
+            img.src = fallbackAvatar(img.getAttribute("data-avatar-fallback-name") || "?");
+        }, { once: true });
+    });
 
     // Onglets de tri
     contentEl.querySelectorAll(".lb-tab").forEach(tab => {
