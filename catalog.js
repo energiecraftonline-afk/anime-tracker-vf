@@ -1237,8 +1237,7 @@ const DEFAULT_ANIME_DATA = [
       }
     ],
     "openingUrl": "https://v.animethemes.moe/SteinsGate-OP1.webm",
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d9f5c2ce-29ee-4ab7-a46b-aa2c54916cdd",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d9f5c2ce-29ee-4ab7-a46b-aa2c54916cdd"
   },
   {
     "id": "franchise-20464",
@@ -2138,8 +2137,7 @@ const DEFAULT_ANIME_DATA = [
       }
     ],
     "openingUrl": "https://v.animethemes.moe/CowboyBebop-OP1.webm",
-    "netflixUrl": "https://www.netflix.com/title/80001305",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80001305"
   },
   {
     "id": "franchise-154587",
@@ -2682,8 +2680,7 @@ const DEFAULT_ANIME_DATA = [
       }
     ],
     "openingUrl": "https://v.animethemes.moe/Charlotte-OP1.webm",
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fc871cda-8ec9-4d0a-bf9c-d19bc3d1d5ef",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fc871cda-8ec9-4d0a-bf9c-d19bc3d1d5ef"
   },
   {
     "id": "franchise-10620",
@@ -6027,8 +6024,7 @@ const DEFAULT_ANIME_DATA = [
       }
     ],
     "openingUrl": "https://v.animethemes.moe/OuranKoukouHostClub-OP1.webm",
-    "netflixUrl": "https://www.netflix.com/title/70205014",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/70205014"
   },
   {
     "id": "franchise-889",
@@ -6132,8 +6128,7 @@ const DEFAULT_ANIME_DATA = [
         }
       }
     ],
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4040a90a-6874-4d04-82f8-67c42d4417db",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4040a90a-6874-4d04-82f8-67c42d4417db"
   },
   {
     "id": "franchise-339",
@@ -14160,8 +14155,7 @@ const DEFAULT_ANIME_DATA = [
         "name": "Saison 1",
         "episodesCount": 8
       }
-    ],
-    "unavailable": true
+    ]
   },
   {
     "id": "franchise-120377",
@@ -14184,8 +14178,7 @@ const DEFAULT_ANIME_DATA = [
         "episodesCount": 10
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/CyberpunkEdgerunners-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/CyberpunkEdgerunners-OP1.webm"
   },
   {
     "id": "franchise-97888",
@@ -14208,8 +14201,7 @@ const DEFAULT_ANIME_DATA = [
         "episodesCount": 26
       }
     ],
-    "openingUrl": "https://v.animethemes.moe/Baki-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Baki-OP1.webm"
   },
   {
     "id": "franchise-129201",
@@ -14344,8 +14336,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/82031882",
-    "openingUrl": "https://v.animethemes.moe/KooriNoJouheki-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/KooriNoJouheki-OP1.webm"
   },
   {
     "id": "franchise-169228",
@@ -14380,8 +14371,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d1393f28-73de-40bb-a1e3-45f3212cee27",
-    "openingUrl": "https://v.animethemes.moe/HokutoNoKen-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/HokutoNoKen-OP1.webm"
   },
   {
     "id": "franchise-269",
@@ -14416,8 +14406,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "disneyUrl": "https://www.disneyplus.com/browse/entity-c649c634-7f8d-48a9-ba72-48bd4b9c8419",
-    "openingUrl": "https://v.animethemes.moe/Bleach-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Bleach-OP1.webm"
   },
   {
     "id": "franchise-206914",
@@ -14452,8 +14441,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e510f6c5-42e5-4147-8e4a-2f84ef675e1c",
-    "openingUrl": "https://v.animethemes.moe/NipponSangoku-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/NipponSangoku-OP1.webm"
   },
   {
     "id": "franchise-207141",
@@ -14483,8 +14471,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/82760630",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/82760630"
   },
   {
     "id": "franchise-198113",
@@ -14519,8 +14506,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/82757009",
-    "openingUrl": "https://v.animethemes.moe/KillAo-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/KillAo-OP1.webm"
   },
   {
     "id": "franchise-177699",
@@ -14551,8 +14537,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e6239860-6c74-4435-8c48-3e9c88948635",
-    "openingUrl": "https://v.animethemes.moe/TheGhostInTheShell-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/TheGhostInTheShell-OP1.webm"
   },
   {
     "id": "franchise-1535",
@@ -14628,8 +14613,7 @@ const DEFAULT_ANIME_DATA = [
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/70177034",
     "disneyUrl": "https://www.disneyplus.com/browse/entity-870b9187-690d-4a9e-8704-b48564b31322",
-    "openingUrl": "https://v.animethemes.moe/YGODuelMonsters-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/YGODuelMonsters-OP1.webm"
   },
   {
     "id": "franchise-196935",
@@ -14664,8 +14648,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/82701514",
-    "openingUrl": "https://v.animethemes.moe/AkaneBanashi-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/AkaneBanashi-OP1.webm"
   },
   {
     "id": "franchise-19",
@@ -14701,8 +14684,7 @@ const DEFAULT_ANIME_DATA = [
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81409869",
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.aeb97ccc-181f-4333-bf18-1af348f9b92d",
-    "openingUrl": "https://v.animethemes.moe/Monster-OP1-NCDVD480.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Monster-OP1-NCDVD480.webm"
   },
   {
     "id": "franchise-116674",
@@ -14737,8 +14719,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "disneyUrl": "https://www.disneyplus.com/browse/entity-571475d5-8b1a-453f-a57f-26bb4dd13304",
-    "openingUrl": "https://v.animethemes.moe/Bleach2022-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Bleach2022-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-179813",
@@ -14773,8 +14754,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "disneyUrl": "https://www.disneyplus.com/browse/entity-eb5b776f-8162-491a-9aca-c1e9b56729e5",
-    "openingUrl": "https://v.animethemes.moe/NiwatoriFighter-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/NiwatoriFighter-OP1.webm"
   },
   {
     "id": "franchise-12031",
@@ -14846,8 +14826,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81943491",
-    "openingUrl": "https://v.animethemes.moe/DragonBallDaima-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/DragonBallDaima-OP1.webm"
   },
   {
     "id": "franchise-154116",
@@ -14882,8 +14861,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "disneyUrl": "https://www.disneyplus.com/browse/entity-9a14d04d-01f2-40d0-be62-a6c8ffe24137",
-    "openingUrl": "https://v.animethemes.moe/UndeadUnluck-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/UndeadUnluck-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-124195",
@@ -14918,8 +14896,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81236338",
-    "openingUrl": "https://v.animethemes.moe/HanmaBaki-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/HanmaBaki-OP1.webm"
   },
   {
     "id": "franchise-71",
@@ -14953,8 +14930,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fc6ecff4-20a8-41cd-b8b1-015cbf2df7fb",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fc6ecff4-20a8-41cd-b8b1-015cbf2df7fb"
   },
   {
     "id": "franchise-161476",
@@ -14989,8 +14965,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "disneyUrl": "https://www.disneyplus.com/browse/entity-5688fe7b-a605-4858-90a1-e013ef1c94b3",
-    "openingUrl": "https://v.animethemes.moe/Ishura-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Ishura-OP1.webm"
   },
   {
     "id": "franchise-1726",
@@ -15025,8 +15000,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.9aa9f7a8-5b9b-bf07-9123-9d6491b6f60b",
-    "openingUrl": "https://v.animethemes.moe/DevilMayCry-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/DevilMayCry-OP1.webm"
   },
   {
     "id": "franchise-177709",
@@ -15061,8 +15035,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81663325",
-    "openingUrl": "https://v.animethemes.moe/SakamotoDays-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/SakamotoDays-OP1.webm"
   },
   {
     "id": "franchise-177679",
@@ -15097,8 +15070,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.c6936fbf-0aee-4c15-b594-9d8ec473a3b4",
-    "openingUrl": "https://v.animethemes.moe/DarwinJihen-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/DarwinJihen-OP1.webm"
   },
   {
     "id": "franchise-210482",
@@ -15128,8 +15100,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/82116553",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/82116553"
   },
   {
     "id": "franchise-181444",
@@ -15164,8 +15135,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/82024665",
-    "openingUrl": "https://v.animethemes.moe/KaoruHana-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/KaoruHana-OP1.webm"
   },
   {
     "id": "franchise-170942",
@@ -15200,8 +15170,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81663323",
-    "openingUrl": "https://v.animethemes.moe/AoNoHako-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/AoNoHako-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-98460",
@@ -15236,8 +15205,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80174974",
-    "openingUrl": "https://v.animethemes.moe/DevilmanCrybaby-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/DevilmanCrybaby-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-208352",
@@ -15272,8 +15240,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81579317",
-    "openingUrl": "https://v.animethemes.moe/JoukamachiNoDandelion-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/JoukamachiNoDandelion-OP1.webm"
   },
   {
     "id": "franchise-177689",
@@ -15308,8 +15275,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81948057",
-    "openingUrl": "https://v.animethemes.moe/Hikanatsu-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Hikanatsu-OP1.webm"
   },
   {
     "id": "franchise-127399",
@@ -15344,8 +15310,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81281579",
-    "openingUrl": "https://v.animethemes.moe/ShuumatsuNoWalkure-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/ShuumatsuNoWalkure-OP1.webm"
   },
   {
     "id": "franchise-151514",
@@ -15380,8 +15345,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81765022",
-    "openingUrl": "https://v.animethemes.moe/ChikyuuChi-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/ChikyuuChi-OP1.webm"
   },
   {
     "id": "franchise-165171",
@@ -15416,8 +15380,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "disneyUrl": "https://www.disneyplus.com/browse/entity-bb33d0c2-b077-4bc0-a549-d2ca27d4afa8",
-    "openingUrl": "https://v.animethemes.moe/Medalist-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Medalist-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-21827",
@@ -15452,8 +15415,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80182123",
-    "openingUrl": "https://v.animethemes.moe/VioletEvergarden-OP1-Lyrics.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/VioletEvergarden-OP1-Lyrics.webm"
   },
   {
     "id": "franchise-263",
@@ -15488,8 +15450,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80995578",
-    "openingUrl": "https://v.animethemes.moe/HajimeNoIppo-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/HajimeNoIppo-OP1.webm"
   },
   {
     "id": "franchise-202955",
@@ -15523,8 +15484,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81498882",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81498882"
   },
   {
     "id": "franchise-177474",
@@ -15600,8 +15560,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81054847",
-    "openingUrl": "https://v.animethemes.moe/Beastars-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Beastars-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-106154",
@@ -15636,8 +15595,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81030224",
-    "openingUrl": "https://v.animethemes.moe/GhostInTheShellSAC2045-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/GhostInTheShellSAC2045-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-158417",
@@ -15672,8 +15630,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "disneyUrl": "https://www.disneyplus.com/browse/entity-f3a712f6-b358-4b21-b28a-221f23e0eb48",
-    "openingUrl": "https://v.animethemes.moe/SentaiDaishikkaku-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/SentaiDaishikkaku-OP1.webm"
   },
   {
     "id": "franchise-177814",
@@ -15707,8 +15664,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81217220",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81217220"
   },
   {
     "id": "franchise-98314",
@@ -15743,8 +15699,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80175351",
-    "openingUrl": "https://v.animethemes.moe/Kakegurui-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Kakegurui-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-2823",
@@ -15778,8 +15733,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4c40e9aa-d8a3-46ce-9aed-f2c25c3263ed",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4c40e9aa-d8a3-46ce-9aed-f2c25c3263ed"
   },
   {
     "id": "franchise-100891",
@@ -15814,8 +15768,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80992228",
-    "openingUrl": "https://v.animethemes.moe/KenganAshura-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/KenganAshura-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-6024",
@@ -15850,8 +15803,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81712502",
-    "openingUrl": "https://v.animethemes.moe/ChisSweetHome-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/ChisSweetHome-OP1.webm"
   },
   {
     "id": "franchise-150654",
@@ -15886,8 +15838,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81251383",
-    "openingUrl": "https://v.animethemes.moe/Moonrise-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Moonrise-OP1.webm"
   },
   {
     "id": "franchise-186621",
@@ -15922,8 +15873,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4604d36e-9206-4746-9b00-9ffd17026546",
-    "openingUrl": "https://v.animethemes.moe/Tamahoshi-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Tamahoshi-OP1.webm"
   },
   {
     "id": "franchise-1818",
@@ -15958,8 +15908,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/70204964",
-    "openingUrl": "https://v.animethemes.moe/Claymore-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Claymore-OP1.webm"
   },
   {
     "id": "franchise-153930",
@@ -15994,8 +15943,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81318888",
-    "openingUrl": "https://v.animethemes.moe/RomanticKiller-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/RomanticKiller-OP1.webm"
   },
   {
     "id": "franchise-140291",
@@ -16030,8 +15978,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "disneyUrl": "https://www.disneyplus.com/browse/entity-dea589b3-2f6d-4991-a875-c67d625a4e37",
-    "openingUrl": "https://v.animethemes.moe/DisneyTwistedWonderlandEpisodeofHeartslabyul-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/DisneyTwistedWonderlandEpisodeofHeartslabyul-OP1.webm"
   },
   {
     "id": "franchise-148862",
@@ -16066,8 +16013,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81562396",
-    "openingUrl": "https://v.animethemes.moe/NanatsuNoTaizaiMokushirokuNoYonkishi-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/NanatsuNoTaizaiMokushirokuNoYonkishi-OP1.webm"
   },
   {
     "id": "franchise-165159",
@@ -16099,8 +16045,7 @@ const DEFAULT_ANIME_DATA = [
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81924739",
     "disneyUrl": "https://www.disneyplus.com/browse/entity-9ab37ad5-5efd-40bb-a1a5-35e87085a4bf",
-    "openingUrl": "https://v.animethemes.moe/BeybladeX-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/BeybladeX-OP1.webm"
   },
   {
     "id": "franchise-180367",
@@ -16175,8 +16120,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "disneyUrl": "https://www.disneyplus.com/browse/entity-2bd9a5cd-ab23-40ec-b211-4c87f2e94528",
-    "unavailable": true
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-2bd9a5cd-ab23-40ec-b211-4c87f2e94528"
   },
   {
     "id": "franchise-147103",
@@ -16211,8 +16155,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81564905",
-    "openingUrl": "https://v.animethemes.moe/WatashiNoShiawase-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/WatashiNoShiawase-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-12531",
@@ -16321,8 +16264,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7b167752-6b5c-4edd-b498-041df6dc1b21",
-    "openingUrl": "https://v.animethemes.moe/PantyAndStockingWithGarterbeltS2-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/PantyAndStockingWithGarterbeltS2-OP1.webm"
   },
   {
     "id": "franchise-21858",
@@ -16357,8 +16299,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80156387",
-    "openingUrl": "https://v.animethemes.moe/LittleWitchAcademiaTV-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/LittleWitchAcademiaTV-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-124494",
@@ -16392,8 +16333,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/80987064",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80987064"
   },
   {
     "id": "franchise-180746",
@@ -16468,8 +16408,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81220435",
-    "openingUrl": "https://v.animethemes.moe/GreatPretender-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/GreatPretender-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-175642",
@@ -16503,8 +16442,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "disneyUrl": "https://www.disneyplus.com/browse/entity-087be178-2332-4f35-95c6-1d3c898550c6",
-    "unavailable": true
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-087be178-2332-4f35-95c6-1d3c898550c6"
   },
   {
     "id": "franchise-179302",
@@ -16539,8 +16477,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d05a91a0-99e3-4a8b-9ff0-3da3341f1128",
-    "openingUrl": "https://v.animethemes.moe/Sanda-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Sanda-OP1.webm"
   },
   {
     "id": "franchise-2246",
@@ -16575,8 +16512,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80169676",
-    "openingUrl": "https://v.animethemes.moe/Mononoke-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Mononoke-OP1.webm"
   },
   {
     "id": "franchise-124786",
@@ -16611,8 +16547,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80234811",
-    "openingUrl": "https://v.animethemes.moe/GodzillaSP-OP1-BD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/GodzillaSP-OP1-BD1080.webm"
   },
   {
     "id": "franchise-72",
@@ -16647,8 +16582,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7e1790c3-54ef-46ea-8bb0-d0a0611db198",
-    "openingUrl": "https://v.animethemes.moe/FullMetalPanicFumoffu-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/FullMetalPanicFumoffu-OP1.webm"
   },
   {
     "id": "franchise-108353",
@@ -16683,8 +16617,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81050064",
-    "openingUrl": "https://v.animethemes.moe/Spriggan2022-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Spriggan2022-OP1.webm"
   },
   {
     "id": "franchise-100665",
@@ -16719,8 +16652,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80996957",
-    "openingUrl": "https://v.animethemes.moe/BackStreetGirls-OP1-BD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/BackStreetGirls-OP1-BD1080.webm"
   },
   {
     "id": "franchise-185213",
@@ -16755,8 +16687,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f5ad8a9d-f1e5-4d09-934b-6d462852c8e3",
-    "openingUrl": "https://v.animethemes.moe/GundamGquuuuuux-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/GundamGquuuuuux-OP1.webm"
   },
   {
     "id": "franchise-175868",
@@ -16791,8 +16722,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81914001",
-    "openingUrl": "https://v.animethemes.moe/TensuiNoSakunaHime-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/TensuiNoSakunaHime-OP1.webm"
   },
   {
     "id": "franchise-567",
@@ -16827,8 +16757,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.5e6a7744-cfaf-42e9-acce-5f4df4ab6b9b",
-    "openingUrl": "https://v.animethemes.moe/TheBigO-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/TheBigO-OP1.webm"
   },
   {
     "id": "franchise-166703",
@@ -16862,8 +16791,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81276500",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81276500"
   },
   {
     "id": "franchise-169930",
@@ -16898,8 +16826,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81497635",
-    "openingUrl": "https://v.animethemes.moe/TPBon-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/TPBon-OP1.webm"
   },
   {
     "id": "franchise-128705",
@@ -16934,8 +16861,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81318842",
-    "openingUrl": "https://v.animethemes.moe/BluePeriod-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/BluePeriod-OP1.webm"
   },
   {
     "id": "franchise-170206",
@@ -16969,8 +16895,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81153115",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81153115"
   },
   {
     "id": "franchise-157960",
@@ -17005,8 +16930,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "disneyUrl": "https://www.disneyplus.com/browse/entity-52e7dbe7-b28a-428a-963e-acfaa81b4ba6",
-    "openingUrl": "https://v.animethemes.moe/BulletBullet-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/BulletBullet-OP1.webm"
   },
   {
     "id": "franchise-125426",
@@ -17041,8 +16965,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81261669",
-    "openingUrl": "https://v.animethemes.moe/Gokushufudou-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Gokushufudou-OP1.webm"
   },
   {
     "id": "franchise-11633",
@@ -17114,8 +17037,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8c1f778c-d940-4c50-895a-f498c55101f3",
-    "openingUrl": "https://v.animethemes.moe/CityTheAnimation-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/CityTheAnimation-OP1.webm"
   },
   {
     "id": "franchise-99725",
@@ -17150,8 +17072,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80161848",
-    "openingUrl": "https://v.animethemes.moe/AICOIncarnation-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/AICOIncarnation-OP1.webm"
   },
   {
     "id": "franchise-101281",
@@ -17186,8 +17107,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80992137",
-    "openingUrl": "https://v.animethemes.moe/CaroleAndTuesday-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/CaroleAndTuesday-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-175198",
@@ -17222,8 +17142,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fbd0daf7-1bf1-4b59-ae8e-a9688472bfc0",
-    "openingUrl": "https://v.animethemes.moe/UbelBlatt-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/UbelBlatt-OP1.webm"
   },
   {
     "id": "franchise-21717",
@@ -17258,8 +17177,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80185145",
-    "openingUrl": "https://v.animethemes.moe/FateExtraLastEncore-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/FateExtraLastEncore-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-125428",
@@ -17294,8 +17212,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81043571",
-    "openingUrl": "https://v.animethemes.moe/TenkuuShinpan-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/TenkuuShinpan-OP1.webm"
   },
   {
     "id": "franchise-171400",
@@ -17330,8 +17247,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81975106",
-    "openingUrl": "https://v.animethemes.moe/Puniru-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Puniru-OP1.webm"
   },
   {
     "id": "franchise-109217",
@@ -17366,8 +17282,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80992783",
-    "openingUrl": "https://v.animethemes.moe/HigashiNoEdenMovie1-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/HigashiNoEdenMovie1-OP1.webm"
   },
   {
     "id": "franchise-135660",
@@ -17401,8 +17316,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81002444",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81002444"
   },
   {
     "id": "franchise-355",
@@ -17437,8 +17351,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.888f1d6d-ed5c-4a4e-8a40-b74a6ba6cb7f",
-    "openingUrl": "https://v.animethemes.moe/ShakuganNoShana-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/ShakuganNoShana-OP1.webm"
   },
   {
     "id": "franchise-155015",
@@ -17472,8 +17385,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81153116",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81153116"
   },
   {
     "id": "franchise-101239",
@@ -17545,8 +17457,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81034907",
-    "openingUrl": "https://v.animethemes.moe/SuperCrooks-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/SuperCrooks-OP1.webm"
   },
   {
     "id": "franchise-101571",
@@ -17580,8 +17491,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/80198505",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80198505"
   },
   {
     "id": "franchise-184989",
@@ -17616,8 +17526,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.791957df-f3b5-4986-8eb5-d366996f3866",
-    "openingUrl": "https://v.animethemes.moe/Nazod-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Nazod-OP1.webm"
   },
   {
     "id": "franchise-100663",
@@ -17651,8 +17560,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/80231373",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80231373"
   },
   {
     "id": "franchise-144677",
@@ -17686,8 +17594,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81281582",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81281582"
   },
   {
     "id": "franchise-135429",
@@ -17721,8 +17628,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81176967",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81176967"
   },
   {
     "id": "franchise-162796",
@@ -17757,8 +17663,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81781519",
-    "openingUrl": "https://v.animethemes.moe/KinnikumanKanpekiChoujinShisoHen-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/KinnikumanKanpekiChoujinShisoHen-OP1.webm"
   },
   {
     "id": "franchise-108450",
@@ -17793,8 +17698,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80992788",
-    "openingUrl": "https://v.animethemes.moe/KuuteiDragons-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/KuuteiDragons-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-112357",
@@ -17829,8 +17733,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80993018",
-    "openingUrl": "https://v.animethemes.moe/NihonChinbotsu2020-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/NihonChinbotsu2020-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-108357",
@@ -17864,8 +17767,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/80996247",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80996247"
   },
   {
     "id": "franchise-153906",
@@ -17900,8 +17802,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81002441",
-    "openingUrl": "https://v.animethemes.moe/TekkenBloodline-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/TekkenBloodline-OP1.webm"
   },
   {
     "id": "franchise-163137",
@@ -17935,8 +17836,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81464005",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81464005"
   },
   {
     "id": "franchise-139589",
@@ -17971,8 +17871,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81275353",
-    "openingUrl": "https://v.animethemes.moe/KotarouWaHitorigurashi-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/KotarouWaHitorigurashi-OP1.webm"
   },
   {
     "id": "franchise-109639",
@@ -18006,8 +17905,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/80216180",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80216180"
   },
   {
     "id": "franchise-135643",
@@ -18041,8 +17939,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81050090",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81050090"
   },
   {
     "id": "franchise-165",
@@ -18114,8 +18011,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "disneyUrl": "https://www.disneyplus.com/browse/entity-e9f6aba2-325f-4cb6-a8b4-aa5fef1106dd",
-    "openingUrl": "https://v.animethemes.moe/SyndualityNoir-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/SyndualityNoir-OP1.webm"
   },
   {
     "id": "franchise-105807",
@@ -18150,8 +18046,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80183051",
-    "openingUrl": "https://v.animethemes.moe/7Seeds-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/7Seeds-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-131930",
@@ -18185,8 +18080,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/80990863",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80990863"
   },
   {
     "id": "franchise-105096",
@@ -18221,8 +18115,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80200027",
-    "openingUrl": "https://v.animethemes.moe/HeroMask-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/HeroMask-OP1.webm"
   },
   {
     "id": "franchise-110354",
@@ -18257,8 +18150,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81220429",
-    "openingUrl": "https://v.animethemes.moe/BrandNewAnimal-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/BrandNewAnimal-OP1.webm"
   },
   {
     "id": "franchise-125447",
@@ -18293,8 +18185,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81264354",
-    "openingUrl": "https://v.animethemes.moe/ThermaeRomaeNovae-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/ThermaeRomaeNovae-OP1.webm"
   },
   {
     "id": "franchise-108356",
@@ -18328,8 +18219,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/80992784",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80992784"
   },
   {
     "id": "franchise-147850",
@@ -18364,8 +18254,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81749969",
-    "openingUrl": "https://v.animethemes.moe/ShamanKing2024-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/ShamanKing2024-OP1.webm"
   },
   {
     "id": "franchise-183822",
@@ -18399,8 +18288,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.3b007f2f-2035-4f56-92e8-7ce8d1d43db1",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.3b007f2f-2035-4f56-92e8-7ce8d1d43db1"
   },
   {
     "id": "franchise-101705",
@@ -18434,8 +18322,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81340914",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81340914"
   },
   {
     "id": "franchise-9941",
@@ -18510,8 +18397,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80224581",
-    "openingUrl": "https://v.animethemes.moe/MushikagoNoCagaster-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/MushikagoNoCagaster-OP1.webm"
   },
   {
     "id": "franchise-108598",
@@ -18546,8 +18432,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80156799",
-    "openingUrl": "https://v.animethemes.moe/Levius-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Levius-OP1.webm"
   },
   {
     "id": "franchise-101597",
@@ -18582,8 +18467,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81019771",
-    "openingUrl": "https://v.animethemes.moe/GunjouNoMagmel-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/GunjouNoMagmel-OP1.webm"
   },
   {
     "id": "franchise-111131",
@@ -18618,8 +18502,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80195357",
-    "openingUrl": "https://v.animethemes.moe/CannonBusters-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/CannonBusters-OP1.webm"
   },
   {
     "id": "franchise-21516",
@@ -18654,8 +18537,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80103318",
-    "openingUrl": "https://v.animethemes.moe/Kuromukuro-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Kuromukuro-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-101500",
@@ -18690,8 +18572,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80992853",
-    "openingUrl": "https://v.animethemes.moe/Ingress-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/Ingress-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-163138",
@@ -18725,8 +18606,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81186862",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81186862"
   },
   {
     "id": "franchise-98073",
@@ -18761,8 +18641,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/80191369",
-    "openingUrl": "https://v.animethemes.moe/LostSong-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/LostSong-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-199",
@@ -18796,8 +18675,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/60023642",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/60023642"
   },
   {
     "id": "franchise-523",
@@ -18831,8 +18709,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/60032294",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/60032294"
   },
   {
     "id": "franchise-578",
@@ -18866,8 +18743,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/557010",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/557010"
   },
   {
     "id": "franchise-101302",
@@ -18940,8 +18816,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/70019060",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/70019060"
   },
   {
     "id": "franchise-174788",
@@ -18975,8 +18850,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ff8e068a-bc29-4b2a-bed0-23f65f7d85b1",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ff8e068a-bc29-4b2a-bed0-23f65f7d85b1"
   },
   {
     "id": "franchise-133898",
@@ -19050,8 +18924,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "disneyUrl": "https://www.disneyplus.com/browse/entity-5f055dc5-cc07-43f2-839e-bf073b16a823",
-    "unavailable": true
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-5f055dc5-cc07-43f2-839e-bf073b16a823"
   },
   {
     "id": "franchise-168013",
@@ -19125,8 +18998,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/80013552",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80013552"
   },
   {
     "id": "franchise-2890",
@@ -19160,8 +19032,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/70106454",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/70106454"
   },
   {
     "id": "franchise-585",
@@ -19195,8 +19066,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/70045021",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/70045021"
   },
   {
     "id": "franchise-10029",
@@ -19230,8 +19100,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/70262786",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/70262786"
   },
   {
     "id": "franchise-136149",
@@ -19265,8 +19134,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81450803",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81450803"
   },
   {
     "id": "franchise-3785",
@@ -19300,8 +19168,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.5569cccd-66a9-4747-931a-56a5a8120488",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.5569cccd-66a9-4747-931a-56a5a8120488"
   },
   {
     "id": "franchise-3786",
@@ -19335,8 +19202,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fa1d2b4d-e4ff-4867-ad95-7630633bad9d",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fa1d2b4d-e4ff-4867-ad95-7630633bad9d"
   },
   {
     "id": "franchise-32",
@@ -19370,8 +19236,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/60024788",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/60024788"
   },
   {
     "id": "franchise-107727",
@@ -19405,8 +19270,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81093113",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81093113"
   },
   {
     "id": "franchise-2759",
@@ -19440,8 +19304,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e5518578-d70e-44f1-aca2-1858375be1cc",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e5518578-d70e-44f1-aca2-1858375be1cc"
   },
   {
     "id": "franchise-3784",
@@ -19475,8 +19338,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fdd997fe-4acd-4348-a926-a7cda983026d",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fdd997fe-4acd-4348-a926-a7cda983026d"
   },
   {
     "id": "franchise-142494",
@@ -19510,8 +19372,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81565710",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81565710"
   },
   {
     "id": "franchise-118390",
@@ -19545,8 +19406,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81478031",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81478031"
   },
   {
     "id": "franchise-20555",
@@ -19580,8 +19440,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/80036398",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80036398"
   },
   {
     "id": "franchise-15227",
@@ -19615,8 +19474,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.62c54f5c-cde9-4cb2-a308-c3edc0b4ba5e",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.62c54f5c-cde9-4cb2-a308-c3edc0b4ba5e"
   },
   {
     "id": "franchise-9544",
@@ -19650,8 +19508,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/70229183",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/70229183"
   },
   {
     "id": "franchise-107905",
@@ -19685,8 +19542,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81170086",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81170086"
   },
   {
     "id": "franchise-108577",
@@ -19720,8 +19576,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81427482",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81427482"
   },
   {
     "id": "franchise-3446",
@@ -19755,8 +19610,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/70109473",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/70109473"
   },
   {
     "id": "franchise-100356",
@@ -19826,8 +19680,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/70035036",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/70035036"
   },
   {
     "id": "franchise-169494",
@@ -19862,8 +19715,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "disneyUrl": "https://www.disneyplus.com/browse/entity-6a94a5df-4a1f-48e9-9d2a-6814be837156",
-    "openingUrl": "https://v.animethemes.moe/AllOut-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/AllOut-OP1.webm"
   },
   {
     "id": "franchise-1829",
@@ -19897,8 +19749,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/70142821",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/70142821"
   },
   {
     "id": "franchise-126659",
@@ -19932,8 +19783,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81642996",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81642996"
   },
   {
     "id": "franchise-108553",
@@ -20006,8 +19856,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81178338",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81178338"
   },
   {
     "id": "franchise-100178",
@@ -20041,8 +19890,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.c05fd740-543e-40e3-9841-15fab28830dc",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.c05fd740-543e-40e3-9841-15fab28830dc"
   },
   {
     "id": "franchise-101610",
@@ -20076,8 +19924,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.9ab3d712-7e44-4b9d-b43e-d75434dcd603",
-    "unavailable": true
+    "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.9ab3d712-7e44-4b9d-b43e-d75434dcd603"
   },
   {
     "id": "franchise-31",
@@ -20111,8 +19958,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81033473",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81033473"
   },
   {
     "id": "franchise-99540",
@@ -20146,8 +19992,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81006261",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81006261"
   },
   {
     "id": "franchise-100723",
@@ -20220,8 +20065,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/80234491",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80234491"
   },
   {
     "id": "franchise-138899",
@@ -20256,8 +20100,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81513128",
-    "openingUrl": "https://v.animethemes.moe/GhostInTheShellSAC2045-OP1-NCBD1080.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/GhostInTheShellSAC2045-OP1-NCBD1080.webm"
   },
   {
     "id": "franchise-21498",
@@ -20291,8 +20134,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/80115466",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/80115466"
   },
   {
     "id": "franchise-119784",
@@ -20326,8 +20168,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81719818",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81719818"
   },
   {
     "id": "franchise-98249",
@@ -20361,8 +20202,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "disneyUrl": "https://www.disneyplus.com/browse/entity-d92a1129-a511-4f89-99a0-d7f8cb40caf7",
-    "unavailable": true
+    "disneyUrl": "https://www.disneyplus.com/browse/entity-d92a1129-a511-4f89-99a0-d7f8cb40caf7"
   },
   {
     "id": "franchise-128740",
@@ -20397,8 +20237,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [],
     "netflixUrl": "https://www.netflix.com/title/81263946",
-    "openingUrl": "https://v.animethemes.moe/NanatsuNoTaizai-OP1.webm",
-    "unavailable": true
+    "openingUrl": "https://v.animethemes.moe/NanatsuNoTaizai-OP1.webm"
   },
   {
     "id": "franchise-121833",
@@ -20432,8 +20271,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81719829",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81719829"
   },
   {
     "id": "franchise-107625",
@@ -20467,8 +20305,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81400497",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81400497"
   },
   {
     "id": "franchise-148664",
@@ -20502,8 +20339,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81719801",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81719801"
   },
   {
     "id": "franchise-17215",
@@ -20537,8 +20373,7 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringEpisode": null,
     "nextAiringAt": null,
     "seasons": [],
-    "netflixUrl": "https://www.netflix.com/title/81719798",
-    "unavailable": true
+    "netflixUrl": "https://www.netflix.com/title/81719798"
   },
   {
     "id": "cr-GP5HJ84QX",

@@ -111,9 +111,13 @@ async function mapLimit(items, limit, fn) {
     }
 
     // --- Marquage indisponible ---
+    // Verifie les 5 plateformes (pas seulement CR/ADN) : sinon un anime
+    // disponible uniquement sur Netflix/Disney+/Prime Video (ex: Cowboy
+    // Bebop, Steins;Gate) etait grise a tort a chaque run automatique.
     let unavailable = 0;
     for (const anime of catalog) {
-        if (!anime.crunchyrollUrl && !anime.adnUrl) {
+        const hasAnyPlatform = anime.crunchyrollUrl || anime.adnUrl || anime.netflixUrl || anime.disneyUrl || anime.primeUrl;
+        if (!hasAnyPlatform) {
             anime.unavailable = true;
             unavailable++;
         } else if (anime.unavailable) {
