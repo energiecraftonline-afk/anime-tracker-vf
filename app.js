@@ -663,8 +663,13 @@ function renderGrid() {
         }
         
         if (currentSort === "progress-pct") {
-            const pctA = (a.episodesTotal || 1) > 0 ? (a.episodesWatched || 0) / (a.episodesTotal || 1) : 0;
-            const pctB = (b.episodesTotal || 1) > 0 ? (b.episodesWatched || 0) / (b.episodesTotal || 1) : 0;
+            // Meme garde que le tri "episodes-left" juste au-dessus (||0, pas
+            // ||1) : les deux traitaient differemment le meme cas limite
+            // episodesTotal:0, avec des resultats contradictoires entre eux.
+            const totalA = a.episodesTotal || 0;
+            const totalB = b.episodesTotal || 0;
+            const pctA = totalA > 0 ? (a.episodesWatched || 0) / totalA : 0;
+            const pctB = totalB > 0 ? (b.episodesWatched || 0) / totalB : 0;
             if (pctA !== pctB) return pctB - pctA; // Highest progress first
             return (a.titleFr || "").localeCompare(b.titleFr || "", "fr", { sensitivity: "base" });
         }
