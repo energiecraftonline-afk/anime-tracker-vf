@@ -124,7 +124,15 @@ async function fetchAdnCounts() {
         }
 
         const real = Math.max(crSum, adnCount);
-        if (real > 0 && real !== anime.episodesTotal) {
+        // ADN ne propose parfois qu'un sous-ensemble de la serie (VF partielle,
+        // rattachement progressif) : son total ne fait jamais autorite pour
+        // REDUIRE anime.episodesTotal. Seul Crunchyroll (liste complete des
+        // saisons via son API) peut abaisser un total considere trop haut ;
+        // toute source peut en revanche l'augmenter (plus d'episodes que prevu).
+        const crRespondedAndDominant = crSeasons !== null && crSum >= adnCount;
+        const shouldApply = real > 0 && real !== anime.episodesTotal
+            && (real > anime.episodesTotal || crRespondedAndDominant);
+        if (shouldApply) {
             console.log(`  ${anime.titleFr}: ${anime.episodesTotal} -> ${real}${crSum >= adnCount ? " (CR)" : " (ADN)"}`);
             anime.episodesTotal = real;
             updated++;
