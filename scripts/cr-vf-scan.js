@@ -89,12 +89,26 @@ const { normTitle } = require("./lib/norm-title");
     }
     console.log("Séries avec doublage VF sur Crunchyroll:", vfShows.length);
 
-    let linked = 0, added = 0, reintegrated = 0;
+    let linked = 0, added = 0, reintegrated = 0, skippedInvalid = 0;
     for (const show of vfShows) {
         const id = (show.id || "").toUpperCase();
         const title = show.title || "";
         const meta = show.series_metadata || {};
         if (knownCrIds.has(id)) continue;
+
+        // Certaines entrees du catalogue Crunchyroll renvoient un titre qui
+        // est en fait l'identifiant technique brut (ex: "GXYZ123" == show.id) :
+        // fiche placeholder inexploitable, deja rencontree et supprimee
+        // manuellement une fois avant de revenir au scan suivant. On la
+        // filtre desormais a la source plutot que de la re-ajouter a chaque
+        // run.
+        const looksLikeTechnicalId = !title.trim()
+            || title.trim().toUpperCase() === id
+            || /^[A-Z0-9]+$/.test(title.trim());
+        if (looksLikeTechnicalId) {
+            skippedInvalid++;
+            continue;
+        }
         const url = `https://www.crunchyroll.com/fr/series/${show.id}/${show.slug_title || ""}`;
 
         const existing = byTitle.get(normTitle(title));
@@ -147,7 +161,7 @@ const { normTitle } = require("./lib/norm-title");
         added++;
     }
 
-    console.log(`Liens ajoutés: ${linked} | fiches réintégrées: ${reintegrated} | nouveaux animés VF: ${added}`);
+    console.log(`Liens ajoutés: ${linked} | fiches réintégrées: ${reintegrated} | nouveaux animés VF: ${added} | fiches invalides ignorées: ${skippedInvalid}`);
     console.log("Catalogue final:", catalog.length);
     writeAtomic(path, "const DEFAULT_ANIME_DATA = " + JSON.stringify(catalog, null, 2) + ";\n");
     console.log("catalog.js mis à jour.");

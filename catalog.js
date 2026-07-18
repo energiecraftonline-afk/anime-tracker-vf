@@ -25476,5 +25476,34 @@ const DEFAULT_ANIME_DATA = [
       }
     ],
     "openingUrl": "https://v.animethemes.moe/Zenshuu-OP1.webm"
+  },
+  {
+    "id": "cr-GMTE00194450",
+    "titleFr": "JUJUTSU KAISEN 0",
+    "titleOrig": "JUJUTSU KAISEN 0",
+    "imageUrl": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/5def548c980e7f91ed8a2245bea48728.png",
+    "crunchyrollUrl": "https://www.crunchyroll.com/fr/series/GMTE00194450/jujutsu-kaisen-0",
+    "adnUrl": null,
+    "episodesTotal": 1,
+    "episodesWatched": 0,
+    "status": "plan-to-watch",
+    "rating": 0,
+    "siteRating": null,
+    "trailerId": null,
+    "genres": "Supernatural, Action, Drama, Fantasy",
+    "synopsis": "Marqué par la mort brutale de son amie Rika, Yuta Okkotsu est hanté par son esprit devenu une malédiction dévastatrice. Pour briser ce cycle de souffrance, il rejoint l’école d’exorcisme de Satoru Gojo. Mais alors qu'il apprend à transformer ce fardeau en un don exceptionnel, un sombre complot menace d'exterminer les non-exorcistes. Le plus grand fléau de Yuta sera-t-il sa propre force ?",
+    "cast": "",
+    "airingStatus": "FINISHED",
+    "releaseDate": "01/01/2021",
+    "lastEpisodeDate": null,
+    "rawStartDate": {
+      "year": 2021,
+      "month": 1,
+      "day": 1
+    },
+    "rawEndDate": null,
+    "nextAiringEpisode": null,
+    "nextAiringAt": null,
+    "seasons": []
   }
 ];
