@@ -239,8 +239,21 @@ function loadData() {
         if (!anime.primeUrl) {
             anime.primeUrl = getPrimeUrlForShow(anime.titleFr);
         }
+
+        // Recale la derniere saison si la somme des episodes par saison ne
+        // correspond pas au total reel (donnees de scan desynchronisees) :
+        // sinon les derniers episodes de la serie n'apparaissent jamais
+        // dans la liste du lecteur (boucle bornee par season.episodesCount).
+        if (anime.seasons && Array.isArray(anime.seasons) && anime.seasons.length > 0 && anime.episodesTotal > 0) {
+            const seasonsTotal = anime.seasons.reduce((sum, s) => sum + (s.episodesCount || 0), 0);
+            const diff = anime.episodesTotal - seasonsTotal;
+            if (diff !== 0) {
+                const lastSeason = anime.seasons[anime.seasons.length - 1];
+                lastSeason.episodesCount = Math.max(1, lastSeason.episodesCount + diff);
+            }
+        }
     });
-    
+
     // 2. Load progress data
     let progressData = {};
     const savedProgress = localStorage.getItem("crunchy_tracker_progress_v2");
@@ -2239,8 +2252,11 @@ document.addEventListener("DOMContentLoaded", () => {
             syncStatusEl.addEventListener("click", syncWithAniList);
         }
         
-        // Run background sync automatically after 2 seconds
+        // Run background sync automatically after 2 seconds, then keep the
+        // release dates / next-episode countdown fresh with an hourly scan
+        // as long as the tab stays open.
         setTimeout(syncWithAniList, 2000);
+        setInterval(syncWithAniList, 3600000);
     } catch (err) {
         const errorDiv = document.createElement('div');
         errorDiv.style.cssText = 'position:fixed; top:0; left:0; width:100%; background:#ef4444; color:white; z-index:99999; padding:15px; font-family:monospace; font-size:14px; font-weight:bold; box-shadow: 0 4px 20px rgba(0,0,0,0.5);';
