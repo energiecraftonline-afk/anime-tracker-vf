@@ -20774,7 +20774,7 @@ const DEFAULT_ANIME_DATA = [
     "imageUrl": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/e454e218db49b5b66b8e79ba4e98617a.png",
     "crunchyrollUrl": "https://www.crunchyroll.com/fr/series/GT00377907/black-torch",
     "adnUrl": null,
-    "episodesTotal": 1,
+    "episodesTotal": 3,
     "episodesWatched": 0,
     "status": "plan-to-watch",
     "rating": 0,
@@ -20797,7 +20797,7 @@ const DEFAULT_ANIME_DATA = [
     "seasons": [
       {
         "name": "Saison 1",
-        "episodesCount": 1
+        "episodesCount": 3
       }
     ],
     "openingUrl": "https://v.animethemes.moe/BlackTorch-OP1.webm"
@@ -21192,7 +21192,7 @@ const DEFAULT_ANIME_DATA = [
     "imageUrl": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/002b83652d95a17250ab882f328435c4.png",
     "crunchyrollUrl": "https://www.crunchyroll.com/fr/series/G8DHV78ZM/clevatess",
     "adnUrl": null,
-    "episodesTotal": 12,
+    "episodesTotal": 14,
     "episodesWatched": 0,
     "status": "plan-to-watch",
     "rating": 0,
@@ -21220,6 +21220,10 @@ const DEFAULT_ANIME_DATA = [
       {
         "name": "Clevatess",
         "episodesCount": 12
+      },
+      {
+        "name": "Saison 2",
+        "episodesCount": 2
       }
     ],
     "openingUrl": "https://v.animethemes.moe/Clevatess-OP1.webm"
@@ -21954,11 +21958,11 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [
       {
-        "name": "I'm Standing on a Million Lives: Season 1",
+        "name": "I'm Standing on a Million Lives",
         "episodesCount": 12
       },
       {
-        "name": "I'm Standing on a Million Lives: Season 2",
+        "name": "I'm Standing on a Million Lives Season 2",
         "episodesCount": 12
       }
     ]
@@ -22408,7 +22412,7 @@ const DEFAULT_ANIME_DATA = [
     "imageUrl": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/14cac07bc03ae5aa3262a1d5caa861a9.png",
     "crunchyrollUrl": "https://www.crunchyroll.com/fr/series/GT00371872/the-drops-of-god",
     "adnUrl": null,
-    "episodesTotal": 13,
+    "episodesTotal": 15,
     "episodesWatched": 0,
     "status": "plan-to-watch",
     "rating": 0,
@@ -22431,7 +22435,7 @@ const DEFAULT_ANIME_DATA = [
     "seasons": [
       {
         "name": "Saison 1",
-        "episodesCount": 13
+        "episodesCount": 15
       }
     ]
   },
@@ -23264,7 +23268,7 @@ const DEFAULT_ANIME_DATA = [
     "imageUrl": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/4591a591a0342bc500e9951e28e71d2d.png",
     "crunchyrollUrl": "https://www.crunchyroll.com/fr/series/GT00365568/hana-kimi",
     "adnUrl": null,
-    "episodesTotal": 14,
+    "episodesTotal": 16,
     "episodesWatched": 0,
     "status": "plan-to-watch",
     "rating": 0,
@@ -23291,7 +23295,7 @@ const DEFAULT_ANIME_DATA = [
       },
       {
         "name": "Parmi eux Saison 2",
-        "episodesCount": 2
+        "episodesCount": 4
       }
     ]
   },
@@ -24105,11 +24109,11 @@ const DEFAULT_ANIME_DATA = [
     "nextAiringAt": null,
     "seasons": [
       {
-        "name": "Season 1",
+        "name": "Saison 1",
         "episodesCount": 12
       },
       {
-        "name": "Season 2",
+        "name": "Saison 2",
         "episodesCount": 12
       }
     ]
@@ -24235,7 +24239,7 @@ const DEFAULT_ANIME_DATA = [
     "imageUrl": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/7f3b77abac2f46221e91de3a0fc83c4d.png",
     "crunchyrollUrl": "https://www.crunchyroll.com/fr/series/GQWH0M19X/the-elusive-samurai",
     "adnUrl": null,
-    "episodesTotal": 13,
+    "episodesTotal": 14,
     "episodesWatched": 0,
     "status": "plan-to-watch",
     "rating": 0,
@@ -24263,6 +24267,10 @@ const DEFAULT_ANIME_DATA = [
       {
         "name": "Saison 1",
         "episodesCount": 13
+      },
+      {
+        "name": "Saison 2",
+        "episodesCount": 1
       }
     ]
   },
@@ -25022,7 +25030,7 @@ const DEFAULT_ANIME_DATA = [
     "imageUrl": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/06313d602ade408cb604143a8efab718.png",
     "crunchyrollUrl": "https://www.crunchyroll.com/fr/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
     "adnUrl": null,
-    "episodesTotal": 12,
+    "episodesTotal": 14,
     "episodesWatched": 0,
     "status": "plan-to-watch",
     "rating": 0,
@@ -25050,6 +25058,10 @@ const DEFAULT_ANIME_DATA = [
       {
         "name": "Saison 1",
         "episodesCount": 12
+      },
+      {
+        "name": "Saison 2",
+        "episodesCount": 2
       }
     ]
   },
@@ -25172,7 +25184,7 @@ const DEFAULT_ANIME_DATA = [
     "imageUrl": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/c8835413e0f794fdafa629cc973a273e.png",
     "crunchyrollUrl": "https://www.crunchyroll.com/fr/series/GT00371630/daemons-of-the-shadow-realm",
     "adnUrl": null,
-    "episodesTotal": 13,
+    "episodesTotal": 15,
     "episodesWatched": 0,
     "status": "plan-to-watch",
     "rating": 0,
@@ -25195,7 +25207,7 @@ const DEFAULT_ANIME_DATA = [
     "seasons": [
       {
         "name": "Tsugai - Daemons of the Shadow Realm",
-        "episodesCount": 13
+        "episodesCount": 15
       }
     ],
     "netflixUrl": "https://www.netflix.com/title/82719204",
@@ -25402,7 +25414,7 @@ const DEFAULT_ANIME_DATA = [
     "imageUrl": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/4ad5af6ef0acba2c0ab531469f31f196.png",
     "crunchyrollUrl": "https://www.crunchyroll.com/fr/series/GT00365624/you-and-i-are-polar-opposites",
     "adnUrl": null,
-    "episodesTotal": 13,
+    "episodesTotal": 15,
     "episodesWatched": 0,
     "status": "plan-to-watch",
     "rating": 0,
@@ -25433,7 +25445,7 @@ const DEFAULT_ANIME_DATA = [
       },
       {
         "name": "Saison 2",
-        "episodesCount": 1
+        "episodesCount": 3
       }
     ]
   },
@@ -25503,7 +25515,12 @@ const DEFAULT_ANIME_DATA = [
     "rawEndDate": null,
     "nextAiringEpisode": null,
     "nextAiringAt": null,
-    "seasons": [],
+    "seasons": [
+      {
+        "name": "JUJUTSU KAISEN 0",
+        "episodesCount": 1
+      }
+    ],
     "netflixUrl": "https://www.netflix.com/title/81602834",
     "primeUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ac388135-ac50-4c7b-9116-df2bf4a0b2f3"
   },
