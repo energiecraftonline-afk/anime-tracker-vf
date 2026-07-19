@@ -393,7 +393,7 @@ const DEFAULT_ANIME_DATA = [
     "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21-ELSYx3yMPcKM.jpg",
     "crunchyrollUrl": "https://www.crunchyroll.com/fr/series/GRMG8ZQZR/one-piece",
     "adnUrl": "https://animationdigitalnetwork.fr/video/561-one-piece",
-    "episodesTotal": 1211,
+    "episodesTotal": 1212,
     "episodesWatched": 0,
     "status": "plan-to-watch",
     "rating": 0,
@@ -500,7 +500,7 @@ const DEFAULT_ANIME_DATA = [
       },
       {
         "name": "Elbaph",
-        "episodesCount": 14
+        "episodesCount": 15
       }
     ],
     "openingUrl": "https://v.animethemes.moe/OnePiece-OP1.webm",
